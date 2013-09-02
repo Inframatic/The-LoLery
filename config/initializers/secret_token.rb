@@ -22,6 +22,4 @@ def secure_token
   end
 end
 
-SampleApp::Application.config.secret_key_base = secure_token
-
 TheLolery::Application.config.secret_key_base = 'dfc28361094e9dc9f8fac64a7c201b39a74729bd2d5d6dcc2871d91899268d9578fe5ca66d18599fff869cd7db259555ed0b0f0ae5c06dc039f3f313f41273c5'
