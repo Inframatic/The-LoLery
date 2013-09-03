@@ -5,6 +5,8 @@
 	opacity:.80;
 	width:40%;
 	margin: 0 auto;
+  line-height:30px;
+  border-radius: 4px;
  }
 
 .navbar-static-top {
@@ -24,6 +26,11 @@
 }
 
 /* mixins, variables, etc. */
+
+.btn-large {
+  margin-top: 20px;
+  opacity: .95;
+}
 
 $grayMediumLight: #eaeaea;
 
@@ -81,6 +88,10 @@ p {
 
 
 /* header */
+
+header {
+  opacity:.9;
+}
 
 #first_header {
 	opacity:.85;
