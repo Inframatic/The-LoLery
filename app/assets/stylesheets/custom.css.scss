@@ -1,5 +1,28 @@
 @import "bootstrap";
 
+#highlightme { 
+	background-color:white;
+	opacity:.80;
+	width:40%;
+	margin: 0 auto;
+ }
+
+.navbar-static-top {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+}
+
+.hero-unit {
+	margin-top: 0;
+	float:top;
+	height:600px;
+	padding-top: 60px;
+	background-image: url(lucian.jpg);
+}
+
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
@@ -11,7 +34,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  
 }
 
 section {
@@ -58,6 +81,10 @@ p {
 
 
 /* header */
+
+#first_header {
+	opacity:.85;
+}
 
 #logo {
   float: left;
