@@ -20,7 +20,7 @@
 .hero-unit {
 	margin-top: 0;
 	float:top;
-	height:600px;
+	height:500px;
 	padding-top: 60px;
 	background-image: url(lucian.jpg);
 }
@@ -33,6 +33,12 @@
 }
 
 $grayMediumLight: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* universal */
 
@@ -137,4 +143,14 @@ footer {
       margin-left: 10px;
     }
   }
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }
