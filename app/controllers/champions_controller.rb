@@ -1,0 +1,3 @@
+class ChampionsController < ApplicationController
+	
+end
