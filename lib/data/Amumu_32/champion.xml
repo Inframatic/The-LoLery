@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>32</id>
+  <name>Amumu</name>
+  <displayName>Amumu</displayName>
+  <title>the Sad Mummy</title>
+  <iconPath>Amumu_Square_0.png</iconPath>
+  <portraitPath>Amumu_0.jpg</portraitPath>
+  <tags>tank,melee</tags>
+  <description>Perhaps one of the oddest champions in the League of Legends is the yordle known as Amumu. His life before joining the League remains unknown... especially to Amumu. All he remembers is that he woke up alone inside a pyramid within the Shurima Desert. He was entwined in mummy wrappings and he could not feel his heart beat. Furthermore, he felt a deep sadness that he could not entirely explain; he knew he missed his parents, though he could not remember who they were. Dropping to his knees, Amumu wept into his bandages. No matter what he did, it seemed he could never stop his tears or sadness. Eventually he stood up, determined to wander the world to discover his past. Amumu traveled all across southern Valoran - a feat that is not easily dismissed. While Amumu still hasn't learned much about his past, he has learned a great deal about who he has become. He is most assuredly undead, though he harbors none of the evil characteristics typical of undead beings. He also seems to keep trouble at arm's length; Amumu was able to traverse all of Southern Valoran without so much as a single bad thing happening to him. He was just sad, and the people and beings he encountered eventually shared his sadness. Ultimately, he made his way north across the Great Barrier to the Institute of War, the home of the League. Amumu's story was compelling to the summoners he met there, and they invited him to take part in a League Judgment. His success within the League as a champion has given Amumu something he desired: a home. With his present (un)life secured, he now hopes the friends he has made will help him discover his past.</description>
+  <quote>Things are bad when Amumu is crying, but they're much worse when he's angry.</quote>
+  <quoteAuthor>Ezreal</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>18</armorBase>
+  <armorLevel>3.3</armorLevel>
+  <manaBase>220</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.3</manaRegenBase>
+  <manaRegenLevel>0.105</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>472</healthBase>
+  <healthLevel>84</healthLevel>
+  <attackBase>47</attackBase>
+  <attackLevel>3.8</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>8</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Amumu is highly dependent on teammates, so try laning with your friends for maximum effectiveness.*Cooldown Reduction on Amumu is very strong, but it's often difficult to itemize for it. Grab the Golem buff whenever possible to gain Cooldown Reduction without sacrificing stats.*Despair is very effective against other tanks, so make sure you're in range of opponents with the highest Health.</tips>
+  <opponentTips>*Avoid bunching up with other allies when Amumu has his ultimate available.*Erratic movement, or hiding behind creep waves can make it difficult for Amumu to instigate a fight with Bandage Toss.*Amumu's Despair makes purchasing primarily Health items a risky proposition.</opponentTips>
+  <date>20130301203743</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Cursed Touch</name>
+      <iconPath>SadMummy_CorpseExplosion.png</iconPath>
+      <range>0</range>
+      <description>Amumu's attacks reduce the target's Magic Resistance for a short duration.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Bandage Toss</name>
+      <cost>80/90/100/110/120 Mana</cost>
+      <cooldown>16/14/12/10/8</cooldown>
+      <iconPath>SadMummy_BandageFlinger.png</iconPath>
+      <range>1100</range>
+      <effect>Throws a bandage to target location. If it hits an enemy unit, Amumu will pull himself to the enemy, stun them, and deal 80/130/180/230/280 (+0.7) magic damage. </effect>
+      <description>Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Despair</name>
+      <cost>8/8/8/8/8 Mana per Second</cost>
+      <cooldown>1/1/1/1/1</cooldown>
+      <iconPath>SadMummy_AuraofDespair.png</iconPath>
+      <range>0</range>
+      <effect>Toggle: Nearby enemies take 8/12/16/20/24 magic damage plus 1.5/1.8/2.1/2.4/2.7 (+0.01)% of their maximum health each second.</effect>
+      <description>Overcome by anguish, nearby enemies lose a percentage of their maximum health each second.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Tantrum</name>
+      <cost>35/35/35/35/35 Mana</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>SadMummy_Tantrum.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Amumu takes 2/4/6/8/10 reduced damage from physical attacks. Active: Amumu deals 75/100/125/150/175 (+0.5) magic damage to surrounding units. Each time Amumu is hit, the cooldown on Tantrum is reduced by 0.5 seconds.</effect>
+      <description>Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on tantrum is reduced by 0.5 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Curse of the Sad Mummy</name>
+      <cost>100/150/200 Mana</cost>
+      <cooldown>150/130/110</cooldown>
+      <iconPath>SadMummy_BandAidThingy.png</iconPath>
+      <range>0</range>
+      <effect>Amumu entangles surrounding enemy units, dealing 150/250/350 (+0.8) magic damage and preventing attacks and movement for 2 seconds.</effect>
+      <description>Amumu entangles surrounding enemy units in bandages, damaging them and rendering them unable to attack or move.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3099</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>104</id>
+  <name>Graves</name>
+  <displayName>Graves</displayName>
+  <title>the Outlaw</title>
+  <iconPath>Graves_Square_0.png</iconPath>
+  <portraitPath>Graves_0.jpg</portraitPath>
+  <tags>carry,ranged</tags>
+  <description>Malcolm Graves was born in the back of a Bilgewater tavern and left there with a bottle of spiked milk. He survived a childhood in the pirate-run slums using every dirty trick in the book. Intent on building a new life for himself, he stowed away on the first ship to the mainland he could sneak aboard. However, the grim realities of the world forced him to eke out an unsavory living in the underground of various city-states, jumping the border whenever things got too hot. At a particularly high-stakes game of cards, he found himself seated opposite Twisted Fate. They both flipped four aces on the final hand. It was the first time either conman had met his equal. The two formed an alliance, swindling marks at the tables and scrapping back-to-back in the alleys afterward. Together, they ran the streets – stacking chips, decks, and charges. Unfortunately Graves made the mistake of hustling a hefty sum from Dr. Aregor Priggs, a high-ranking Zaunite official and businessman. When Priggs discovered how he'd been played, he became obsessed with revenge. He learned about Twisted Fate's all-consuming desire to control magic and he promptly offered him a trade: serve Graves up in exchange for enrollment in a procedure which would grant his wish. Twisted Fate took the deal – both he and Graves knew the stakes of their arrangement, but the offer was too good. Once acquired, Priggs had Graves taken to a special location built to hold men whose crimes – or more precisely their punishments – were meant to stay off the books. Graves endured years of captivity at the hands of Zaun's most unscrupulous wardens before he managed to escape. One of his fellow detainees introduced him to an eccentric gunsmith who modified a shotgun exactly to his specifications. After he paid a visit to Priggs, Graves joined the League of Legends with two targets in his sights: Twisted Fate and payback.</description>
+  <quote>They got a saying in the locker: ain't got nothin' but time to plan.</quote>
+  <quoteAuthor>Graves</quoteAuthor>
+  <range>525</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>15</armorBase>
+  <armorLevel>3.2</armorLevel>
+  <manaBase>255</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.35</manaRegenBase>
+  <manaRegenLevel>0.14</manaRegenLevel>
+  <healthRegenBase>1.1</healthRegenBase>
+  <healthRegenLevel>0.14</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>410</healthBase>
+  <healthLevel>84</healthLevel>
+  <attackBase>51</attackBase>
+  <attackLevel>3.1</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>3</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>8</ratingAttack>
+  <tips>*Smoke Screen can be used both to escape and to set up a kill.*Using Quickdraw to get into range and delivering a point blank Buckshot can do lots of damage.</tips>
+  <opponentTips>*Graves deals mostly physical damage so armor is an effective counter.*Leaving the Smoke Screen's area of effect removes the harmful effect immediately.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>True Grit</name>
+      <iconPath>GravesTrueGrit.png</iconPath>
+      <range>0</range>
+      <description>Graves gains increasing armor and magic resistance the longer he remains in combat. </description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Buckshot</name>
+      <cost>60/70/80/90/100 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>GravesBuckshot.png</iconPath>
+      <range>0</range>
+      <effect>Shoots three bullets in a cone, each dealing 60/95/130/165/200 (+) physical damage to all enemies in their path. Enemies hit with multiple bullets take 35/35/35/35/35% damage from each additional bullet.</effect>
+      <description>Graves fires three bullets in a cone, damaging all enemies in their paths.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Smoke Screen</name>
+      <cost>70/75/80/85/90 Mana</cost>
+      <cooldown>20/19/18/17/16</cooldown>
+      <iconPath>GravesSmokeGrenade.png</iconPath>
+      <range>0</range>
+      <effect>Deals 60/110/160/210/260 (+0.6) magic damage on impact and creates a smoke cloud that lasts 4/4/4/4/4 seconds. Enemies inside the cloud are slowed by 15/20/25/30/35% and have their sight radius reduced.</effect>
+      <description>Graves fires a smoke canister at the target area creating a cloud of smoke. Enemies inside the smoke cloud have reduced sight range and Movement Speed. </description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Quickdraw</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>22/20/18/16/14</cooldown>
+      <iconPath>GravesQuickDraw.png</iconPath>
+      <range>425</range>
+      <effect>Dashes forward, gaining 30/40/50/60/70% increased Attack Speed for 4/4/4/4/4 seconds. Basic attacks lower the cooldown of Quickdraw by 1/1/1/1/1 second.</effect>
+      <description>Graves dashes forward gaining an Attack Speed boost for several seconds. Hitting enemies with basic attacks lowers the cooldown of this skill. </description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Collateral Damage</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>100/90/80</cooldown>
+      <iconPath>GravesHighNoon.png</iconPath>
+      <range>1000</range>
+      <effect>Fires an explosive shell that deals 250/350/450 (+) physical damage to the first enemy hit. After hitting an enemy Champion or reaching the end of its range, the shell explodes, dealing 140/250/360 (+) physical damage in a cone.</effect>
+      <description>Graves fires an explosive shell dealing heavy damage to the first champion it hits. After hitting a champion or reaching the end of its range, the shell explodes dealing damage in a cone. </description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3086</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1043</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3185</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>83</id>
+  <name>Yorick</name>
+  <displayName>Yorick</displayName>
+  <title>the Gravedigger</title>
+  <iconPath>Yorick_Square_0.png</iconPath>
+  <portraitPath>Yorick_0.jpg</portraitPath>
+  <tags>fighter,pusher,melee</tags>
+  <description>The work of gravediggers is essential amongst the living, but invaluable in the Shadow Isles. There are many shades of death there, and each is embraced rather than feared or reviled. One can only ascend from one state to the next with the magical aid of a skilled professional. At the end of the first Rune War, Yorick Mori made his living as a gravedigger. His family owned and maintained the Final Rest Memorial, one of the oldest cemeteries in Valoran. The shovel he employed for his work had been passed down for generations. Each gravedigger taught his son that this shovel was imbued with the spirit of every forefather, and that those spirits would protect him during the long lonely nights amongst the tombstones. To his eternal regret, Yorick died without an heir, bringing the proud Mori line to a close. His body was interred with his shovel in the family mausoleum, and the Final Rest Memorial soon fell to ruin. Death, however, was not the end Yorick had expected. Yorick emerged on the haunted shores of the Shadow Isles - not quite dead, definitely not alive - still clutching his beloved shovel. He soon learned that with it he could act as a ferryman for the Isles' undead denizens, helping them climb death's many-tiered ladder. This proved a curse, as a gravedigger must ''bury his quota'' before he too can ascend, or so the legend goes. No one knows what ''his quota'' is. Yorick dug tirelessly, waiting in vain for the day when he would be freed of his burden. As decades turned to centuries, the shame of his failures came to a head. He returned to Valoran to find his corpse, convinced that salvation might be buried with it. When he arrived, no trace remained of either the mausoleum or the memorial. Hope nearly lost, he discovered the League of Legends, and there saw an opportunity to immortalize the family name he allowed to be forgotten ages ago.</description>
+  <quote>Die first, then we'll talk.</quote>
+  <quoteAuthor>Yorick</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>15</armorBase>
+  <armorLevel>3.6</armorLevel>
+  <manaBase>235</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.2</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.4</healthRegenBase>
+  <healthRegenLevel>0.14</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>421</healthBase>
+  <healthLevel>85</healthLevel>
+  <attackBase>51.7</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>6</ratingMagic>
+  <ratingDifficulty>3</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*Omen of Pestilence can be used to block incoming skillshots.*Omen of Death can become more reliable if you cast it right before allies die, but it is less powerful.*During Omen of Death, both the Revenant and Reanimated champion count as a summon toward Unholy Covenant's bonus.</tips>
+  <opponentTips>*You can use Summoner Smite on Yorick's minions to immediately negate their effects.*When Yorick uses his ultimate on an ally, it may be easier to kill the Revenant before focusing back on the target who would otherwise revive.*The amount of health restored by Omen of Famine is based on the actual damage dealt, so Magic Resistance will lower its effectiveness.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Unholy Covenant</name>
+      <iconPath>YorickUnholyCovenant.png</iconPath>
+      <range>0</range>
+      <description>Yorick's takes 5% reduced damage and his basic attacks deal 5% more damage for each summon that is active. Meanwhile, Yorick's ghouls have 35% of Yorick's Attack Damage and Health.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Omen of War</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>9/8/7/6/5</cooldown>
+      <iconPath>YorickOmenOfWar.png</iconPath>
+      <range>0</range>
+      <effect>Yorick's next attack will deal 30/60/90/120/150 (+) physical damage and summon a Spectral Ghoul for up to 5 seconds. The Spectral Ghoul deals 8/16/24/32/40 additional damage per hit and moves 15/20/25/30/35% faster. While the ghoul is active, Yorick moves 15/20/25/30/35% faster as well.</effect>
+      <description>Yorick's next attack will deal bonus physical damage and summon a Spectral Ghoul that deals additional damage and moves faster than Yorick's other ghouls. While the Spectral Ghoul is alive, Yorick moves faster as well.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Omen of Pestilence</name>
+      <cost>55/60/65/70/75 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>YorickOmenOfPestilence.png</iconPath>
+      <range>0</range>
+      <effect>Yorick summons a Decaying Ghoul that arrives with a violent explosion, dealing 60/95/130/165/200 (+1) magic damage and slowing nearby enemies by 20/25/30/35/40% for 1.5 seconds. While the Decaying Ghoul remains alive, nearby enemies continue to be slowed by 10/12.5/15/17.5/20% for up to 5 seconds.</effect>
+      <description>Yorick summons a Decaying Ghoul that arrives with a violent explosion, dealing damage and slowing nearby enemies. While the Decaying Ghoul remains alive, nearby enemies continue to be slowed.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Omen of Famine</name>
+      <cost>55/60/65/70/75 Mana</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>YorickOmenOfFamine.png</iconPath>
+      <range>0</range>
+      <effect>Yorick deals 55/85/115/145/175 (+) magic damage and heals for up to 40/40/40/40/40% of the damage dealt. A Ravenous Ghoul is summoned behind his target for up to 5 seconds, healing Yorick for the damage it deals. The healing effect is halved against minions.</effect>
+      <description>Yorick steals life from his target and summons a Ravenous Ghoul that heals Yorick for the damage it deals.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Omen of Death</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>120/105/90</cooldown>
+      <iconPath>YorickOmenOfDeath.png</iconPath>
+      <range>0</range>
+      <effect>Yorick conjures a revenant in the image of a target allied champion. Revenants deal 45/60/75% of target ally's Attack Damage and last for 10/10/10 seconds. If his ally dies while its revenant is alive, the revenant sacrifices itself to reanimate them for up to 10/10/10 seconds. The revenant can be controlled by holding the alt key and using the right mouse button or by reactivating this ability.</effect>
+      <description>Yorick conjures a revenant in the image of one of his allies. If his ally dies while its revenant is alive, the revenant sacrifices itself to reanimate them and give them time to enact vengeance.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3065</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3005</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3065</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3070</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3004</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3083</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3005</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

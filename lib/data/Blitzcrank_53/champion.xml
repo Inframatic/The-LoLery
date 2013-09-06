@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>53</id>
+  <name>Blitzcrank</name>
+  <displayName>Blitzcrank</displayName>
+  <title>the Great Steam Golem</title>
+  <iconPath>Blitzcrank_Square_0.png</iconPath>
+  <portraitPath>Blitzcrank_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>The city of Zaun is a place where both magic and science have gone awry. The unchecked nature of experimentation has taken its toll on the city. However, Zaun's lenient restrictions allow their researchers and inventors the leeway to push the bounds of science at an accelerated rate, for better or worse. It was under these conditions that a team of doctoral students from Zaun's College of Techmaturgy made a breakthrough in the field of intelligent steam automation. Their creation, the steam golem Blitzcrank, was developed to exercise judgment on-the-fly in order to assist with Zaun's hazardous waste reclamation process, since so often the conditions did not allow for human supervision. However, he soon began exhibiting unforeseen behaviors. Over time, the scientists were able to identify a demonstrated learning process, and Blitzcrank fast became a celebrity. As is sadly often the case though, credit for the golem's creation was scooped up by another - Professor Stanwick Pididly - though most now know the truth. In the wake of the ensuing legal maelstrom, it became evident that neither party truly had the steam golem's best interests at heart, and Blitzcrank humbly petitioned for personal autonomy. Backed by overwhelming support from the public, it took the liberal Council of Zaun only a few weeks to declare Blitzcrank a fully-independent, sentient entity. A unique being, the golem left Zaun, distressed by the controversy and feeling there was no place he could fit in. His travels led him to the one location in Valoran where unique beings have a place - the League of Legends. Fortunately, he was easily able to adapt his design to suit the rigors he would face on the Fields of Justice. Though Blitzcrank may batter anything that stands in his way, he really has a heart of gold...encased in a framework of iron...in a carapace of steel.</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>325</moveSpeed>
+  <armorBase>14.5</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>200</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.32</manaRegenBase>
+  <manaRegenLevel>0.1</manaRegenLevel>
+  <healthRegenBase>1.45</healthRegenBase>
+  <healthRegenLevel>0.15</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>423</healthBase>
+  <healthLevel>95</healthLevel>
+  <attackBase>55.66</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>8</ratingDefense>
+  <ratingMagic>5</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*The 1-2-3 combo of Rocket Grab, Power Fist, and Static Field can devastate an individual opponent.*Using Blitzcrank's grab to pull an enemy into your tower range followed by a Power Fist will allow the tower to get several hits on them.</tips>
+  <opponentTips>*Blitzcrank's passive Mana Barrier grants him a shield when he is low on health.*Staying behind creeps can prevent you from being Rocket Grabbed. Blitzcrank's Rocket Grab only pulls the first enemy target it encounters.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Mana Barrier</name>
+      <iconPath>Blitzcrank_ManaBarrier.png</iconPath>
+      <range>0</range>
+      <description>When Blitzcrank life is brought below 20% health he activates Mana Barrier. This creates a mana shield equal to 50% of his mana for 10 seconds. Mana Barrier can only occur once every 90 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Rocket Grab</name>
+      <cost>120/120/120/120/120 Mana</cost>
+      <cooldown>20/19/18/17/16</cooldown>
+      <iconPath>Blitzcrank_RocketGrab.png</iconPath>
+      <range>925</range>
+      <effect>Blitzcrank fires his right hand, if it encounters an enemy unit it will stun them and deal 80/135/190/245/300 (+1) magic damage while he pulls them to himself.</effect>
+      <description>Blitzcrank fires his right hand to grab an opponent on its path, dealing damage and dragging it back to him.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Overdrive</name>
+      <cost>75/75/75/75/75 Mana</cost>
+      <cooldown>15/15/15/15/15</cooldown>
+      <iconPath>Blitzcrank_Overdrive.png</iconPath>
+      <range>0</range>
+      <effect>Blitzcrank supercharges himself to increase Movement Speed by 16/20/24/28/32% and attack speed by 30/38/46/54/62% for 8 seconds.</effect>
+      <description>Blitzcrank super charges himself to get dramatically increased movement and attack speed.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Power Fist</name>
+      <cost>25/25/25/25/25 Mana</cost>
+      <cooldown>9/8/7/6/5</cooldown>
+      <iconPath>Blitzcrank_PowerFist.png</iconPath>
+      <range>0</range>
+      <effect>Blitzcrank charges up his fist to make his next attack deal double his total attack damage as physical damage and pop his target up in the air.</effect>
+      <description>Blitzcrank charges up his fist to make his next attack deal double damage and pop his target up in the air.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Static Field</name>
+      <cost>150/150/150 Mana</cost>
+      <cooldown>30/30/30</cooldown>
+      <iconPath>Blitzcrank_StaticField.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Lightning arcs off of Blitzcrank to hit a random nearby enemy for 100/200/300 (+0.2) magic damage every 2.5 seconds. Active: Deals 250/375/500 (+) magic damage and silences surrounding enemy units for 0.5 seconds. The passive is not in effect during the cooldown.</effect>
+      <description>Passively causes lightning bolts to damage a nearby enemy. Additionally, Blitzcrank can activate this ability to damage nearby enemies and silence them for 0.5 seconds, but doing so removes the passive lightning until Static Field becomes available again.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3004</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3070</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3004</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

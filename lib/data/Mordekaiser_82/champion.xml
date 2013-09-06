@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>82</id>
+  <name>Mordekaiser</name>
+  <displayName>Mordekaiser</displayName>
+  <title>the Master of Metal</title>
+  <iconPath>Mordekaiser_Square_0.png</iconPath>
+  <portraitPath>Mordekaiser_0.jpg</portraitPath>
+  <tags>fighter,pusher,melee</tags>
+  <description>Mordekaiser is a being of pure, living agony on a mysterious dread quest. It is said that he was the first of the undead, existing before the Shadow Isles were a whispered threat. His true name and past lost to history, Mordekaiser is feared for his grim manipulation of pain - both his own, and that of others. Anguish fuels and sustains him, serving as his last connection to life, as well as his most effective weapon. In his enigmatic hunt, he's proven no one is safe, for even the most courageous souls have surrendered their secrets in his grasp. One girl witnessed and survived an encounter with pain's paladin. Late one night, the young mage-in-training was awoken by the sound of her master's tortured screams. Overcoming her fear, she charged into the library to find it a shattered ruin. There, she saw a hulking figure clad in a suit of armor that seemed fused to his body. It was clear the grim intruder was looking for something, and was displeased with the results. At the center of the once-majestic chamber, the armored fiend clutched her teacher's broken form. She overheard her master's final words - that he would die before he would give up his secrets. Mordekaiser laughed and said that even death was no escape, then snapped the master's neck with a sharp crack. Moments later, the horrified girl witnessed her master's spirit torn from his body. As if under some dark compulsion, the shade began to reveal all to his torturer and executioner. The girl fled, living to tell her story - should Mordekaiser come for you, even death itself will not keep you from his iron reach.</description>
+  <quote>Fear is confusion, pain is clarity.</quote>
+  <quoteAuthor>Mordekaiser</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>15</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>120</manaBase>
+  <manaLevel>0</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>0</manaRegenBase>
+  <manaRegenLevel>0</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>421</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>51.7</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>6</ratingMagic>
+  <ratingDifficulty>3</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*You can control a pet by holding down the alt key and using the right mouse button.*Sometimes the best defense is more offense; use Mordekaiser's abilities to charge up his shield.*Remember that Children of the Grave can be used defensively because of its lifesteal component.</tips>
+  <opponentTips>*Mordekaiser's abilities charge up his shield, making him tougher to kill over time. Try focusing fire on Mordekaiser to burst him down.*Keep your distance and don't stand near creep waves since he'll be aiming Siphon of Destruction at them.*Watch out for the Children of the Grave and Ignite combo. If you're low enough, this will kill you and give his team a powerful ghost.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Iron Man</name>
+      <iconPath>Mordekaiser_IronMan.png</iconPath>
+      <range>0</range>
+      <description>A percent of the damage dealt from abilities is converted into a temporary shield, absorbing incoming damage.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Mace of Spades</name>
+      <cost>25/32/39/46/53 Health</cost>
+      <cooldown>8/7/6/5/4</cooldown>
+      <iconPath>MordekaiserMaceOfSpades.png</iconPath>
+      <range>0</range>
+      <effect>On next hit, Mordekaiser swings his mace with such force that it echoes out, striking up to 3 additional nearby targets, dealing 80/110/140/170/200 (+) (+0.4) magic damage. If the target is alone, 132/181.5/231/280.5/330 (+) (+) damage is dealt instead.</effect>
+      <description>On next hit, Mordekaiser swings his mace with such force that it echoes out, striking up to 3 additional nearby targets, dealing damage plus bonus damage. If the target is alone, the attack deals extra damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Creeping Death</name>
+      <cost>26/32/38/44/50 Health</cost>
+      <cooldown>20/18/16/14/12</cooldown>
+      <iconPath>MordekaiserCreepingDeath.png</iconPath>
+      <range>0</range>
+      <effect>Unleashes a protective cloud of metal shards to surround an ally for 6 seconds, increasing their armor and magic resistance by 10/15/20/25/30 and dealing 24/38/52/66/80 (+0.2) magic damage per second to nearby enemies.</effect>
+      <description>Unleashes a protective cloud of metal shards to surround an ally, increasing their armor and magic resistance and dealing damage per second to enemies in the cloud.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Siphon of Destruction</name>
+      <cost>24/36/48/60/72 Health</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>MordekaiserSiphonOfDestruction.png</iconPath>
+      <range>0</range>
+      <effect>Mordekaiser damages enemies in a cone in front of him, dealing 70/115/160/205/250 (+0.6) magic damage.</effect>
+      <description>Mordekaiser deals damage to enemies in a cone in front of him. For each unit hit, Mordekaiser's shield absorbs energy.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Children of the Grave</name>
+      <cooldown>120/105/90</cooldown>
+      <iconPath>Mordekaiser_COTG.png</iconPath>
+      <range>0</range>
+      <effect>Steals 24/29/34 (+0.04)% of target champion's maximum Health (half stolen initially and half over 10 seconds; deals Magic Damage). If the target dies while cursed, their soul is enslaved and will follow Mordekaiser as a ghost for 30 seconds. Mordekaiser gains 20% of their Ability Power and Attack Damage, and the ghost's stats are enhanced. The ghost can be controlled by holding the alt key and using the right mouse button or by reactivating this ability.</effect>
+      <description>Mordekaiser curses an enemy, stealing a percent of their life initially and each second. If the target dies while the spell is active, their soul is enslaved and will follow Mordekaiser as a ghost for 30 seconds.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3145</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3152</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

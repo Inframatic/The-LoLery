@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3025</id>
+  <name>Iceborn Gauntlet</name>
+  <description> +30 Ability Power +500 Mana +70 Armor +10% Cooldown Reduction UNIQUE Passive - Spellblade: After using an ability, the next basic attack (on hit) deals bonus physical damage equal to 125% of base Attack Damage to enemies near the target, and creates a field around the target for 2 seconds that slows enemy Movement Speed by 30% (2 second cooldown, half-sized field if ranged). (Unique Passives with the same name don't stack.) </description>
+  <iconPath>3025_Frozen_Fist.png</iconPath>
+  <price>700</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>500</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>70</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>30</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>2</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>3057</recipeItemId>
+      <buildsToItemId>3025</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>3024</recipeItemId>
+      <buildsToItemId>3025</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>armor</name>
+    </Category>
+    <Category>
+      <name>spell_damage</name>
+    </Category>
+    <Category>
+      <name>mana</name>
+    </Category>
+    <Category>
+      <name>cooldown_reduction</name>
+    </Category>
+    <Category>
+      <name>slow</name>
+    </Category>
+  </categories>
+</Item>

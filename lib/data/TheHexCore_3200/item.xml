@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3200</id>
+  <name>The Hex Core</name>
+  <description>+3 Ability Power per level. This item can be upgraded into one of three augments that enhance Viktor's basic abilities. Click the item in the store to discover its upgrades.</description>
+  <iconPath>TheHexCore.png</iconPath>
+  <price>0</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>45</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>1</epicness>
+  <date>20121202231607</date>
+  <recipesInto>
+    <Recipe>
+      <recipeItemId>3200</recipeItemId>
+      <buildsToItemId>3196</buildsToItemId>
+    </Recipe>
+	<Recipe>
+      <recipeItemId>3200</recipeItemId>
+      <buildsToItemId>3197</buildsToItemId>
+    </Recipe>
+	<Recipe>
+      <recipeItemId>3200</recipeItemId>
+      <buildsToItemId>3198</buildsToItemId>
+    </Recipe>
+  </recipesInto>
+  <recipesFrom />
+  <categories />
+</Item>

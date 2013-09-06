@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3166</id>
+  <name>Bonetooth Necklace</name>
+  <description> +5 Attack Damage UNIQUE Passive: +2 Attack Damage per level UNIQUE Passive: Rengar collects trophies when killing champions and gains bonus effects based on how many trophies he collects. Grants 1 trophy for kills and assists. One trophy is lost upon death. 3 Trophies: +10 Armor Penetration, +5% Cooldown Reduction 6 Trophies: +25 Movement Speed 9 Trophies: Increases the range of Rengar's leap by 150. 14 Trophies: Increases the duration of Thrill of the Hunt by 3 seconds. Additionally, Rengar's next ability used after activating Thrill of the Hunt generates 1 bonus Ferocity.</description>
+  <iconPath>3166_RengarTrophy.png</iconPath>
+  <price>800</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>5</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>2</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom />
+  <categories>
+    <Category>
+      <name>damage</name>
+    </Category>
+    <Category>
+      <name>armor_penetration</name>
+    </Category>
+  </categories>
+</Item>

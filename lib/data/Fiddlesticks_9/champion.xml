@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>9</id>
+  <name>FiddleSticks</name>
+  <displayName>Fiddlesticks</displayName>
+  <title>the Harbinger of Doom</title>
+  <iconPath>FiddleSticks_Square_0.png</iconPath>
+  <portraitPath>FiddleSticks_0.jpg</portraitPath>
+  <tags>mage,jungler,ranged</tags>
+  <description>For nearly twenty years, Fiddlesticks has stood alone in the easternmost summoning chamber of the Institute of War. Only the burning emerald light of his unearthly gaze pierces the musty darkness of his dust-covered home. It is here that the Harbinger of Doom keeps a silent vigil. His is a cautionary tale of power run amok, taught to all summoners within the League. Decades ago, there existed a powerful rune mage from Zaun - Istvaan. At the end of the fifth Rune War, he became one of the League's first summoners. Too much a prisoner to the old ways of magic, Istvaan stepped further and further outside the rules of conduct in the League. In what was ultimately his last match, his reach finally exceeded his grasp. Sealing himself inside the easternmost summoning chamber, he began incanting the most forbidden of rituals - an extra-planar summoning. What exactly happened inside that chamber remains unknown. No champion came to represent Zaun that day in Summoner's Rift. Only silence echoed back from repeated knocks on the chamber door. The first apprentice who entered was cut down immediately by an unearthly scythe. What few who followed and survived were driven mad by fear, mere husks of men gibbering about crows and death. Afraid of the evil even Istvaan could not control, the League sealed all exits to the chamber, hoping they could contain what they could not destroy. Years went by, but the wooden figure within never moved save to slay any foolish enough to enter. Seeing no recourse to reclaim the chamber, the Council instead devised a use for Fiddlesticks: executioner. While he comes to life and seemingly abides by the rules of summoning in the Fields of Justice, what he awaits inside his chamber is unknown. His unmoving face yields no clues, and his scythe stands ready to strike down any who stand before him. Those who say 'you have nothing to fear but fear itself' have not yet felt the crows.</description>
+  <quote />
+  <quoteAuthor />
+  <range>480</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>11</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>251</manaBase>
+  <manaLevel>59</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.38</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>0.92</healthRegenBase>
+  <healthRegenLevel>0.12</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>390</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>45.95</attackBase>
+  <attackLevel>2.625</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>9</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Use Dark Wind to rack up many minion kills, and try to use Drain on minions to get the maximum health drain.*Use Terrify on enemies before starting up Crowstorm or Drain to ensure maximum damage.*Fiddlesticks is very fragile if you build AP items. Try to strike a balance between offense and defense with runes, masteries, and items.</tips>
+  <opponentTips>*Avoid attacking while close to your allies. Dark Wind will bounce between you and your allies extending the duration of its silence.*If Fiddlesticks has used Crowstorm, try casting a stun or slow and moving out of range until the spell dissipates.*If Fiddlesticks is nowhere to be seen, watch out for an ambush Crowstorm from brush.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Dread</name>
+      <iconPath>Fiddlesticks_Paranoia.png</iconPath>
+      <range>0</range>
+      <description>Nearby enemies have their Magic Resist reduced by 10.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Terrify</name>
+      <cost>65/75/85/95/105 Mana</cost>
+      <cooldown>15/14/13/12/11</cooldown>
+      <iconPath>Fiddlesticks_Terrify.png</iconPath>
+      <range>575</range>
+      <effect>Strikes a target enemy unit with fear, causing it to flee in terror for 1/1.5/2/2.5/3 second(s).</effect>
+      <description>Strikes a target unit with fear, causing it to flee in terror for a duration.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Drain</name>
+      <cost>80/90/100/110/120 Mana</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>Fiddlesticks_ConjureScarecrow.png</iconPath>
+      <range>0</range>
+      <effect>Deals 60/90/120/150/180 (+0.45) magic damage each second to target unit and heals Fiddlesticks for 60/65/70/75/80% of the damage dealt. Lasts up to 5 seconds.</effect>
+      <description>Fiddlesticks saps the life force of an enemy, dealing damage to a target over time and healing himself.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Dark Wind</name>
+      <cost>50/70/90/110/130 Mana</cost>
+      <cooldown>15/14/13/12/11</cooldown>
+      <iconPath>Fiddlesticks_DarkWind.png</iconPath>
+      <range>0</range>
+      <effect>Strikes an enemy target and then bounces to a nearby enemy unit. Deals 65/85/105/125/145 (+0.45) magic damage and silences for 1.2 seconds for each strike. Can bounce up to 5/5/5/5/5 times and may strike the same target multiple times. Damage to minions is increased by 50%.</effect>
+      <description>A wisp of wind strikes an enemy unit and then bounces to nearby enemy units, dealing damage and silencing the victims.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Crowstorm</name>
+      <cost>150/200/250 Mana</cost>
+      <cooldown>150/140/130</cooldown>
+      <iconPath>Fiddlesticks_Crowstorm.png</iconPath>
+      <range>0</range>
+      <effect>A murder of crows flock wildly around Fiddlesticks for 5 seconds, dealing 125/225/325 (+0.45) magic damage each second to all enemy units in the area. This has a 1.5 second channel duration and teleports Fiddlesticks to target location.</effect>
+      <description>A murder of crows flock wildly around Fiddlesticks, dealing damage each second to all enemy units in the area.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

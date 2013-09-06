@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>40</id>
+  <name>Janna</name>
+  <displayName>Janna</displayName>
+  <title>the Storm's Fury</title>
+  <iconPath>Janna_Square_0.png</iconPath>
+  <portraitPath>Janna_0.jpg</portraitPath>
+  <tags>support,ranged</tags>
+  <description>There are those sorcerers who give themselves over to the primal powers of nature, forgoing the learned practice of magic. Such a sorceress is Janna, who first learned magic as an orphan growing up admist the chaos that is the city-state of Zaun. Janna eked out what living she could on the streets. Life was tough and dangerous for the beautiful young girl, and she survived by her wits, and by stealing when wits weren't enough. The rampant magic that characterizes Zaun was the first and most alluring tool which Janna realized could both protect and elevate her. Janna discovered that she had an affinity for a particular type of magic - the elemental magic of air. She mastered her studies of air magic in a matter of months, almost as if she was born of it. Janna went from a street vagrant to an avatar of the air virtually overnight, stunning and surpassing those who taught her. Such a rapid ascension also changed her physical appearance, giving her an otherworldly look. Seeking to right the injustice in the world (particularly the insanity that has become the city of Zaun), Janna has brought her talents to the League. She is a voice for the regulation of magical experimentation and a supporter of the development of techmaturgy, making her an indirect ally of the city-state of Piltover and the amazing techmaturgical minds that live there. Janna is also a new favorite of the League's many fans. She is often the center of attention at functions, fan appreciation days, and other celebratory events. There is something untouchable about Janna, however, and her affections can change as quickly as the wind. Do not be captivated by Janna's beauty. Like the wind, she is one gust away from terrible destruction.</description>
+  <quote />
+  <quoteAuthor />
+  <range>475</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>9</armorBase>
+  <armorLevel>3.8</armorLevel>
+  <manaBase>302</manaBase>
+  <manaLevel>64</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.38</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>356</healthBase>
+  <healthLevel>78</healthLevel>
+  <attackBase>49</attackBase>
+  <attackLevel>2.95</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>9</ratingDifficulty>
+  <ratingAttack>3</ratingAttack>
+  <tips>*Eye of the Storm can be used on allied turrets.*Quickly firing a Howling Gale without the charge up can be used to heavily disable the other team.*Timing Janna's ultimate can push enemies away from a wounded ally or even separate enemies.</tips>
+  <opponentTips>*Save an interrupt ability for when Janna uses her ultimate.*Listen for the charge up sound on Howling Gale in case Janna is trying to hit you with it from off screen or from brush.*Janna's at her strongest when buffing another ally. If you can harass her ally, it will weaken her ability to fight you.</opponentTips>
+  <date>20130301203743</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Tailwind</name>
+      <iconPath>Janna_Tailwind.png</iconPath>
+      <range>0</range>
+      <description>Increases the Movement Speed of all allied champions by 3%.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Howling Gale</name>
+      <cost>90/105/120/135/150 Mana</cost>
+      <cooldown>14/13/12/11/10</cooldown>
+      <iconPath>Janna_HowlingGale.png</iconPath>
+      <range>0</range>
+      <effect>Summons a whirlwind, which deals 60/85/110/135/160 (+0.75) magic damage to all enemies in its path and knocks them into the air. The whirlwind travels further, deals 25/30/40/50/60 bonus damage, and knocks enemies higher, for each second it charges. Activate again to release the whirlwind early.</effect>
+      <description>By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can active the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Zephyr</name>
+      <cost>40/50/60/70/80 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Janna_Zephyr.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Increases Movement Speed by 4/7/10/13/16% and allows movement through units. Active: Deals 60/115/170/225/280 (+0.6) magic damage to an enemy and slows their Movement Speed by 24/30/36/42/48% for 3/3/3/3/3 seconds. Passive benefit is lost while Zephyr is on cooldown.</effect>
+      <description>Janna summons an air elemental that passively increases her Movement Speed and enables her to pass through units. She may also activate this ability to deal damage and slow an enemy's Movement Speed. The passive is lost while this ability is on cooldown.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Eye Of The Storm</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>Janna_EyeOfTheStorm.png</iconPath>
+      <range>0</range>
+      <effect>Shields an allied Champion or turret for 5/5/5/5/5 seconds. The shield absorbs up to 80/120/160/200/240 (+0.9) damage and grants 14/23/32/41/50 Attack Damage until it breaks.</effect>
+      <description>Janna conjures a defensive gale that shields an ally champion or turret from incoming damage and increases their Attack Damage.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Monsoon</name>
+      <cost>100/150/200 Mana</cost>
+      <cooldown>150/135/120</cooldown>
+      <iconPath>Janna_ReapTheWhirlwind.png</iconPath>
+      <range>0</range>
+      <effect>Summons forth the might of the wind to knock surrounding enemies back and restores 70/110/150 (+0.35) Health to nearby allies each second for 4 seconds.</effect>
+      <description>Janna surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3028</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3099</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3070</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3099</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3003</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3098</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3128</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3083</id>
+  <name>Warmog's Armor</name>
+  <description> +1000 Health UNIQUE Passive: Restores 1% of maximum Health every 5 seconds.</description>
+  <iconPath>3083_Warmog_the_Living_Armor.png</iconPath>
+  <price>995</price>
+  <flatHPPoolMod>1000</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>2</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>1011</recipeItemId>
+      <buildsToItemId>3083</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1028</recipeItemId>
+      <buildsToItemId>3083</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1006</recipeItemId>
+      <buildsToItemId>3083</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1006</recipeItemId>
+      <buildsToItemId>3083</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>health</name>
+    </Category>
+    <Category>
+      <name>health_regen</name>
+    </Category>
+  </categories>
+</Item>

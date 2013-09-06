@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>133</id>
+  <name>Quinn</name>
+  <displayName>Quinn</displayName>
+  <title>Demacia's Wings</title>
+  <iconPath>Quinn_Square_0.png</iconPath>
+  <portraitPath>Quinn_0.jpg</portraitPath>
+  <tags>carry,ranged</tags>
+  <description>Quinn and Valor are an elite ranger team. With crossbow and claw, they undertake their nation's most dangerous missions deep within enemy territory, from swift reconnaissance to lethal strikes. The pair's unbreakable bond is deadly on the battlefield, leaving opponents blind and riddled with arrows long before they realize who they're fighting: not one, but two Demacian legends. As a young girl, Quinn shared a hunger for adventure with her twin brother. They dreamed of becoming knights, but lived a quiet, humble life in the rural borderlands of Demacia. Together they imagined triumphant battles in faraway lands, seizing glory for their king and slaying foes in the name of Demacian justice. When daydreams alone could no longer satisfy their warriors souls, they embarked on daring wilderness adventures in search of true danger. One such quest turned to tragedy when a terrible accident claimed her brother's life. Overcome with grief, Quinn abandoned her dreams of knighthood. On the anniversary of her loss, Quinn gathered the courage to return to the scene of the tragedy. To her surprise, she found a wounded Demacian eagle at the site of her brother's death - a rare and beautiful bird long believed extinct. Quinn nursed the fledgling back to health, and as they grew up together, a deep bond formed between the two. She saw the same quality in her newfound friend that had lived within her brother, and so she gave him the name ''Valor.'' The pair found strength in each other, and together they pursued the dream she had once abandoned. The Demacian army had never seen heroes like Quinn and Valor. Their deadly skills quickly set them apart from their rank-and-file peers, but many still had their doubts. How could a common-born girl, even with such a powerful creature at her side, forego years of military training? Quinn and Valor proved themselves on one critical mission, tracking down a Noxian assassin who had evaded an entire Demacian battalion. When they brought him to justice, they finally earned the admiration and respect of their nation. The two now serve as living, fighting icons of Demacian strength and perseverance. Together, Quinn and Valor will stand against any threat to their beloved home.</description>
+  <quote>Most soldiers only rely on their weapons. Few truly rely on each other.</quote>
+  <quoteAuthor>Quinn</quoteAuthor>
+  <range>525</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>13.5</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>210</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.26</manaRegenBase>
+  <manaRegenLevel>0.08</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>390</healthBase>
+  <healthLevel>85</healthLevel>
+  <attackBase>48</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Valor will prefer to mark enemies you attack. He also will mark minions to help you last hit.*Vault is powerful but must be used with caution, as enemies can attack Quinn when she strikes them. Vault can sometimes be used to cross terrain if your back is to a wall.*Use Tag Team for traveling very long distances quickly, for fleeing from enemies, or for chasing wounded targets.</tips>
+  <opponentTips>*After being marked, move away from Quinn so she can't take advantage of it.*Keep tabs on Quinn's position. Tag Team can enable Valor to cross the map very quickly and attack you by surprise.*Valor gains a huge amount of Movement Speed when he's out of combat. Deal damage to him to slow him down.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Harrier</name>
+      <iconPath>Quinn_Passive.png</iconPath>
+      <range>0</range>
+      <description>Valor periodically marks enemies as Vulnerable. Quinn's first basic attack against Vulnerable targets will deal bonus physical damage.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Blinding Assault</name>
+      <cost>50/55/60/65/70 Mana</cost>
+      <cooldown>11/10/9/8/7</cooldown>
+      <iconPath>Quinn_Q.png</iconPath>
+      <range>1025</range>
+      <effect>Valor flies in a line and strikes the first enemy in his path. He then attacks all nearby enemies, dealing 70/110/150/190/230 (+) (+) physical damage and blinding them for 1.5/1.5/1.5/1.5/1.5 seconds. As Valor: Performs the same attack at the current location.</effect>
+      <description>Quinn calls Valor to blind and damage targets in an area.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Heightened Senses</name>
+      <cooldown>50/45/40/35/30</cooldown>
+      <iconPath>Quinn_W.png</iconPath>
+      <range>2100</range>
+      <effect>Passive: Attacking a Vulnerable target will increase Quinn's Attack Speed by 20/25/30/35/40% and Movement Speed by 20/30/40/50/60 for 3/3/3/3/3 seconds. Passive as Valor: Gains 40/50/60/70/80% Attack Speed. Active: Valor reveals a large area nearby for 2/2/2/2/2 seconds.</effect>
+      <description>Passively grants Quinn Attack Speed and Movement Speed after she attacks a Vulnerable target. Valor's Attack Speed is permanently increased. Activate to have Valor reveal a large area nearby.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Vault</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Quinn_E.png</iconPath>
+      <range>700</range>
+      <effect>Quinn dashes to an enemy, dealing 40/70/100/130/160 (+) physical damage and slowing the target's Movement Speed by 50/50/50/50/50% (this effect diminishes over 2/2/2/2/2 seconds). Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range from the target. Valor will immediately mark this enemy as Vulnerable. As Valor: Performs the same attack but does not mark or leap off the target.</effect>
+      <description>Quinn dashes to an enemy, dealing physical damage and slowing the target's Movement Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target. Valor will immediately mark this enemy as Vulnerable.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Tag Team</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>140/110/80</cooldown>
+      <iconPath>Quinn_R1.png</iconPath>
+      <range>700</range>
+      <effect>First Cast: Valor replaces Quinn on the battlefield as a mobile melee attacker for 20/20/20 seconds. Valor can move through units and gains +80/90/100% Movement Speed, decreased gradually to +20/30/40% when in combat. Second Cast: Quinn returns to perform Skystrike, dealing from 100/150/200 (+) to 200/300/400 (+) physical damage to all enemies in a large area, increasing based on how much health they are missing. If Skystrike has not been cast before this ability ends, it will be cast automatically.</effect>
+      <description>Valor replaces Quinn on the battlefield as a mobile melee attacker. When ready, Quinn returns in a hail of arrows, dealing physical damage to all nearby enemies.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1053</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3178</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

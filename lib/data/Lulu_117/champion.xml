@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>117</id>
+  <name>Lulu</name>
+  <displayName>Lulu</displayName>
+  <title>the Fae Sorceress</title>
+  <iconPath>Lulu_Square_0.png</iconPath>
+  <portraitPath>Lulu_0.jpg</portraitPath>
+  <tags>support,ranged</tags>
+  <description>Perhaps more than any other champion in the League, Lulu marches to the beat of her own drum. During her youth in Bandle City, she spent most of her time wandering alone in the forest or lost in a daydream. It wasn't that she was antisocial; the day-to-day bustle of Bandle City just couldn't compete with the vibrant world of her imagination. She saw wonder in places most people overlooked. This was how she found Pix, a fae spirit, pretending to be stuck in a birdhouse. Lulu's imagination distinguished her to Pix and he seized the opportunity to lure her into his world. He brought her to the Glade, the enchanted home of the fae, which lay nestled in a clearing in the woods. There the rigid properties of the outside world - things like size and color - changed as frequently and whimsically as the direction of the wind. Lulu felt at home in the Glade and she lingered there with Pix, fascinated by this secret place. She quickly lost track of time. Her life in the Glade was comfortable and natural. She and Pix played fae games together, the sorts of games that she had been told were ''make believe''... and she got exceedingly good at them. It caught her by surprise when she suddenly remembered that she had left a life behind in Bandle City. The Glade had a way of making everything outside seem distant and surreal. Lulu decided to revisit her former home, to share some of the lovely things she'd learned, but when she and Pix returned the world had changed. Time, she discovered, was another property that behaved differently in the Glade, and centuries had passed while she was away. Lulu sought to reconnect to the residents of the outside world but her attempts had unfortunate results. She led all the children off to play hide and seek, temporarily changing them into flowers and animals to spice up the game, but their parents didn't appreciate her efforts. When the yordles insisted that she leave their land, she turned to a vibrant magical place where those with unusual gifts were not just accepted but adored: the League of Legends.</description>
+  <quote>The best path between two points is upside-down, between, then inside-out and round again.</quote>
+  <quoteAuthor>Lulu</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>325</moveSpeed>
+  <armorBase>9</armorBase>
+  <armorLevel>3.7</armorLevel>
+  <manaBase>200</manaBase>
+  <manaLevel>55</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1</manaRegenBase>
+  <manaRegenLevel>0.1</manaRegenLevel>
+  <healthRegenBase>1</healthRegenBase>
+  <healthRegenLevel>0.12</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>415</healthBase>
+  <healthLevel>82</healthLevel>
+  <attackBase>44</attackBase>
+  <attackLevel>2.6</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*Glitterlance can be fired at odd angles depending on where your cursor is - Moving your cursor closer to Pix and Lulu will change your area of effect size considerably.*Consider casting Whimsy on Mages for the AP boost, Help, Pix! on ranged attackers for the Pix boost and Wild Growth on Tanks or Fighters for the added initiation power.</tips>
+  <opponentTips>*The shots from Lulu's faerie can be intercepted - hide behind your minions to avoid the additional Faerie attacks.*Lulu excels when opponents heavily commit. Don't give her this chance! Use heavy harass tactics instead to force Lulu and her partner out of lane.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Pix, Faerie Companion</name>
+      <iconPath>Lulu_PixFaerieCompanion.png</iconPath>
+      <range>0</range>
+      <description>Pix is a wild Faerie that accompanies Lulu. Pix will fire a barrage of magical energy at targets that Lulu attacks.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Glitterlance</name>
+      <cost>60/65/70/75/80 Mana</cost>
+      <cooldown>7/7/7/7/7</cooldown>
+      <iconPath>Lulu_Glitterbolt.png</iconPath>
+      <range>925</range>
+      <effect>Lulu and Pix each fire a piercing bolt dealing 80/125/170/215/260 (+0.5) magic damage, slowing enemies hit by 80/80/80/80/80% for 1/1.25/1.5/1.75/2 second(s). This slow decays over time. An enemy can only be damaged by one bolt.</effect>
+      <description>Pix and Lulu each fire a bolt of magical energy that heavily slows all enemies it hits. An enemy can only be damaged by one bolt.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Whimsy</name>
+      <cost>65/70/75/80/85 Mana</cost>
+      <cooldown>18/16.5/15/13.5/12</cooldown>
+      <iconPath>Lulu_Whimsy.png</iconPath>
+      <range>0</range>
+      <effect>On Ally Cast: Target ally gains 35/35/35/35/35% Movement Speed and 20/30/40/50/60 Ability Power for 5/5/5/5/5 seconds. On Enemy Cast: Polymorphs an enemy champion for 1.5/1.75/2/2.25/2.5 seconds, disabling their ability to attack or cast spells and reducing their base movement speed by 60/60/60/60/60.</effect>
+      <description>If cast on an ally, grants them movement speed and ability power for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Help, Pix!</name>
+      <cost>60/70/80/90/100 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>Lulu_CommandPix.png</iconPath>
+      <range>0</range>
+      <effect>On Ally Cast: Commands Pix to jump to an ally and then follow and aid their attacks instead of Lulu's for 6/6/6/6/6 seconds. Upon arrival, Pix shields them from 60/105/150/195/240 (+0.6) damage for 6/6/6/6/6 seconds. On Enemy Cast: Pix deals 80/130/180/230/280 (+0.6) magic damage to target enemy unit. Pix then follows and grants vision of them for 6/6/6/6/6 seconds. </effect>
+      <description>If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Wild Growth</name>
+      <cost>150/150/150 Mana</cost>
+      <cooldown>110/95/80</cooldown>
+      <iconPath>Lulu_GiantGrowth.png</iconPath>
+      <range>0</range>
+      <effect>Lulu enlarges her ally, knocking nearby enemies into the air. For 7/7/7 seconds, her ally gains 300/450/600 (+0.5) bonus health and slows nearby enemies by 30/45/60% for 1/1/1 seconds.</effect>
+      <description>Lulu enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1007</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3152</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3128</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3152</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>34</id>
+  <name>Anivia</name>
+  <displayName>Anivia</displayName>
+  <title>the Cryophoenix</title>
+  <iconPath>Anivia_Square_0.png</iconPath>
+  <portraitPath>Anivia_0.jpg</portraitPath>
+  <tags>mage,ranged</tags>
+  <description>Anivia is a being of the coldest winter, a mystical embodiment of ice magic, and an ancient protector of the Freljord. She commands all the power and fury of the land itself, calling the snow and bitter wind to defend her home from those who would harm it. A benevolent but mysterious creature, Anivia is eternally bound to keep vigil over the Freljord through life, death, and rebirth. Anivia is as much a part of the Freljord as the never-ending frost. Long before mortals had ever set foot on the land's frigid tundra, she had lived countless lifetimes and died as many deaths. The beginnings and ends of her eternal cycle always heralded great change, from the calming of raging storms to the ebb and flow of ice ages. It is said that when the cryophoenix dies, an era ends; and when she is reborn, a new era begins. Though Anivia's past lifetimes have faded from her memory, she knows her purpose: she must protect the Freljord at all costs. When she was last reborn, Anivia witnessed the rise of a mighty and united human tribe. She guarded their lands with pride as they prospered, but such unity could not last forever. The great tribe fractured into three, and after that upheaval, Anivia watched the people of the Freljord become embroiled in battle. As she strove to calm the turmoil tearing her home apart, Anivia began to sense a greater threat: an ancient evil growing deep within the earth. To her horror, she felt the pure magic of the ice itself become blackened and corrupt. Like blood in water, darkness crept into the Freljord. With her destiny so tied to the power of the land, Anivia knew if such evil took root in her home, that same darkness would find its way into her heart. She could no longer remain a mere guardian - the cryophoenix had to act. Anivia soon discovered an ally in Ashe, the Frost Archer. Ashe too believed in unification as an end to the Freljord's perpetual strife, and Anivia offered the tribal leader her aid. Now, with war on the horizon, Anivia prepares to fight for peace, but she knows the inevitable truth of her destiny. One day, evil will rise from the ice, and she must destroy it - no matter the cost.</description>
+  <quote>I am the fury of the blizzard, the bite of the wind, and the cold of the ice. I am the Freljord.</quote>
+  <quoteAuthor>Anivia</quoteAuthor>
+  <range>600</range>
+  <moveSpeed>325</moveSpeed>
+  <armorBase>10.5</armorBase>
+  <armorLevel>4</armorLevel>
+  <manaBase>257</manaBase>
+  <manaLevel>53</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.93</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>350</healthBase>
+  <healthLevel>70</healthLevel>
+  <attackBase>48</attackBase>
+  <attackLevel>3.2</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>10</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>1</ratingAttack>
+  <tips>*Timing Flash Frost with Frostbite can lead to devastating combinations.*Anivia is extremely reliant on Mana for Glacial Storm, try getting items with Mana or going for a Crest of the Ancient Golem buff on Summoner's Rift.*Early game her egg can be very difficult for enemy champions to kill. Seize the advantage by playing aggressively.</tips>
+  <opponentTips>*Try to gank Anivia when she's laning. With multiple people, it is easier to ensure that her egg dies.*If you're playing a ranged champion, stay far enough away from Anivia so you can dodge Flash Frost more easily.*Try to fight Anivia in the lanes. In the jungle she can block pathways with lower ranks of Crystallize.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Rebirth</name>
+      <iconPath>Cryophoenix_Rebirth.png</iconPath>
+      <range>0</range>
+      <description>Upon dying, Anivia will revert into an egg. If the egg can survive for six seconds, she is gloriously reborn.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Flash Frost</name>
+      <cost>80/100/120/140/160 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Cryophoenix_FrigidOrb.png</iconPath>
+      <range>0</range>
+      <effect>A massive chunk of ice flies toward target location, dealing 60/90/120/150/180 (+0.5) magic damage and chilling targets, slowing their Movement Speed by 20/20/20/20/20%. At the end of its range or if Anivia activates the spell again, the missile detonates, doing 60/90/120/150/180 (+0.5) magic damage in a small area and stunning units for 1/1/1/1/1 second.</effect>
+      <description>Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the lance explodes it does moderate damage in a radius, stunning anyone in the area.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Crystallize</name>
+      <cost>70/90/110/130/150 Mana</cost>
+      <cooldown>25/25/25/25/25</cooldown>
+      <iconPath>Cryophoenix_Crystallize.png</iconPath>
+      <range>0</range>
+      <effect>Anivia summons an impassable wall of ice 400/500/600/700/800 units wide, blocking all movement. The wall lasts for 5/5/5/5/5 seconds before it melts.</effect>
+      <description>Anivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Frostbite</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>5/5/5/5/5</cooldown>
+      <iconPath>Cryophoenix_DeepFreeze.png</iconPath>
+      <range>0</range>
+      <effect>Anivia blasts her target with a freezing wind, dealing 55/85/115/145/175 (+0.5) magic damage. If the target is chilled, they take double damage.</effect>
+      <description>With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing a medium amount of damage. If the target has been slowed by an ice effect, the damage they take is doubled.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Glacial Storm</name>
+      <cost>75/75/75 Mana</cost>
+      <cooldown>6/6/6</cooldown>
+      <iconPath>Cryophoenix_GlacialStorm.png</iconPath>
+      <range>0</range>
+      <effect>Toggle: Anivia calls forth a driving rain of ice and hail, dealing 80/120/160 (+0.25) magic damage per second and chilling targets, slowing their Attack and Movement Speed by 20/20/20%. Drains 40/50/60 Mana per second.</effect>
+      <description>Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3028</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3003</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3028</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3174</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

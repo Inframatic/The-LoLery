@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>33</id>
+  <name>Rammus</name>
+  <displayName>Rammus</displayName>
+  <title>the Armordillo</title>
+  <iconPath>Rammus_Square_0.png</iconPath>
+  <portraitPath>Rammus_0.jpg</portraitPath>
+  <tags>tank,melee,recommended</tags>
+  <description>Ravaged by Rune Wars long past, the lands south of the Great Barrier are wrecked by chaotic magical storms, leaving the grasp of nature's rule tenuous at best. While abnormal flora or fauna are the norm rather than the exception in these ruined areas, perhaps none is more curious than the case of Rammus. While no one is entirely certain why an armadillo from the Shurima Desert crossed the Kumungu Jungle into the Plague Jungles, Rammus made just such a journey. There, amongst the twisted vines and festering rot, he came across an oddity - a healthy evergreen hedge maze, stretching as far as the eye could see. As he explored the maze, something compelled him toward its center - a light, a presence of some kind. As he drew closer, the light surged, blinding him and knocking him unconscious. When he awoke, Rammus' whole world had changed. The maze had vanished and he felt truly cognizant for the first time in his otherwise unremarkable life. As his predicament dawned on him, Rammus had a moment of panic. As he trembled, the earth around him began to shake, the intensity increasing until he managed to steady himself. As the quake receded, Rammus arose and left the Plague Jungles in search of others like him. His search brought him across all the lands south of the Great Barrier, but everywhere he went, he was unique. The hardships of this sojourn inspired him to craft the suit of armor that would earn him the title of Armordillo. Rammus' quest eventually drew him to the only place where a sentient armadillo is less than confounding - the League of Legends.</description>
+  <quote>I've seen a lot of things, but this... this is a first.</quote>
+  <quoteAuthor>Ezreal, the Prodigal Explorer, after first meeting Rammus </quoteAuthor>
+  <range>125</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>21</armorBase>
+  <armorLevel>3.8</armorLevel>
+  <manaBase>255</manaBase>
+  <manaLevel>33</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.1</manaRegenLevel>
+  <healthRegenBase>1.4</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>420</healthBase>
+  <healthLevel>86</healthLevel>
+  <attackBase>50</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>10</ratingDefense>
+  <ratingMagic>5</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*Powerball can be used as an effective escape mechanism.*Using taunt on a champion by your tower can cause the tower to attack your enemy.*Tremors and Defensive Ball Curl can be used late in the game to obliterate towers. If you're bogged down in a team fight, it is often valuable to break off and attack the buildings.</tips>
+  <opponentTips>*Pay particular attention to when his Defensive Ball Curl is off. Rammus has slightly lower stats than a normal tank when he's out of the stance.*Rammus often stacks high armor, leaving him especially vulnerable to caster damage while not in Defensive Ball Curl.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Spiked Shell</name>
+      <iconPath>Armordillo_ScavengeArmor.png</iconPath>
+      <range>0</range>
+      <description>Rammus gains additional damage as his shell becomes reinforced, converting 25% of his armor into Attack Damage.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Powerball</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>Armordillo_Powerball.png</iconPath>
+      <range>0</range>
+      <effect>Rammus accelerates in a ball over 7/7/7/7/7 seconds towards his enemies, dealing 100/150/200/250/300 (+1) magic damage to nearby enemies on impact and slowing them by 20/25/30/35/40% for 3/3/3/3/3 seconds. Activating Defensive Ball Curl will remove this effect.</effect>
+      <description>Rammus accelerates in a ball towards his enemies, dealing damage and slowing targets affected by the impact.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Defensive Ball Curl</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>Armordillo_Shellbash.png</iconPath>
+      <range>0</range>
+      <effect>Rammus goes into a defensive formation for 6/6/6/6/6 seconds, increasing his Armor and Magic Resist by 40/60/80/100/120 and returning 15/25/35/45/55 (+) magic damage to attackers. This ability gains damage equal to 10/10/10/10/10% of Armor. Activating Powerball will remove this effect.</effect>
+      <description>Rammus goes into a defensive formation, vastly increasing his Armor and Magic Resist, while returning damage to attacks.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Puncturing Taunt</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>Armordillo_ScaledPlating.png</iconPath>
+      <range>0</range>
+      <effect>Rammus taunts the unit into a reckless assault, reducing their Armor by 10/15/20/25/30 and forcing them to attack Rammus for 1/1.5/2/2.5/3 second(s).</effect>
+      <description>Rammus taunts an enemy unit into a reckless assault against Rammus' hard shell, reducing Armor temporarily.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Tremors</name>
+      <cost>120/120/120 Mana</cost>
+      <cooldown>60/60/60</cooldown>
+      <iconPath>Armordillo_RecklessCharge.png</iconPath>
+      <range>0</range>
+      <effect>Rammus creates tremors beneath him, dealing 65/130/195 (+0.3) magic damage every second to nearby units and structures for 8/8/8 seconds.</effect>
+      <description>Rammus creates waves of destruction pulsing through the ground, causing damage to units and structures near him.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3075</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3117</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3082</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3047</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3075</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

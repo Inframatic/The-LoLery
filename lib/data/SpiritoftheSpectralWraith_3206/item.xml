@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3206</id>
+  <name>Spirit of the Spectral Wraith</name>
+  <description> +50 Ability Power +10% Cooldown Reduction +10 Mana Regen per 5 seconds UNIQUE Passive: +20% Spell Vamp UNIQUE Passive: Reduces the cooldown of Smite by 20%. UNIQUE Passive - Butcher: Damage dealt to monsters increased by 25%. (Spell Vamp: Abilities heal for a percentage of the damage they deal. Area of Effect spells only grant one-third of the healing from Spell Vamp.) (Unique Passives with the same name do not stack.) </description>
+  <iconPath>3206_SoulEaterWraith.png</iconPath>
+  <price>100</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>2</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>50</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>2</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>1080</recipeItemId>
+      <buildsToItemId>3206</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>3145</recipeItemId>
+      <buildsToItemId>3206</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>spell_damage</name>
+    </Category>
+    <Category>
+      <name>mana_regen</name>
+    </Category>
+    <Category>
+      <name>cooldown_reduction</name>
+    </Category>
+    <Category>
+      <name>spell_vamp</name>
+    </Category>
+    <Category>
+      <name>on_hit</name>
+    </Category>
+  </categories>
+</Item>

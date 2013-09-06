@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>26</id>
+  <name>Zilean</name>
+  <displayName>Zilean</displayName>
+  <title>the Chronokeeper</title>
+  <iconPath>Zilean_Square_0.png</iconPath>
+  <portraitPath>Zilean_0.jpg</portraitPath>
+  <tags>mage,support,ranged</tags>
+  <description>In the wastelands of Urtistan, there was once a great city. It perished long ago in a terrible Rune War, like most of the lands below the Great Barrier. Nevertheless, one man survived: a sorcerer named Zilean. Being obsessed with time, it was only fitting that he dwelled in the city's Clock Tower. As the havoc of the war neared his home, Zilean experimented with powerful temporal magic to divine all possible futures, hoping to discover a peaceful solution. But Zilean's enchantments affected his perception of the passage of time, and he was in a contemplative stasis when Urtistan was set upon by an entire phalanx of dark summoner-knights of unknown affiliation. By the time he realized his error, Urtistan was nothing more than smoldering debris. The summoners who were responsible for its destruction had wisely left the Clock Tower unharmed, both to avoid drawing Zilean's attention and to torment him for his oversight. Zilean barely had time to grieve the momentous loss before he learned that his dangerous research had a cruel side effect: chrono-displasia. This mystical disease granted him immortality, but detached his consciousness from its anchor in the present time. He now mentally drifts through time, from any point he has already lived to the present, unable to impact the events which unfold. The most torturous aspect of this curse is that Zilean sometimes experiences Urtistan as it once was and the rest of the time resides in its lonely ruins. Only the powerful summoning magic employed by members of the League of Legends has been able to treat this condition, and Zilean has joined in hopes of finding a cure, and thereafter a way to save his people.</description>
+  <quote>There is no greater grief than for a loss that is yet to come.</quote>
+  <quoteAuthor>Zilean</quoteAuthor>
+  <range>600</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>6.75</armorBase>
+  <armorLevel>3.8</armorLevel>
+  <manaBase>260</manaBase>
+  <manaLevel>60</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.39</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>0.92</healthRegenBase>
+  <healthRegenLevel>0.1</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>380</healthBase>
+  <healthLevel>71</healthLevel>
+  <attackBase>48.6</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>8</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*You can combine the use of Time Bomb and Rewind to place two Time Bombs on a target quickly. Placing the second bomb will detonate the first.*Time Warp is an effective way to enable allies to finish off enemies, or escape from a losing battle.*Chronoshift is a powerful deterent to attacking your carries, but casting Chronoshift too early in a fight can cause the enemy to switch targets too soon, making it less effective.</tips>
+  <opponentTips>*If you're able to match Zilean's speed, it can sometimes be beneficial to wait until his ultimate has faded before landing the killing blow.*Zilean is fragile if a team focuses on him, but otherwise he's very difficult to kill. Commit to killing him as a team.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Heightened Learning</name>
+      <iconPath>Chronokeeper_Slow.png</iconPath>
+      <range>0</range>
+      <description>Increases experience gain of all allied champions by 8%.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Time Bomb</name>
+      <cost>70/85/100/115/130 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>Chronokeeper_Chronoblast.png</iconPath>
+      <range>0</range>
+      <effect>Zilean places a time-delayed bomb on a target. After 4/4/4/4/4 seconds this bomb will detonate, dealing 90/145/200/260/320 (+0.9) magic damage to all surrounding enemies.</effect>
+      <description>Places a bomb on any unit, allied or enemy, which detonates after 4 seconds, dealing area of effect damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Rewind</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>18/15/12/9/6</cooldown>
+      <iconPath>Chronokeeper_Recall.png</iconPath>
+      <range>600</range>
+      <effect>Reduces all of Zilean's other spell cooldowns by 10/10/10/10/10 seconds.</effect>
+      <description>Zilean can prepare himself for future confrontations, reducing the cooldowns of all of his other abilities. </description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Time Warp</name>
+      <cost>80/80/80/80/80 Mana</cost>
+      <cooldown>20/20/20/20/20</cooldown>
+      <iconPath>Chronokeeper_Haste.png</iconPath>
+      <range>0</range>
+      <effect>Zilean increases an allied champion's Movement Speed, or slows an enemy champion, by 55/55/55/55/55% for 2.5/3.25/4/4.75/5.5 seconds.</effect>
+      <description>Zilean bends time around any unit, decreasing an enemy's Movement Speed or increasing an ally's Movement Speed for a short time.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Chronoshift</name>
+      <cost>125/150/175 Mana</cost>
+      <cooldown>180/180/180</cooldown>
+      <iconPath>Chronokeeper_Timetwister.png</iconPath>
+      <range>0</range>
+      <effect>Zilean marks himself or an allied champion with a protective time rune for 7/7/7 seconds. If the target would take lethal damage, they are instead transported back in time, regaining 600/850/1100 (+2) Health.</effect>
+      <description>Zilean places a protective time rune on an allied champion, teleporting the champion back in time if they take lethal damage.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3099</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3070</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3165</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

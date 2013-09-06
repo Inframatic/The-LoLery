@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>119</id>
+  <name>Draven</name>
+  <displayName>Draven</displayName>
+  <title>the Glorious Executioner</title>
+  <iconPath>Draven_Square_0.png</iconPath>
+  <portraitPath>Draven_0.jpg</portraitPath>
+  <tags>carry,ranged</tags>
+  <description>Unlike his brother Darius, victory in battle was never enough for Draven. He craved recognition, acclaim, and glory. He first sought greatness in the Noxian military, but his flair for the dramatic went severely underappreciated. Thirsting for a method to share ''Draven'' with the world, he turned his attention to the prison system. There he carved out the celebrity he desired by turning the tedious affair of executions into a premiere spectacle. At Draven's first execution, he shocked onlookers when he ordered the doomed prisoner to run for dear life. Just before the man managed to flee from sight, Draven brought him down with a flawless throw of his axe. Soon, all Draven's executions became a gauntlet through which Noxian prisoners raced for a final chance at life. He used this trial as his own personal stage, and turned executions into a leading form of entertainment. He rallied onlookers into a frenzy, while desperate prisoners scrambled to evade him. They never succeeded. Rejecting the solemn, black uniforms of Noxian executioners Draven donned bright outfits and developed flashy signature moves to distinguish himself. Crowds flocked to see Draven in action, and tales of his performances spread quickly. As his popularity grew, so did his already-inflated ego. He belonged at the center of attention. Before long, the scope of his ambitions outgrew the population of Noxus. He decided that the glorious exploits of Draven should be put on display for the entire world.</description>
+  <quote> 'The best' is wherever I decide to set the bar each day.</quote>
+  <quoteAuthor>Draven</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>16</armorBase>
+  <armorLevel>3.3</armorLevel>
+  <manaBase>240</manaBase>
+  <manaLevel>42</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.39</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>1</healthRegenBase>
+  <healthRegenLevel>0.14</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>420</healthBase>
+  <healthLevel>82</healthLevel>
+  <attackBase>46.5</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*If Draven doesn't move, Spinning Axe will fall near his present location. It will fall directly on him, or just to the right or left.*If Draven does move after attacking, Spinning Axe will lead him in the direction of his movement. Use this to control where the spinning Axe will go.</tips>
+  <opponentTips>*Launch skillshots toward the landing position of Draven's Spinning Axes.*Disrupt Draven with the goal of making him drop his axes. If you do, his power drops dramatically.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Wicked Blades</name>
+      <iconPath>Draven_passive.png</iconPath>
+      <range>0</range>
+      <description>Draven's Critical Strikes deal bonus physical damage over time. Spinning Axe also causes this effect even if it does not Critically Strike.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Spinning Axe</name>
+      <cost>45/45/45/45/45 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Draven_SpinningAxe.png</iconPath>
+      <range>300</range>
+      <effect>Draven's next attack will deal bonus physical damage. The bonus is equal to 45/55/65/75/85% of his total Attack Damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.</effect>
+      <description>Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Blood Rush</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>Draven_Bloodrage.png</iconPath>
+      <range>0</range>
+      <effect>Draven gains 40/45/50/55/60% increased Movement Speed for 1.5/1.5/1.5/1.5/1.5 seconds and 20/25/30/35/40% increased Attack Speed for 3/3/3/3/3 seconds. The Movement Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.</effect>
+      <description>Draven gains increased Movement Speed and Attack Speed. The Movement Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Stand Aside</name>
+      <cost>70/70/70/70/70 Mana</cost>
+      <cooldown>18/17/16/15/14</cooldown>
+      <iconPath>Draven_TwinAxe.png</iconPath>
+      <range>1050</range>
+      <effect>Draven throws his axes, dealing 70/105/140/175/210 (+) physical damage to targets hit and knocking them aside. Targets hit are slowed by 20/25/30/35/40% for 2/2/2/2/2 seconds.</effect>
+      <description>Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Whirling Death</name>
+      <cost>120/120/120 Mana</cost>
+      <cooldown>110/100/90</cooldown>
+      <iconPath>Draven_WhirlingDeath.png</iconPath>
+      <range>0</range>
+      <effect>Draven hurls two massive axes to deal 175/275/375 (+) physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals 8% less damage for each unit hit (Minimum 40/40/40%) and resets when the axes reverse direction.</effect>
+      <description>Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3072</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

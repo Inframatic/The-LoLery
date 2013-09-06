@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3131</id>
+  <name>Sword of the Divine</name>
+  <description> +45% Attack Speed Passive: This item does not grant any Attack Speed while on cooldown. Champion kills reduce the current cooldown by 50%. UNIQUE Active: Grants +100% Attack Speed and 100% Critical Strike Chance for 3 seconds or 3 critical strikes (60 second cooldown).</description>
+  <iconPath>3084_Widowmaker.png</iconPath>
+  <price>850</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>0</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>1</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>1043</recipeItemId>
+      <buildsToItemId>3131</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1042</recipeItemId>
+      <buildsToItemId>3131</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>critical_strike</name>
+    </Category>
+    <Category>
+      <name>attack_speed</name>
+    </Category>
+    <Category>
+      <name>active</name>
+    </Category>
+  </categories>
+</Item>

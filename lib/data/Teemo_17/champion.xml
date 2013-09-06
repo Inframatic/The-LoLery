@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>17</id>
+  <name>Teemo</name>
+  <displayName>Teemo</displayName>
+  <title>the Swift Scout</title>
+  <iconPath>Teemo_Square_0.png</iconPath>
+  <portraitPath>Teemo_0.jpg</portraitPath>
+  <tags>support,stealth,ranged</tags>
+  <description>Teemo is a legend among his yordle brothers and sisters in Bandle City. As far as yordles are concerned, there is something just slightly off about him. While Teemo enjoys the companionship of other yordles, he also insists on frequent solo missions in the ongoing defense of Bandle City. Despite his genuinely warm personality, something switches off inside Teemo's mind during combat so that the lives he must end while on patrol do not burden him. Even as a young recruit, the drill instructors and other trainees found it a little disconcerting that, while Teemo was normally charming and kind, he turned deadly serious and highly efficient the minute combat exercises began. Teemo's superiors quickly steered him toward the Scouts of the Mothership, which is one of Bandle City's most distinguished Special Forces unit alongside the Megling Commandos. While most yordles do not handle solo scouting missions with a great deal of finesse, Teemo is remarkably efficient at them. His record of success in defending Bandle City from infiltrators easily makes him one of the most dangerous yordles alive, though you'd never know it by having a cup of honey mead with him at his favorite inn. Bandle City chose Teemo as their first champion for the League, and he has taken to it like a duck to water. His signature weapon - a blowgun - uses a rare ajunta poison he personally gathers from the jungles of Kumungu. To help cope with his lengthy periods of isolation, Teemo recently struck up a friendship with Tristana, a fellow League champion and fellow member of Bandle City's Special Forces. This connection is healthy for both yordles, though now Valoran's voracious media outlets circulate rumors that the friendship is turning into a romantic relationship. Regardless, Teemo is a crowd favorite in the League of Legends, and a pint-sized foe that many have come to fear.</description>
+  <quote>Teemo rides a thin line between chipper compatriot and unrepentant killer, but there's no one else I'd rather have as a friend.</quote>
+  <quoteAuthor>Tristana</quoteAuthor>
+  <range>500</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>14</armorBase>
+  <armorLevel>3.75</armorLevel>
+  <manaBase>200</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.29</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>0.93</healthRegenBase>
+  <healthRegenLevel>0.13</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>378</healthBase>
+  <healthLevel>82</healthLevel>
+  <attackBase>44.5</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>5</ratingAttack>
+  <tips>*Teemo's mushrooms can be used to farm creep waves very effectively.*Place your mushrooms at key locations on the map, such as by the Dragon or Baron Nashor, to reveal when your enemies might be attempting to kill them.</tips>
+  <opponentTips>*Teemo's Toxic Shot punishes players who get hit and back out, so stay at a safe range until you're ready to commit.*It can be valuable to use Oracle's Elixir to destroy mushrooms around key locations.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Camouflage</name>
+      <iconPath>Teemo_Camouflage.png</iconPath>
+      <range>0</range>
+      <description>If Teemo stands still and takes no actions for a short duration, he becomes stealthed indefinitely. After leaving stealth, Teemo gains the Element of Surprise, increasing his attack speed by 40% for 3 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Blinding Dart</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>8/8/8/8/8</cooldown>
+      <iconPath>Teemo_TranquilizingShot.png</iconPath>
+      <range>0</range>
+      <effect>Deals 80/125/170/215/260 (+0.8) magic damage and blinds the target for 1.5/1.75/2/2.25/2.5 seconds. </effect>
+      <description>Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Move Quick</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>17/17/17/17/17</cooldown>
+      <iconPath>Teemo_MoveQuick.png</iconPath>
+      <range>20</range>
+      <effect>Passive: Teemo's Movement Speed is increased by 10/14/18/22/26% unless he has been damaged by an enemy champion or turret in the last 5 seconds. Active: Teemo sprints, gaining twice his normal bonus for 3 seconds. This bonus is not lost when struck.</effect>
+      <description>Teemo scampers around, passively increasing his movement speed until he is struck by an enemy champion or turret. Teemo can sprint to gain bonus movement speed that isn't stopped by being struck for a short time.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Toxic Shot</name>
+      <cooldown>8/8/8/8/8</cooldown>
+      <iconPath>Teemo_PoisonedDart.png</iconPath>
+      <range>0</range>
+      <effect>Teemo's basic attacks poison their target, dealing 10/20/30/40/50 (+0.3) magical damage upon impact and 6/12/18/24/30 (+) magical damage each second for 4 seconds.</effect>
+      <description>Each of Teemo's attacks will poison the target, dealing damage on impact and each second after for 4 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Noxious Trap</name>
+      <cost>75/100/125 Mana</cost>
+      <cooldown>1/1/1</cooldown>
+      <iconPath>Bowmaster_ArchersMark.png</iconPath>
+      <range>230</range>
+      <effect>Uses a stored mushroom to place a trap that detonates if an enemy steps on it, spreading poison to nearby enemies that slows movement speed by 30/40/50% and deals 200/325/450 (+0.8) magic damage over 4 seconds. Traps last 10 minutes. Teemo forages for a mushroom every seconds, but he is only big enough to carry 3 at once.</effect>
+      <description>Teemo places an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap it will release a poisonous cloud, slowing enemies and damaging them over time.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3115</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3114</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3126</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3117</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3091</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3178</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3114</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3184</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3114</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3186</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

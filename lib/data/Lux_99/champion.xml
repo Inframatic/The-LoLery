@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>99</id>
+  <name>Lux</name>
+  <displayName>Lux</displayName>
+  <title>the Lady of Luminosity</title>
+  <iconPath>Lux_Square_0.png</iconPath>
+  <portraitPath>Lux_0.jpg</portraitPath>
+  <tags>mage,support,ranged</tags>
+  <description>Born to the prestigious Crownguards, the paragon family of Demacian service, Luxanna was destined for greatness. She grew up as the family's only daughter, and she immediately took to the advanced education and lavish parties required of families as high profile as the Crownguards. As Lux matured, it became clear that she was extraordinarily gifted. She could play tricks that made people believe they had seen things that did not actually exist. She could also hide in plain sight. Somehow, she was able to reverse engineer arcane magical spells after seeing them cast only once. She was hailed as a prodigy, drawing the affections of the Demacian government, military, and citizens alike. As one of the youngest women to be tested by the College of Magic, she was discovered to possess a unique command over the powers of light. The young Lux viewed this as a great gift, something for her to embrace and use in the name of good. Realizing her unique skills, the Demacian military recruited and trained her in covert operations. She quickly became renowned for her daring achievements; the most dangerous of which found her deep in the chambers of the Noxian High Command. She extracted valuable inside information about the Noxus-Ionian conflict, earning her great favor with Demacians and Ionians alike. However, reconnaissance and surveillance was not for her. A light of her people, Lux's true calling was the League of Legends, where she could follow in her brother's footsteps and unleash her gifts as an inspiration for all of Demacia. ''Her guiding light makes enemies wary, but they should worry most when the light fades.'' -- Garen, The Might of Demacia</description>
+  <quote />
+  <quoteAuthor />
+  <range>550</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>8</armorBase>
+  <armorLevel>4</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>50</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.2</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>345</healthBase>
+  <healthLevel>79</healthLevel>
+  <attackBase>50</attackBase>
+  <attackLevel>3.3</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>9</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Lux has great zone control abilities. Try to set up Lucent Singularity to prevent an enemy's advance or escape.*If you have trouble landing Prismatic Barrier, remember that it returns to you after it reaches max range. Try positioning yourself to hit your allies with its return trip.*Lucent Singularity is a great scouting tool. Try throwing it into brush before walking into it to check for ambushes.</tips>
+  <opponentTips>*Lux has powerful zone control abilities. Try to spread out and attack from different directions so she cannot lock down a specific area.*When retreating with low health, be prepared to dodge Lux's Final Spark, a red targeting beam fires prior to the main beam, so try to move to the side if possible.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Illumination</name>
+      <iconPath>LuxIlluminatingFraulein.png</iconPath>
+      <range>0</range>
+      <description>Lux's damaging spells charge the target with energy for 6 seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Light Binding</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>15/14/13/12/11</cooldown>
+      <iconPath>LuxCrashingBlitz2.png</iconPath>
+      <range>1175</range>
+      <effect>Fires a ball of light, rooting the first enemy hit for 2/2/2/2/2 seconds and dealing 60/110/160/210/260 (+0.7) magic damage. The second enemy receives 50/50/50/50/50% of the effect.</effect>
+      <description>Lux releases a sphere of light that binds and deals damage to up to two enemy units.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Prismatic Barrier</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>14/13/12/11/10</cooldown>
+      <iconPath>LuxPrismaWrap.png</iconPath>
+      <range>1075</range>
+      <effect>Throws Lux's wand to a target location and back, protecting herself and all allied Champions it touches from 80/105/130/155/180 (+0.35) damage for 3 seconds.</effect>
+      <description>Lux throws her wand and bends the light around any friendly target it touches, protecting them from enemy damage.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Lucent Singularity</name>
+      <cost>70/85/100/115/130 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>LuxLightStrikeKugel.png</iconPath>
+      <range>0</range>
+      <effect>Creates a zone that slows enemies by 20/24/28/32/36%. After 5/5/5/5/5 seconds the zone detonates dealing 60/105/150/195/240 (+0.6) magic damage. Activate again to detonate early.</effect>
+      <description>Fires an anomaly of twisted light to an area, which slows nearby enemies. Lux can detonate it to damage enemies in the area of effect.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Final Spark</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>80/65/50</cooldown>
+      <iconPath>LuxFinaleFunkeln.png</iconPath>
+      <range>0</range>
+      <effect>Channels a dazzling ray of light dealing 300/400/500 (+0.75) magic damage to all enemies in a line. Final Spark ignites and refreshes the Illumination debuff. </effect>
+      <description>After gathering energy, Lux fires a beam of light that deals damage to all targets in the area. In addition, triggers Lux's passive ability and refreshes the Illumination debuff duration.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3098</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3165</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

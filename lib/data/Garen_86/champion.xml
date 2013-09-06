@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>86</id>
+  <name>Garen</name>
+  <displayName>Garen</displayName>
+  <title>The Might of Demacia</title>
+  <iconPath>Garen_Square_0.png</iconPath>
+  <portraitPath>Garen_0.jpg</portraitPath>
+  <tags>fighter,melee,recommended</tags>
+  <description>Throughout Valoran, the resolve of Demacia's military is alternately celebrated or despised, but always respected. Their ''zero tolerance'' moral code is strictly upheld by civilians and soldiers alike. In combat, this means Demacian troops may not make excuses, flee, or surrender under any circumstance. These principles are espoused to their forces by unrivaled demagogues who lead by example. Garen, the valiant warrior who bears the title ''the Might of Demacia'', is the paradigm to which these leaders are compared. Thousands of great heroes have risen and fallen on the bloody battlefields between Demacia and its preeminent rival, Noxus. It was beneath their mighty banners of war that Garen first met steel with Katarina, the Sinister Blade. The infantrymen who beheld this event (and survived) commented that it seemed as though the two were locked in a mortal waltz against a symphony of clashing blades. Garen, the pride of the Demacian military and leader of the Dauntless Vanguard, returned from this battle breathless for the first time in his career, though some speculate that this was due to reasons other than exhaustion. The plausibility of these rumors was bolstered when, in every instance thereafter, Garen seized the opportunity to encounter the Sinister Blade again. A paragon of Demacian ethic, Garen never entertained such allegations, for he knew others couldn't understand. Even simply the pursuit of a worthy opponent on the battlefield is, to a true warrior, the reason to rise each morning. The promise of one, particularly so beautifully and diametrically opposed, is the validation of his existence.</description>
+  <quote>The most effective way to kill an opponent is to slice through the man next to him.</quote>
+  <quoteAuthor>Garen, on front line strategy</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>19</armorBase>
+  <armorLevel>2.7</armorLevel>
+  <manaBase>0</manaBase>
+  <manaLevel>0</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>0</manaRegenBase>
+  <manaRegenLevel>0</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.15</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>455</healthBase>
+  <healthLevel>96</healthLevel>
+  <attackBase>52</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>2</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Garen's regeneration greatly increases if he can avoid receiving damage for several seconds.*Courage increases the effectivess of defensive items. Be sure to itemize appropriately against your opponents damage types.*Garen is only constrained by cooldowns, making items such as Youmuu's Ghostblade and Brutalizer very effective for him.</tips>
+  <opponentTips>*Stack armor items to lower the large amount of physical damage that Garen deals out.*Try to run away from Garen as your health gets lower, as he can execute you quickly with Demacian Justice.*Be careful about attacking Garen in brush. It often will lead to taking full damage from Judgment.</opponentTips>
+  <date>20130319191712</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Perseverance</name>
+      <iconPath>Garen_Perseverance.png</iconPath>
+      <range>0</range>
+      <description>If Garen has not been struck by damage or enemy abilities for the last 10 seconds, Garen regenerates 0.4% of his maximum Health each second. Minion damage does not stop Perserverance. </description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Decisive Strike</name>
+      <cooldown>8/8/8/8/8</cooldown>
+      <iconPath>Garen_DecisiveStrike.png</iconPath>
+      <range>0</range>
+      <effect>Garen breaks free from all slows affecting him and gains 35/35/35/35/35% Movement Speed for 1.5/2.25/3/3.75/4.5 seconds. His next basic attack deals 30/55/80/105/130 (+) physical damage and silences his target for 1.5/1.75/2/2.25/2.5 seconds.</effect>
+      <description>Garen gains a burst of Movement Speed, breaking free of all slows affecting him and his next attack strikes a vital area of his foe, dealing bonus damage and silencing them.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Courage</name>
+      <cooldown>24/23/22/21/20</cooldown>
+      <iconPath>Garen_CommandingPresence.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Garen's gains an additional 20% value from bonus Armor and Magic Resist. Active: Garen gains a defensive shield for 2/3/4/5/6 seconds, reducing incoming damage by 30/30/30/30/30% and granting 30% Crowd Control Reduction.</effect>
+      <description>Garen passively increases his Armor and Magic Resist. He may also activate this ability to grant himself a shield that reduces incoming damage and crowd control effects for a short duration.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Judgment</name>
+      <cooldown>13/12/11/10/9</cooldown>
+      <iconPath>Garen_KeepingthePeace.png</iconPath>
+      <range>325</range>
+      <effect>Garen rapidly spins his sword around his body for 3/3/3/3/3 seconds, dealing 20/45/70/95/120 plus 70/80/90/100/110% of his attack (+) as physical damage to nearby enemies every second. Garen can move through units while spinning but moves 20% slower when travelling directly through units. Judgment can critically strike dealing bonus damage. Judgment deals 25% less damage to minions and monsters.</effect>
+      <description>Garen performs a dance of death with his sword, dealing damage around him for the duration.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Demacian Justice</name>
+      <cooldown>160/120/80</cooldown>
+      <iconPath>Garen_Justice.png</iconPath>
+      <range>0</range>
+      <effect>Garen calls upon the might of Demacia to attempt to execute an enemy champion, dealing 175/350/525 magic damage plus 1 damage for every 3.5/3/2.5 Health the target is missing.</effect>
+      <description>Garen calls upon the might of Demacia to deal a finishing blow to an enemy champion that deals damage based upon how much Health his target has missing.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3044</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3005</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3022</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

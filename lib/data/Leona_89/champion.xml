@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>89</id>
+  <name>Leona</name>
+  <displayName>Leona</displayName>
+  <title>the Radiant Dawn</title>
+  <iconPath>Leona_Square_0.png</iconPath>
+  <portraitPath>Leona_0.jpg</portraitPath>
+  <tags>tank,melee</tags>
+  <description>On the upper slopes of Mount Targon, the warriors of Rakkor live and breathe only for war. However, Targon's peak is reserved for a special group of Rakkoran who answer to a ''higher'' calling. Members of this group, called the Solari, retire their mantles of war, choosing instead to devote their lives to reverence of the sun. According to legend, the Solari were formed by a warrior who could call the raw might of the sun down upon his enemies in combat. He claimed Mount Targon's summit, the point on Valoran closest to the sun, for his solar devotion, a tradition which generations of Solari have preserved to this day. Leona's parents were traditional Rakkorans, both bred for the heat of battle. To them, Leona was a problem child. She was capable of fighting as fiercely as any other -- including her childhood friend, Pantheon -- but she did not share their zeal for killing. She believed that the true worth of a soldier lay in her ability to defend and protect. When it came time for her Rite of Kor, a ceremony in which two Rakkoran teens battle to the death for the right to bear a relic-weapon, Leona refused to fight. For this, the Rakkoran leaders ordered her execution, but when they tried to strike the fatal blow, sunlight burst forth, bathing Mount Targon in light. As it faded, Leona stood unharmed and her executioners lay unconscious around her. The Solari immediately claimed Leona, demanding that her sentence be repealed. She donned the golden armor of the Solari and they bestowed upon her the sword and shield passed down from the ancient sun-warriors of legend. The Solari helped Leona focus her abilities, and when she was ready she left to join the League of Legends.</description>
+  <quote>The sun's rays reach all of Runeterra, so too must the image of its champion.</quote>
+  <quoteAuthor>Leona</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>18</armorBase>
+  <armorLevel>3.1</armorLevel>
+  <manaBase>235</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.14</manaRegenLevel>
+  <healthRegenBase>1.8</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>430</healthBase>
+  <healthLevel>87</healthLevel>
+  <attackBase>55</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>8</ratingDefense>
+  <ratingMagic>3</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*Lead the charge and mark your foes with Sunlight before your allies deal damage.*Shield of Daybreak and Zenith Blade form a powerful offensive combo.*You can absorb a huge amount of damage using Eclipse, but you must stay near enemies to gain the bonus duration.</tips>
+  <opponentTips>*When Leona activates Eclipse, you have three seconds to get away from her before she deals damage.*Only foes in the center of Solar Flare get stunned, so you can often avoid this if you're quick.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Sunlight</name>
+      <iconPath>LeonaSunlight.png</iconPath>
+      <range>0</range>
+      <description>Damaging spells afflict enemies with Sunlight for 3.5 seconds. When allied Champions deal damage to those targets, they consume the Sunlight debuff to deal additional magic damage.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Shield of Daybreak</name>
+      <cost>45/50/55/60/65 Mana</cost>
+      <cooldown>11/10/9/8/7</cooldown>
+      <iconPath>LeonaShieldOfDaybreak.png</iconPath>
+      <range>0</range>
+      <effect>The next basic attack deals an additional 40/70/100/130/160 (+0.3) magic damage and stuns an enemy for 1.25/1.25/1.25/1.25/1.25 seconds.</effect>
+      <description>Leona uses her shield to perform her next basic attack, dealing bonus magic damage and stunning the target.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Eclipse</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>LeonaSolarBarrier.png</iconPath>
+      <range>450</range>
+      <effect>Gains 30/40/50/60/70 bonus Armor and Magic Resist for 3/3/3/3/3 seconds. When the effect ends, nearby enemies struck take 60/110/160/210/260 (+0.4) magic damage and Leona retains her bonus Armor and Magic Resist for 3/3/3/3/3 seconds.</effect>
+      <description>Leona raises her shield to gain Armor and Magic Resistance. When the duration first ends, if there are nearby enemies she will deal magic damage to them and prolong the duration of the effect.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Zenith Blade</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>13/12/11/10/9</cooldown>
+      <iconPath>LeonaZenithBlade.png</iconPath>
+      <range>875</range>
+      <effect>Strikes all enemies in a line dealing 60/100/140/180/220 (+0.4) magic damage. The last enemy Champion struck will be briefly rooted and Leona will dash to them.</effect>
+      <description>Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. When the image fades, the last enemy champion struck will be briefly immobilized and Leona will dash to them.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Solar Flare</name>
+      <cost>100/150/200 Mana</cost>
+      <cooldown>90/75/60</cooldown>
+      <iconPath>LeonaSolarFlare.png</iconPath>
+      <range>0</range>
+      <effect>Calls down a radiant beam of solar energy dealing 150/250/350 (+0.8) magic damage and slowing enemies by 80/80/80% for 1.5/1.5/1.5 seconds. Enemies in the center of the flare are stunned instead of slowed.</effect>
+      <description>Leona calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3067</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3190</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

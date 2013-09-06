@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>143</id>
+  <name>Zyra</name>
+  <displayName>Zyra</displayName>
+  <title>Rise of the Thorns</title>
+  <iconPath>Zyra_Square_0.png</iconPath>
+  <portraitPath>Zyra_0.jpg</portraitPath>
+  <tags>mage,pusher,ranged</tags>
+  <description>Longing to take control of her fate, the ancient, dying plant Zyra transferred her consciousness into a human body for a second chance at life. Centuries ago, she and her kind dominated the Kumungu Jungle, using thorns and vines to consume any animal that set foot in their territory. As the years passed, the animal population steadily died off. Food became increasingly scarce, and Zyra could only stand by helplessly as the last of her kin withered away. She thought she would perish alone, until the appearance of an unwary sorceress presented her with an opportunity for salvation. It was the first time in years Zyra had sensed a creature wander so close. Hunger drew her to the sorceress, but some other, deeper instinct compelled her. She enveloped the woman in thorns with ease, but as she savored this final meal, foreign memories invaded her thoughts. She saw great jungles of metal and stone where humans and animals thrived. Potent magic surged through her vines, and she devised an elegant but risky plan to survive. Using the woman's memories, Zyra poured her newfound magic into the creation of a human-shaped vessel. She didn't know what sort of world awaited her, but she had nothing left to lose. When Zyra opened her eyes, she was overwhelmed by the raw power ready at her fingertips. It wasn't until she noticed the shriveled remains of the plant she once was that she realized how vulnerable she had become. If this body died, there would be no network of vines to retreat through, no roots to regrow her...but she felt truly alive. She beheld the world for the first time as animals did, and a dark smile crept across her lips. She was reborn, and there was so much now within her grasp.</description>
+  <quote>Closer to the flower, closer to the thorns.</quote>
+  <quoteAuthor>Zyra</quoteAuthor>
+  <range>575</range>
+  <moveSpeed>325</moveSpeed>
+  <armorBase>11</armorBase>
+  <armorLevel>3</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>50</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.42</manaRegenBase>
+  <manaRegenLevel>0.15</manaRegenLevel>
+  <healthRegenBase>0.97</healthRegenBase>
+  <healthRegenLevel>0.1</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>355</healthBase>
+  <healthLevel>74</healthLevel>
+  <attackBase>50</attackBase>
+  <attackLevel>3.2</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>8</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*Placing a seed in your spell's path after you have cast it gives you the best chance of having a seed in the proper spot.*Seeds grant vision to your team.*Zyra is a great ambusher -- Look for opportunities to set a trap of seeds in brush, then lure enemies in.</tips>
+  <opponentTips>*Zyra's seeds can be destroyed by stepping on them. Crush them under foot if she is using them primarily to give her team vision of an area.*Moving closer to Zyra can be a smart move if she places plants too far away from herself.*Plants can be killed by three basic attacks, or a single target spell and one basic attack.*Move away from or strafe rapidly around Zyra when she dies, or she will exact true vengeance upon you from the grave.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Rise of the Thorns</name>
+      <iconPath>ZyraP.png</iconPath>
+      <range>0</range>
+      <description>When Zyra dies, she briefly returns to her plant form. After 2 seconds, she can press any ability to fire a thorn toward her cursor, dealing true damage to each enemy it strikes.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Deadly Bloom</name>
+      <cost>75/80/85/90/95 Mana</cost>
+      <cooldown>7/6.5/6/5.5/5</cooldown>
+      <iconPath>ZyraQ.png</iconPath>
+      <range>825</range>
+      <effect>Thorns shoot from the ground, dealing 75/115/155/195/235 (+0.6) magic damage to enemies within the area. Rampant Growth: If Deadly Bloom hits a seed, a Thorn Spitter grows, dealing (+) magic damage. Lasts 10 seconds.</effect>
+      <description>Zyra grows a bud at target location. After a brief delay, it explodes, launching damaging thorns at all nearby enemies. If cast upon a seed, Deadly Bloom grows a Thorn Spitter plant, which fires at enemies from afar.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Rampant Growth</name>
+      <cooldown>0.25/0.25/0.25/0.25/0.25</cooldown>
+      <iconPath>ZyraW.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Grants 4/8/12/16/20% Cooldown Reduction. Active: Plants a seed, lasting 30 seconds. If an enemy Champion steps on a seed, it will be destroyed but they will be revealed for 2 seconds. Zyra stores a seed every seconds (Max: 2 seeds stored, 4 seeds planted). Rampant Growth: Cast spells on seeds to grow plants. Plant damage is based on Zyra's level. Extra plants striking the same target deal 50% less damage.</effect>
+      <description>Zyra plants a seed, granting vision of an area for up to 30 seconds. Other spells cast on seeds will turn them into plants, who fight for Zyra. Additionally passively grants her Cooldown Reduction.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Grasping Roots</name>
+      <cost>70/75/80/85/90 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>ZyraE.png</iconPath>
+      <range>1100</range>
+      <effect>Sends forward vines dealing 60/95/130/165/200 (+0.5) magic damage and rooting enemies for 0.75/1/1.25/1.5/1.75 second. Rampant Growth: If Grasping Roots hits a seed, a Vine Lasher grows dealing (+) magic damage and slowing enemies by 30% for 2 seconds. Lasts 10 seconds.</effect>
+      <description>Zyra sends forth vines through the ground to ensnare her target, dealing damage and rooting enemies they come across. If cast upon a seed, Grasping Roots grows a Vine Lasher, whose short range attacks reduce enemy movement speed.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Stranglethorns</name>
+      <cost>100/120/140 Mana</cost>
+      <cooldown>130/120/110</cooldown>
+      <iconPath>ZyraR.png</iconPath>
+      <range>0</range>
+      <effect> Summons the fury of nature, growing a twisted thicket at target location which deals 180/265/350 (+0.7) magic damage to all enemies in the area as it expands. After 2 seconds, the vines snap upward knocking enemies into the air. Rampant Growth: Plants within the thicket are enraged, increasing their Attack Speed by 50%.</effect>
+      <description>Zyra summons a twisted thicket at her target location, dealing damage to enemies as it expands and knocking them airborne as it contracts.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>
