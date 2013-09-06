@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>85</id>
+  <name>Kennen</name>
+  <displayName>Kennen</displayName>
+  <title>the Heart of the Tempest</title>
+  <iconPath>Kennen_Square_0.png</iconPath>
+  <portraitPath>Kennen_0.jpg</portraitPath>
+  <tags>mage,ranged</tags>
+  <description>There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou and it employs a triumvirate of shadow warriors to uphold its causes in the world. Kennen is one of these shadow warriors, entrusted with the sacred duty of Coursing the Sun - tirelessly conveying the justice of the Kinkou. Kennen was born in Bandle City and it was said that in his first living moments he bolted first from the womb and second from the midwife who delivered him. His parents had thought that he would outgrow his boundless energy, but as he matured his energy found no limits and was matched only by his unnerving speed. Despite his astonishing gifts, he remained unnoticed (or at least uncaught, as he was quite the prankster) until, on a dare, he ran straight up the great outer wall of the Placidium. When word of this feat reached Kinkou ears, Kennen was quickly and quietly brought in for an audience. He found that the role of the Heart of the Tempest suited him, frenetically delivering both the word and the punishments of the Kinkou across the realm. He now works with his fellows Akali and Shen to enforce the balance of Valoran. This hallowed pursuit has unsurprisingly led the triumvirate to the Fields of Justice.</description>
+  <quote>The Heart of the Tempest beats eternal...and those beaten remember eternally.</quote>
+  <quoteAuthor />
+  <range>550</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>14</armorBase>
+  <armorLevel>3.75</armorLevel>
+  <manaBase>200</manaBase>
+  <manaLevel>0</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>10</manaRegenBase>
+  <manaRegenLevel>0</manaRegenLevel>
+  <healthRegenBase>0.93</healthRegenBase>
+  <healthRegenLevel>0.13</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>403</healthBase>
+  <healthLevel>79</healthLevel>
+  <attackBase>51.3</attackBase>
+  <attackLevel>3.3</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>4</ratingAttack>
+  <tips>*You can stun your opponents by inflicting 3 Marks of the Storm upon them.*Lightning Rush can be used to initiate fights with its Energy return component, allowing him to use other abilities afterward.*You can land an initial Mark of the Storm debuff on an opponent with Thundering Shuriken, and then add to it with Electrical Surge.</tips>
+  <opponentTips>*Consider playing a bit more cautiously around Kennen when you have a Mark of the Storm debuff. If he hits you with 3 Marks of the Storm, you will get stunned.*Kennen is flimsy by nature - turn and attack him if he gets careless with Lightning Rush.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Mark of the Storm</name>
+      <iconPath>Kennen_MarkOfStorm.png</iconPath>
+      <range>0</range>
+      <description>Kennen's abilities add Marks of the Storm to opponents. Upon receiving 3 Marks of Storm, an opponent is stunned and Kennen receives 25 Energy. Has a diminished effect if done twice within 7 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Thundering Shuriken</name>
+      <cost>65/60/55/50/45 Energy</cost>
+      <cooldown>8/7/6/5/4</cooldown>
+      <iconPath>Kennen_ThunderingShuriken.png</iconPath>
+      <range>950</range>
+      <effect>Throws a shuriken that damages the first enemy it hits for 75/115/155/195/235 (+0.75) magic damage and adds a Mark of the Storm.</effect>
+      <description>Kennen throws a fast moving shuriken towards a location, causing damage and adding a Mark of the Storm to any opponent that it hits.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Electrical Surge</name>
+      <cost>45/45/45/45/45 Energy</cost>
+      <cooldown>14/12/10/8/6</cooldown>
+      <iconPath>Kennen_ElectricalSurge.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Every 5 attacks, Kennen deals magic damage equal to 40/50/60/70/80% of his attack damage and adds a Mark of the Storm to his target. Active: Surges electricity through all nearby targets afflicted by Mark of the Storm, dealing 65/95/125/155/185 (+0.55) magic damage and adding another mark.</effect>
+      <description>Kennen passively deals extra damage and adds a Mark of the Storm to his target every few attacks, and he can activate this ability to damage and add another Mark of the Storm to targets who are already marked.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Lightning Rush</name>
+      <cost>100/95/90/85/80 Energy</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>Kennen_LightningRush.png</iconPath>
+      <range>0</range>
+      <effect>Kennen moves very fast and may pass through units, dealing 85/125/165/205/245 (+0.6) magic damage and adding a Mark of the Storm to any enemy he passes through. Additionally, Kennen will gain 10/20/30/40/50 Armor and Magic Resist for 4 seconds. Kennen is refunded 40 Energy if he passes through an enemy, but can only gain this effect once. Lightning Rush deals half damage to minions.</effect>
+      <description>Kennen morphs into a lightning form, enabling him to pass through units. Any enemy unit he runs through takes damage and gets a Mark of the Storm.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Slicing Maelstrom</name>
+      <cost>0/0/0 Energy</cost>
+      <cooldown>120/120/120</cooldown>
+      <iconPath>Kennen_SlicingMaelstrom.png</iconPath>
+      <range>0</range>
+      <effect>Summons a magical storm that deals 80/145/210 (+0.4) magic damage and applies a Mark of the Storm to a random enemy champion near Kennen every 0.5/0.4/0.33 seconds. This storm attacks up to 6/10/15 times and cannot hit the same target more than 3 times.</effect>
+      <description>Kennen summons a storm that strikes at random nearby enemy champions for magical damage.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3136</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

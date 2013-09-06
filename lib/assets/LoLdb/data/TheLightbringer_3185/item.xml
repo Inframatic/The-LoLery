@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3185</id>
+  <name>The Lightbringer</name>
+  <description> +50 Attack Damage +20 Armor +12% Life Steal UNIQUE Passive - Vanquish: Basic attacks have a 20% chance to deal 100 bonus magic damage on hit (damage doubled for non-champions). UNIQUE Passive - Trap Detection: Nearby stealthed enemy traps are revealed. UNIQUE Active: A stealth-detecting mist grants vision in the target area for 10 seconds (60 second cooldown). (Unique Passives with the same name don't stack.) </description>
+  <iconPath>3185_Lightbringer.png</iconPath>
+  <price>300</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>20</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>50</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>1</epicness>
+  <date>20130329110558</date>
+  <recipesInto />
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>3159</recipeItemId>
+      <buildsToItemId>3185</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1037</recipeItemId>
+      <buildsToItemId>3185</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>armor</name>
+    </Category>
+    <Category>
+      <name>damage</name>
+    </Category>
+    <Category>
+      <name>life_steal</name>
+    </Category>
+    <Category>
+      <name>on_hit</name>
+    </Category>
+    <Category>
+      <name>stealth</name>
+    </Category>
+  </categories>
+</Item>

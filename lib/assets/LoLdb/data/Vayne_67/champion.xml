@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>67</id>
+  <name>Vayne</name>
+  <displayName>Vayne</displayName>
+  <title>the Night Hunter</title>
+  <iconPath>Vayne_Square_0.png</iconPath>
+  <portraitPath>Vayne_0.jpg</portraitPath>
+  <tags>carry,ranged,assassin,stealth</tags>
+  <description>The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the darker powers that flow through Runeterra. Shauna Vayne knows this fact well. As a young privileged girl in the heart of Demacia's elite, her father tried to convince her of the constabulary's ever-vigilant eye. Young and naive, she truly believed that her world was one of perfect safety, until one night, when a twisted witch took interest in her father. The malevolent woman overcame her father's conciliar guard, then tortured her family before murdering them. The young Shauna escaped only by hiding herself and then fleeing once the hag had departed, plagued by the screams of her loved ones as she ran. A burning hatred was born in her that day, one that could never be denied. Vayne was able to take care of herself using her father's money, and she began to train as soon as an instructor would have her as a student. By the time she was a fully grown woman, she had become a grim warrior. However, the fields of battle were not to be her home. Demacia needed a protector, one who hunted those lost to the darkness. Shauna used her family's contacts to become the first Night Hunter, and now her prowess is the stuff of legends. It is said that those who practice the black arts quake when they hear that the Night Hunter is on the prowl. Despite her crusade, Shauna has looked at the League of Legends in horror. There are champions who have clearly lost themselves to the blackest of magics, and who have been embraced within the League even though they should be put down for the safety of all. The time has come for the Night Hunter to execute her secret mission - to purge the League of Legends. Not all shadows are to be feared. At least, if Vayne has her way.</description>
+  <quote />
+  <quoteAuthor />
+  <range>550</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>9.3</armorBase>
+  <armorLevel>3.4</armorLevel>
+  <manaBase>173</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.26</manaRegenBase>
+  <manaRegenLevel>0.08</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>359</healthBase>
+  <healthLevel>83</healthLevel>
+  <attackBase>50</attackBase>
+  <attackLevel>3.25</attackLevel>
+  <ratingDefense>1</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Tumble has many uses, but it cannot pass over walls.*Condemn can be used to both pin targets to walls to ensure a kill, or to escape a pursuer.*Don't go in first to a large teamfight. Wait for your teammates to initiate.</tips>
+  <opponentTips>*Vayne is fragile--turn the pressure up on her and she will be forced to play cautiously.*Deny Vayne the opportunity to pin you against walls.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Night Hunter</name>
+      <iconPath>Vayne_NightHunter.png</iconPath>
+      <range>0</range>
+      <description>Vayne ruthlessly hunts evil-doers. She gains 30 Movement Speed when moving toward nearby enemy champions.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Tumble</name>
+      <cost>30/30/30/30/30 Mana</cost>
+      <cooldown>6/5/4/3/2</cooldown>
+      <iconPath>Vayne_Tumble.png</iconPath>
+      <range>300</range>
+      <effect>Rolls a short distance. The next basic attack within 6/6/6/6/6 seconds deals bonus physical damage, equal to 30/35/40/45/50% of total Attack Damage.</effect>
+      <description>Vayne tumbles, maneuvering to carefully place her next shot. Her next attack deals bonus damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Silver Bolts</name>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>Vayne_SilveredBolts.png</iconPath>
+      <range>750</range>
+      <effect>Every third consecutive attack or ability against an enemy deals an additional 20/30/40/50/60 plus 4/5/6/7/8% of the enemy's maximum Health as true damage. (Max: 200 damage vs. Monsters)</effect>
+      <description>Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's maximum Health as bonus true damage. (Max: 200 damage vs. Monsters)</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Condemn</name>
+      <cost>90/90/90/90/90 Mana</cost>
+      <cooldown>20/18/16/14/12</cooldown>
+      <iconPath>Vayne_Condemn.png</iconPath>
+      <range>650</range>
+      <effect>Fires a bolt that deals 45/80/115/150/185 (+) physical damage and knocks the enemy back. Enemies that collide with terrain take 45/80/115/150/185 (+) additional physical damage and are stunned for 1.5/1.5/1.5/1.5/1.5 seconds.</effect>
+      <description>Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, dealing damage and knocking them back. If they collide with terrain, they are impaled, dealing bonus damage and stunning them.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Final Hour</name>
+      <cost>80/80/80 Mana</cost>
+      <cooldown>70/70/70</cooldown>
+      <iconPath>Vayne_Inquisition.png</iconPath>
+      <range>1</range>
+      <effect>Gains 25/40/55 Bonus Attack Damage for 8/10/12 seconds. While active, Tumble grants invisibility for 1/1/1 second, and Night Hunter's bonus Movement Speed is increased to 90/90/90.</effect>
+      <description>Readying herself for an epic confrontation, Vayne gains increased Attack Damage, invisibility during Tumble, and triple the bonus Movement Speed from Night Hunter.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1007</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3072</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3184</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

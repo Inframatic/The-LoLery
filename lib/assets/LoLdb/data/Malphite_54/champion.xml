@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>54</id>
+  <name>Malphite</name>
+  <displayName>Malphite</displayName>
+  <title>Shard of the Monolith</title>
+  <iconPath>Malphite_Square_0.png</iconPath>
+  <portraitPath>Malphite_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>There is a world of perfect harmony, where all are part of the whole. The Monolith is the essence of all creation, and its denizens are but singular pieces of it. It is beautiful in its symmetry, and in its almost complete lack of uncertainty. The rocky beings that live there know their place and work to fulfill their duties to the fullest extent, functioning almost as a superorganism or hive. Malphite has always strived to live up to his full potential, as his own personal part of the whole, serving the role of a distinguished creature questing to enforce his people's flawless vision of order. One day, without warning, a dimensional rift opened, and he was summoned across the cosmos to the world of Runeterra. The transition was painful and terrifying for him, as he was cut off from the song of his people and the Monolith - things that had been ever-present in him since the day he was born. He raged, trapped in the Summoning Circle, as those who had called him made their plea. Runeterra was a world that had nearly been consumed by its disharmony. It was a world that needed champions to bring order out of chaos. It was to that end that the rock-creature was summoned, so that he could aid them in this quest. Looking past his own fear and apprehension, Malphite could see that this was a respectable goal, and one in which he could participate - perhaps uniquely so. Today, as part of the League of Legends, he hammers those who would seek to upset Valoran's movement toward order, especially turning his attention to those that wield chaotic magic. Unfortunately, Malphite has also begun to change, as he has been forced to face his own profound loneliness among the world's vibrant individuality. Beware, minions of chaos! The Shard of the Monolith has come.</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>18</armorBase>
+  <armorLevel>3.75</armorLevel>
+  <manaBase>215</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.28</manaRegenBase>
+  <manaRegenLevel>0.11</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>423</healthBase>
+  <healthLevel>90</healthLevel>
+  <attackBase>56.3</attackBase>
+  <attackLevel>3.375</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>3</ratingDifficulty>
+  <ratingAttack>5</ratingAttack>
+  <tips>*Armor reduces the rate that attacks go through Granite Shield. Activate Brutal Strikes before an enemy can destroy the shield to minimize your damage intake.*Despite his abilities scaling on Armor, some games require Malphite to get Magic Resist. When those games occur, try getting Aegis of the Legion, Mercury's Treads, and Guardian Angel.</tips>
+  <opponentTips>*If you're a physical damage character stay behind your allies when fighting Malphite. Ground Slam can significantly reduce your damage output.*Malphite is one of a couple tanks who are capable of jungling. Watch out if he gets Smite.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Granite Shield</name>
+      <iconPath>Malphite_GraniteShield.png</iconPath>
+      <range>0</range>
+      <description>Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for 10 seconds, this effect recharges.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Seismic Shard</name>
+      <cost>70/75/80/85/90 Mana</cost>
+      <cooldown>8/8/8/8/8</cooldown>
+      <iconPath>Malphite_SeismicShard.png</iconPath>
+      <range>0</range>
+      <effect>Deals 70/120/170/220/270 (+0.6) magic damage and steals 14/17/20/23/26% Movement Speed from the target for 4/4/4/4/4 seconds.</effect>
+      <description>Using his primal elemental magic, Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing movement speed for 4 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Brutal Strikes</name>
+      <cost>50/55/60/65/70 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>Malphite_BrutalStrikes.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Malphite's basic attacks hit units near his target for 30/38/46/54/62% of his Attack Damage. Active: Malphite's Armor and Attack Damage increase by 20/25/30/35/40% for 6/6/6/6/6 seconds.</effect>
+      <description>Malphite starts to hit with such force that his attacks deal damage to all units in front of him. Activating Brutal Strikes greatly increases his Armor and Attack Damage for a short amount of time.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Ground Slam</name>
+      <cost>50/55/60/65/70 Mana</cost>
+      <cooldown>7/7/7/7/7</cooldown>
+      <iconPath>Malphite_GroundSlam.png</iconPath>
+      <range>0</range>
+      <effect>Malphite slams the ground dealing 60/100/140/180/220 (+) (+) magic damage to surrounding enemies, reducing their Attack Speed by 30/35/40/45/50% for 3/3/3/3/3 seconds. This ability gains damage equal to 30/30/30/30/30% of Malphite's Armor.</effect>
+      <description>Malphite slams the ground sending out a shockwave that deals magic damage based on his Armor as damage and reduces the Attack speed of enemies for a short duration.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Unstoppable Force</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>130/115/100</cooldown>
+      <iconPath>Malphite_UnstoppableForce.png</iconPath>
+      <range>0</range>
+      <effect>Malphite charges toward the target area, dealing 200/300/400 (+1) magic damage and knocking enemies into the air for 1.5/1.5/1.5 seconds.</effect>
+      <description>Malphite ferociously charges to a location, damaging enemies and knocking them into the air.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3047</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3047</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

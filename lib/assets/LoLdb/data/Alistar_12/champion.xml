@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>12</id>
+  <name>Alistar</name>
+  <displayName>Alistar</displayName>
+  <title>the Minotaur</title>
+  <iconPath>Alistar_Square_0.png</iconPath>
+  <portraitPath>Alistar_0.jpg</portraitPath>
+  <tags>tank,pusher,melee</tags>
+  <description>As the mightiest warrior to ever emerge from the Minotaur tribes of the Great Barrier, Alistar defended his tribe from Valoran's many dangers; that is, until the coming of the Noxian army. Alistar was lured from his village by the machinations of Keiran Darkwill, General Boram Darkwill's youngest son and commander of the Noxian expeditionary force. When Alistar returned, he found his village burning and his family slain. Bellowing with rage, he charged an entire regiment of Noxus' elite, slaughtering them by the hundreds. Only the intervention of some of Noxus' most skilled summoners checked Alistar's rage. Brought in chains to Noxus, Alistar spent the intervening years as a gladiator in the Fleshing, pitted in endless battle for the entertainment of Noxus' wealthy leaders. Alistar's once noble soul slowly became twisted, and he would have been driven to insanity if not for Ayelia, a young servant girl who befriended him and eventually arranged for his escape. Suddenly free, Alistar joined the newly formed League of Legends to fight as a champion, hoping to one day exact his final vengeance upon Noxus and find the girl who had renewed his hope. Initially unwilling to cater to his celebrity status as a champion, Alistar has since discovered that there is power in fame, and he has become a vocal advocate for those whom the Noxian government treads upon. He also calls to light things that the Noxian military would prefer remain hidden -- something that has made him very unpopular with Noxus' nobles. His charitable work has earned him several philanthropic awards, which serve as an interesting contrast to the rage and destruction he brings to the League of Legends. If you intend to grab the bull by the horns as a summoner, Alistar might have something to say about that.</description>
+  <quote />
+  <quoteAuthor />
+  <range>125</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>14.5</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>215</manaBase>
+  <manaLevel>38</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.29</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.45</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>442</healthBase>
+  <healthLevel>102</healthLevel>
+  <attackBase>55.03</attackBase>
+  <attackLevel>3.62</attackLevel>
+  <ratingDefense>9</ratingDefense>
+  <ratingMagic>5</ratingMagic>
+  <ratingDifficulty>8</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*Using Pulverize can allow you to establish better positioning for Headbutt.*Movement speed is very important on Alistar. Consider which boots to buy carefully.*Using Flash can allow you catch your target off guard to knock them back into your allies with Pulverize and Headbutt.</tips>
+  <opponentTips>*Alistar is very distruptive but very tough - try to target more fragile damage dealers.*Watch out for the Pulverize-Headbutt combo when around turrets.*When Alistar uses his ultimate, it's often better to move back and wait until the effect wears off before attacking him.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Trample</name>
+      <iconPath>Minotaur_ColossalStrength.png</iconPath>
+      <range>0</range>
+      <description>Each time Alistar casts a spell, he Tramples nearby units and turrets for a few seconds, dealing damage to units he walks over.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Pulverize</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>17/16/15/14/13</cooldown>
+      <iconPath>Minotaur_Pulverize.png</iconPath>
+      <range>365</range>
+      <effect>Alistar smashes the ground, dealing 60/105/150/195/240 (+0.5) magic damage and tossing all nearby enemy units into the air, stunning them for 1.5 seconds.</effect>
+      <description>Alistar smashes the ground, dealing damage to all nearby enemies and tossing them into the air. On landing, enemies are stunned.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Headbutt</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>14/13/12/11/10</cooldown>
+      <iconPath>Minotaur_Headbutt.png</iconPath>
+      <range>0</range>
+      <effect>Alistar charges at an enemy and rams them, dealing 55/110/165/220/275 (+0.7) magic damage and stunning them while knocking them back.</effect>
+      <description>Alistar rams a target with his head, dealing damage and knocking the target back.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Triumphant Roar</name>
+      <cost>40/50/60/70/80 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>Minotaur_TriumphantRoar.png</iconPath>
+      <range>575</range>
+      <effect>Restores 60/90/120/150/180 (+0.2) health to Alistar and half as much to nearby allies. Cooldown is reduced by 2/2/2/2/2 seconds each time a nearby enemy unit dies.</effect>
+      <description>Alistar lets out a commanding war cry, restoring health to himself and nearby friendly units for half the amount. Can be cast more often if nearby enemies are dying.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Unbreakable Will</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>120/100/80</cooldown>
+      <iconPath>Minotaur_FerociousHowl.png</iconPath>
+      <range>0</range>
+      <effect>Removes disables from Alistar, and Alistar gains 60/75/90 Attack Damage and takes 50/60/70% reduced physical and magic damage for 7/7/7 seconds.</effect>
+      <description>Alistar lets out a wild roar, gaining bonus damage, removing all crowd-control effects on himself, and reducing incoming physical and magical damage for the duration.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3057</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3057</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3105</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

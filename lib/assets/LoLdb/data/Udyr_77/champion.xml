@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>77</id>
+  <name>Udyr</name>
+  <displayName>Udyr</displayName>
+  <title>the Spirit Walker</title>
+  <iconPath>Udyr_Square_0.png</iconPath>
+  <portraitPath>Udyr_0.jpg</portraitPath>
+  <tags>fighter,melee,jungler</tags>
+  <description>Udyr is more than a man; he is a vessel for the untamed power of four primal animal spirits. When tapping into the spirits' bestial natures, Udyr can harness their unique strengths: the tiger grants him speed and ferocity, the turtle resilience, the bear might, and the phoenix its eternal flame. With their combined power, Udyr can turn back all those who would attempt to harm the natural order. In the Freljord, there is a unique caste that lives outside the society of those savage lands. They are the custodians of the natural world: the Spirit Walkers. Once a generation, a child is born under a blood red moon, a child said to live between the two worlds of spirit and man. This child is brought to the Spirit Walker to continue the shamanic line. Udyr was such a child, and knew the howl of the tundra wolves even before he learned the language of his ancestors. Through the Spirit Walker, Udyr would one day learn the meaning of the spirits' calls and tend to the balance of nature. The Spirit Walker often told Udyr he would be tested more than those who had come before him, for the spirits of the Freljord were growing ever more restless, though the reason remained clouded. The answer arrived in the dead of winter, as Udyr and the Spirit Walker were descended upon by a fearsome figure known only through frightened whispers: the Ice Witch. Knowing the boy would fall easy prey to her vile magic, the Spirit Walker shielded the child from her assault at the cost of his own life. Wracked by grief, Udyr howled with fury, and he felt the Freljord itself howl with him. In that moment, the child embraced the spirits' primal nature and became a beast himself. Coursing with their untamed power, Udyr's angry roar shook the mountaintops and brought down a torrential avalanche. Once Udyr had finally clawed his way out of the frost, the Ice Witch was nowhere to be found. For years, the tribes of the north learned to avoid the wildman and his domain. Then one day, Udyr caught the scent of a fearless trespasser. Determined to chase the intruder from his territory, he attacked, only to be deflected with ease. The wildman launched himself at the stranger again and again, only to be effortlessly cast aside each time. Exhausted and defeated, Udyr felt his animosity ebb and croaked a clumsy ''who'' to the stranger. Lee Sin had come seeking the Spirit Walker's guidance and instead found a man who had also lost his way. The monk promised he would right Udyr's path and guided him to a monastery said to be protected by four eternal spirits of great power and wisdom. There, Udyr would find harmony. Lee Sin brought Udyr to a land that was a stark contrast to his birthplace. Survival was not the only law that governed the lives of Ionians or creatures of the land. For the first time, Udyr felt at peace with the spirits surrounding him and found comfort in human companionship. His time among the monks taught him to temper his instincts, while his meditations with the ancient temple spirits taught him wisdom. Through them both, Udyr learned to truly embrace his life as the next Spirit Walker. Udyr owed much to the Ionians. It was a debt he was never asked to honor, but one he would ultimately repay many times over. When the armies of Noxus invaded, Udyr did not stand idle as the brutal soldiers oppressed the peaceful Ionians - he had not forgotten how to bare his teeth. Udyr leapt at their armies with all the ferocity of a cornered beast and gave the invaders good reason to fear the wilderness. From the trees, his claws tore the Noxians down in scores; on the river banks, he threw them back like a flood, and in the fields, he consumed them with searing wildfire. Only when the Noxians fled with their tails between their legs did Udyr quell his rage. Peace returned to Ionia, but still Udyr felt something stirring him from his rest. The spirits of the Freljord called out to him, warning of an unnatural evil emerging from the ice. Udyr understood the true threat that the Ice Witch posed to his homeland: she was the herald of a greater darkness that would soon envelop the land. Armed with the potent spirits of the temple, Udyr returned to the Freljord, seeking to defend the natural world from all who would threaten its balance.</description>
+  <quote>Through us, nature's will is done.</quote>
+  <quoteAuthor>Udyr</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>14.75</armorBase>
+  <armorLevel>4</armorLevel>
+  <manaBase>220</manaBase>
+  <manaLevel>30</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.28</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.15</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>427</healthBase>
+  <healthLevel>99</healthLevel>
+  <attackBase>52.91</attackBase>
+  <attackLevel>3.2</attackLevel>
+  <ratingDefense>8</ratingDefense>
+  <ratingMagic>5</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*Damage is applied to turtle shield post-mitigation. Therefore, buying defensive items can drastically increase your survivability.*Udyr is one of the best junglers in the game. Taking advantage of this can give your team a large XP advantage and map control.</tips>
+  <opponentTips>*Udyr players will often start in the jungle and only appear to gank in lanes. Try warding key locations to keep track of his movement.*Once the initial shield effect has faded, Turtle Stance is weak against other champions. Press the attack to force him to switch stances and prevent him from regenerating health and mana.*Some Udyr players buy tank items to become very durable. If they do, focus their weaker teammates instead.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Monkey's Agility</name>
+      <iconPath>Udyr_MonkeysAgility.png</iconPath>
+      <range>0</range>
+      <description>Entering a stance grants Udyr 10% Attack Speed and 5 Movement Speed for a short duration. This effect can stack up to 3 times.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Tiger Stance</name>
+      <cost>47/44/41/38/35 Mana</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>Udyr_TigerStance.png</iconPath>
+      <range>0</range>
+      <effect>Persistent Effect: Basic attacks deal bonus Physical Damage. Activation: Increases Attack Speed by 30/40/50/60/70% for 5 seconds and Udyr performs a Tiger Strike with his next basic attack, dealing bonus 30/80/130/180/230 (+) Physical Damage over 2 seconds.</effect>
+      <description>Tiger Stance: Activation - Udyr's next basic attack will deal a high amount of damage over 2 seconds, and Udyr's Attack Speed is increased for a few seconds. Persistent Effect - Udyr's basic attacks deal extra damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Turtle Stance</name>
+      <cost>47/44/41/38/35 Mana</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>Udyr_TurtleStance.png</iconPath>
+      <range>0</range>
+      <effect>Persistent Effect: Gains 10/12/14/16/18% Life Steal. Activation: Gains a shield that absorbs 60/100/140/180/220 (+0.5) damage for 5 seconds.</effect>
+      <description>Turtle Stance: Activation - Udyr gains a temporary shield that absorbs damage. Persistent Effect - Udyr gains Life Steal.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Bear Stance</name>
+      <cost>47/44/41/38/35 Mana</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>Udyr_BearStance.png</iconPath>
+      <range>0</range>
+      <effect>Persistent Effect: Basic attacks stun the target for 1 second. This effect cannot occur on the same target again for 6 seconds. Activation: Increases Movement Speed by 15/20/25/30/35% and ignores unit collision for 2/2.25/2.5/2.75/3 seconds.</effect>
+      <description>Bear Stance: Activation - Udyr increases Movement Speed for a short duration. Persistent Effect - Udyr's basic attacks stun his target for 1 second. This effect cannot occur on the same target for several seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Phoenix Stance</name>
+      <cost>47/44/41 Mana</cost>
+      <cooldown>6/6/6</cooldown>
+      <iconPath>Udyr_PhoenixStance.png</iconPath>
+      <range>325</range>
+      <effect>Persistent Effect: Burns enemies in front of Udyr on his first basic attack and every third attack after, dealing 40/80/120 (+0.45) Magic Damage. Activation: Unleashes pulsing waves of fire, dealing 15/25/35 (+) Magic Damage each second to nearby enemies for 5 seconds.</effect>
+      <description>Phoenix Stance: Activation - Udyr unleashes pulsing waves of fire, dealing damage to nearby enemies for 5 seconds. Persistent Effect - With the first basic attack and every third attack after, Udyr engulfs enemies in front of him with flames.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3126</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3065</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3044</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3091</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3143</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

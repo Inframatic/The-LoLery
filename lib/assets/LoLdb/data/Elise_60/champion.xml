@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>60</id>
+  <name>Elise</name>
+  <displayName>Elise</displayName>
+  <title>The Spider Queen</title>
+  <iconPath>Elise_Square_0.png</iconPath>
+  <portraitPath>Elise_0.jpg</portraitPath>
+  <tags>mage,jungler,ranged,melee</tags>
+  <description>Vicious and elegant, Elise's charismatic grace lures the innocent and greedy alike into her web of deceit. While her victims may discover her true intentions, no one has ever lived to reveal what dark secrets lie behind her enigmatic guise. In dark halls, hidden from society, Elise preached the word of a mythical spider god. Her desperate followers hungered for the god's favor, believing its blessings to be the source of Elise's vibrance and power. When Elise proclaimed that she would lead a pilgrimage to the spider god's shrine, she selected only her most devout disciples to join her. Ecstatic, the chosen few followed her blindly as she led them on a perilous journey across the sea. When they came ashore at their final destination, the mysterious Shadow Isles, Elise led them to a cavern shrouded in webs. Expecting a shrine, the group looked to their priestess in confusion. She turned to the crowd and raised her arms in triumph, revealing strange, spiderlike legs that grew out of her back. Seeing her terrifying true form for the first time, Elise's followers turned to flee, but she conjured magical webs to trap them. With her victims ensnared, she turned to face the cave and uttered a screeching cry. An enormous undead spider-beast emerged from the darkness, dragging its hideous bulk on thick, pointed legs. Elise's followers could only scream as the monstrous spider ate them alive. She approached the sated creature, extracted its venom, and drank the strange substance. An immediate sense of rejuvenation flowed through her veins. With mortality delayed once again, Elise left to rejoin her congregation. They were overjoyed to hear that their fellows had chosen to remain at the spider god's sacred home. Elise reassured her disciples that she would lead another pilgrimage in due time. The spider god would be waiting.</description>
+  <quote>The truly faithful need not fear the spider's embrace.</quote>
+  <quoteAuthor>Elise</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>12.5</armorBase>
+  <armorLevel>3.35</armorLevel>
+  <manaBase>240</manaBase>
+  <manaLevel>50</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.36</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>0.94</healthRegenBase>
+  <healthRegenLevel>0.12</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>395</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>47.5</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>8</ratingDifficulty>
+  <ratingAttack>6</ratingAttack>
+  <tips>*Spider Form is most effective at finishing off enemies with low health; Human Form's Neurotoxin does more damage to healthy foes. *When in Spider Form, Spiderlings will attack the target that Elise uses Venomous Bite on. *Elise's Spider Form and Spider Form abilities do not cost mana and can be prioritized when you are trying to conserve mana.</tips>
+  <opponentTips>*Elise's Spider Form is more dangerous when you are at low health, and her Human Form more potent when you are at high health.*Rappel will only move Elise straight up and down unless she can descend upon an enemy unit.*Rappel has a long cooldown. Elise is vulnerable after she has used it.</opponentTips>
+  <date>20130319191712</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Spider Swarm</name>
+      <iconPath>ElisePassive.png</iconPath>
+      <range>0</range>
+      <description>Human Form: When Elise's spells hit an enemy she readies a spiderling. Spider Form: Elise summons her Spiderlings to attack nearby foes.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Neurotoxin / Venomous Bite</name>
+      <cost>80/85/90/95/100 Mana</cost>
+      <cooldown>6/6/6/6/6</cooldown>
+      <iconPath>EliseHumanQ.png</iconPath>
+      <range>625</range>
+      <effect>Deals magic damage equal to 40/80/120/160/200 plus 8% (+0.03%) of the target's current Health. Max 60/120/180/240/300 bonus damage to monsters.</effect>
+      <description>Human Form: Deals damage based upon how high the target's Health is. Spider Form: Lunges at an enemy and deals damage based upon how low their Health is.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Volatile Spiderling / Skittering Frenzy</name>
+      <cost>60/70/80/90/100 Mana</cost>
+      <cooldown>12/12/12/12/12</cooldown>
+      <iconPath>EliseHumanW.png</iconPath>
+      <range>950</range>
+      <effect>Summons a venom-gorged Spiderling that moves to target location and explodes, dealing 75/125/175/225/275 (+0.8) magic damage when it nears an enemy or after 3 seconds.</effect>
+      <description>Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target. Spider Form: Elise and her Spiderlings gain attack speed and heal Elise on each attack.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Cocoon / Rappel</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>14/13/12/11/10</cooldown>
+      <iconPath>EliseHumanE.png</iconPath>
+      <range>1075</range>
+      <effect>Stuns and reveals the first enemy hit for 1.5 seconds.</effect>
+      <description>Human Form: Stuns and reveals the first enemy unit hit. Spider Form: Elise and her Spiderlings ascend into the air and then descend upon target enemy.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Spider Form</name>
+      <cooldown>4/4/4</cooldown>
+      <iconPath>EliseR.png</iconPath>
+      <range>0</range>
+      <effect>Elise transforms into a menacing spider, granting access to arachnid abilities. Spider Form: Elise deals 10/20/30 (+0.3) bonus magic damage per attack and gains 10/10/10 Movement Speed, 10/15/20 Armor, and 10/15/20 Magic Resistance. Spiderlings: Spiderlings deal 10/20/30 (+) damage and take 10/20/30% reduced damage from multi-target abilities. Max 2/3/4 Spiderlings.</effect>
+      <description>Transforms into a menacing spider with new abilities. While in Spider Form, Elise deals bonus magic damage on attack and has increased movement speed, armor, and magic resistance.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3174</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

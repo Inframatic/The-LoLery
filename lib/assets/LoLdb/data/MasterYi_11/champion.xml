@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>11</id>
+  <name>MasterYi</name>
+  <displayName>Master Yi</displayName>
+  <title>the Wuju Bladesman</title>
+  <iconPath>MasterYi_Square_0.png</iconPath>
+  <portraitPath>MasterYi_0.jpg</portraitPath>
+  <tags>carry,melee,recommended</tags>
+  <description>Keeper of the ancient art of Wuju, Master Yi is a mystical warrior from the isle of Ionia. He descended from one of the few tribes dedicated to the preservation of Wuju, a martial art founded with the principles of absolute spiritual awareness of one's self and one's enemy. When the armies of Noxus invaded Ionia, Master Yi joined in the Ionian defense to fight the craven enemy, bringing his village honor through his unparalleled mastery of the blade. The ensuing battles ravaged the land, but no conflict inflicted as much horror as the day the armies of Noxus closed in on Yi's village. Left undefended, the village became the unfortunate test subject of the latest invention by an up-and-coming chemist, now known as Singed. The remains of the village that Master Yi returned to were so horrific that it remains a festering scar on Ionian history. To this day, no Ionian will ever publicly speak of what occurred. After the Noxian invasion was contained, Master Yi fell into a deep isolation. For years, he trained morning to night, speaking to no one and refusing offers of consolation by fellow Ionians. The only thing stopping him from madly charging into Noxus battle lines headfirst was his pledge to keep the Wuju style alive. Even though he seethed with impatience, his rage became a tool for sharpening his practice of Wuju, developing stronger and deadlier skills for his eventual vengeance. The only thing that roused him was news of the League's formation, and Noxus' subsequent enrollment in the League. Master Yi now brings his mastery of the blade to the League of Legends with unflinching purpose: to avenge his kinfolk and end the predations of the Noxus once and for all.</description>
+  <quote>The art of Wuju lives on in Master Yi, and is plunged through the hearts of his foes.</quote>
+  <quoteAuthor>Soraka, the Starchild</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>355</moveSpeed>
+  <armorBase>16.3</armorBase>
+  <armorLevel>3.7</armorLevel>
+  <manaBase>199</manaBase>
+  <manaLevel>36</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.3</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.35</healthRegenBase>
+  <healthRegenLevel>0.13</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>444</healthBase>
+  <healthLevel>86</healthLevel>
+  <attackBase>55.12</attackBase>
+  <attackLevel>3.1</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>3</ratingMagic>
+  <ratingDifficulty>2</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*If you're in a lane against ranged players, leveling up Meditate can allow you to stay in the lane longer and gain levels faster than they will.*Wuju Style is very strong early for last hitting minions.*Try using Alpha Strike on a minion in front of an enemy champion so you are placed at a safe distance at the end of the spell.</tips>
+  <opponentTips>*Meditate is an effective method of healing damage over time, but Master Yi is susceptible to coordinated team ganks early in the game.*If Master Yi tries to farm with Wuju Style, hit him a few times so he has to use mana with Meditate to heal.*Although Master Yi cannot be slowed while using Highlander, a good disable can stop him in his tracks.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Double Strike</name>
+      <iconPath>MasterYi_DoubleStrike.png</iconPath>
+      <range>0</range>
+      <description>Master Yi strikes twice every 7th attack.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Alpha Strike</name>
+      <cost>60/70/80/90/100 Mana</cost>
+      <cooldown>18/16/14/12/10</cooldown>
+      <iconPath>MasterYi_LeapStrike.png</iconPath>
+      <range>0</range>
+      <effect>Master Yi leaps across the battlefield striking up to 4 enemies, dealing 100/150/200/250/300 (+1) magic damage to each enemy with a 50/50/50/50/50% chance to deal 260/320/380/440/500 bonus magic damage to minions and monsters.</effect>
+      <description>Master Yi leaps across the battlefield with blinding speed, dealing magic damage to multiple units in his path with a chance to deal bonus magic damage to minions and monsters.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Meditate</name>
+      <cost>50/65/80/95/110 Mana</cost>
+      <cooldown>35/35/35/35/35</cooldown>
+      <iconPath>MasterYi_InnerFocus.png</iconPath>
+      <range>20</range>
+      <effect>Master Yi channels, restoring 200/350/500/650/800 (+2) Health over 5 seconds. While channeling, Master Yi gains 100/150/200/250/300 Armor and Magic Resist.</effect>
+      <description>Master Yi rejuvinates his body by focus of mind, restoring Health and increasing his Armor and Magic Resist for a short time.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Wuju Style</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>25/23/21/19/17</cooldown>
+      <iconPath>MasterYi_SunderingStrikes.png</iconPath>
+      <range>20</range>
+      <effect>Passive: Increases Attack Damage by 15/20/25/30/35. Active: Master Yi doubles the passive bonus for 10 seconds. The passive bonus is then lost while Wuju Style is on cooldown.</effect>
+      <description>Master Yi becomes skilled in the art of Wuju, passively increasing his Attack Damage. Activating Wuju Style doubles the bonus for a short time, but the passive bonus is then lost while on cooldown.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Highlander</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>75/75/75</cooldown>
+      <iconPath>MasterYi_Innerfocus2.png</iconPath>
+      <range>1</range>
+      <effect>Increases Master Yi's Movement Speed by 40% and Attack Speed by 40/60/80%, and he becomes immune to all slowing effects for 8/10/12 seconds. While active, killing a champion refreshes all of Master Yi's cooldowns (assists reduce half of the base cooldown amount).</effect>
+      <description>Master Yi moves with unparalleled agility, temporarily increasing his Movement and Attack speeds as well as making him immune to all slowing effects. While active, killing a Champion refreshes all of Master Yi's cooldowns.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3026</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3050</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1053</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3086</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3028</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3100</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3165</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

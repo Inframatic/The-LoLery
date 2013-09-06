@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>112</id>
+  <name>Viktor</name>
+  <displayName>Viktor</displayName>
+  <title>the Machine Herald</title>
+  <iconPath>Viktor_Square_0.png</iconPath>
+  <portraitPath>Viktor_0.jpg</portraitPath>
+  <tags>mage,ranged,pusher</tags>
+  <description>Early in life, Viktor discovered his passion for science and invention, particularly in the field of mechanical automation. He attended Zaun's prestigious College of Techmaturgy and led the team that constructed Blitzcrank - a scientific breakthrough that he expected to vault him to the top of his profession. Unfortunately his triumph was usurped by Professor Stanwick, who stole credit for developing Blitzcrank's sentience and later used Viktor's research to revive Urgot. Viktor's appeals for justice fell on deaf ears, and he sank into a deep depression. He withdrew from the College and barricaded himself in his private laboratory, cutting all human ties. There, in secret, he conceived a project for which nobody else could claim credit. Desiring both to revolutionize his field and to eliminate the jealous human emotions which festered inside him, he engineered parts to replace and improve his own body. When Viktor re-emerged, almost no trace of the original man remained. Not only had he supplanted the majority of his anatomy, but his personality had changed. His previous hope to better society was replaced by an obsession with what he called ''the glorious evolution.'' He saw himself as the patron and pioneer of Valoran's future - a future in which man would renounce his flesh in favor of superior hextech augmentations. Though Viktor's initial appeals were met with heavy skepticism, scientists were confounded by the sophistication of his machinery. By integrating his mind with techmaturgical devices, he had been able to drastically accelerate the progress of his research. His transformation had stripped him of what he perceived as his emotional weaknesses, but there was some lingering residue of resentment against the Professor. Viktor joined the League of Legends to pit his inventions against the greatest opponents Valoran could offer, and to correct any weaknesses or inefficiencies that remained.</description>
+  <quote>In one's hand, techmaturgy is a tool. As one's hand, it is liberation.</quote>
+  <quoteAuthor>Viktor</quoteAuthor>
+  <range>525</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>12</armorBase>
+  <armorLevel>4</armorLevel>
+  <manaBase>240</manaBase>
+  <manaLevel>50</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.38</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.35</healthRegenBase>
+  <healthRegenLevel>0.13</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>385</healthBase>
+  <healthLevel>78</healthLevel>
+  <attackBase>49</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>8</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Death Ray is a powerful poke and a strong area of denial tool. Use it in combination with Graviton Field to control your enemy's position.*Make sure you choose the right augment. Each augment serves to boost specific strengths in Viktor and can only be purchased once a game.</tips>
+  <opponentTips>*Be careful about how close you let Viktor get to you. Viktor's control of the battle field increases with his proximity to his opponent.*Be aware of what augment Viktor is using by looking at the color of the light on his staff.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Evolving Technology</name>
+      <iconPath>ViktorEvolvingTechnology.png</iconPath>
+      <range>0</range>
+      <description>Viktor starts with a Hex Core that provides him with stats and can be upgraded in the store to augment one of his abilities. The Hex Core can only be upgraded once, and cannot be sold back to the store.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Power Transfer</name>
+      <cost>45/50/55/60/65 Mana</cost>
+      <cooldown>9/8/7/6/5</cooldown>
+      <iconPath>ViktorPowerTransfer.png</iconPath>
+      <range>0</range>
+      <effect>Viktor blasts an enemy unit for 80/125/170/215/260 (+0.65) magic damage, returning 32/50/68/86/104 (+) as a shield.</effect>
+      <description>Viktor blasts an enemy unit dealing magic damage, returning a portion of the damage dealt as a shield.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Gravity Field</name>
+      <cost>65/65/65/65/65 Mana</cost>
+      <cooldown>17/16/15/14/13</cooldown>
+      <iconPath>ViktorGravitonField.png</iconPath>
+      <range>0</range>
+      <effect>Viktor conjures a gravitational imprisonment device, slowing all enemies by 28/32/36/40/44% of their Movement Speed and stacks every 0.5/0.5/0.5/0.5/0.5 seconds. At 3/3/3/3/3 stacks the target will be stunned for 1.5/1.5/1.5/1.5/1.5 seconds.</effect>
+      <description>Viktor conjures a heavy gravitational field that slows any target in its radius. If enemies stay too long within the radius of the device, it gets stunned.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Death Ray</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>13/12/11/10/9</cooldown>
+      <iconPath>ViktorDeathRay.png</iconPath>
+      <range>540</range>
+      <effect>Viktor uses his robotic arm to fire a chaos beam that cuts across the field in a line, dealing 70/115/160/205/250 (+0.7) magic damage to every enemy in its path.</effect>
+      <description>Viktor uses his robotic arm to fire a chaos beam that cuts across the field in a line, dealing damage to any opponents struck in its path.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Chaos Storm</name>
+      <cost>125/175/225 Mana</cost>
+      <cooldown>120/120/120</cooldown>
+      <iconPath>ViktorChaosStorm.png</iconPath>
+      <range>0</range>
+      <effect>Viktor conjures a singularity at the target location, dealing 150/250/350 (+0.55) magic damage and silencing enemies in the area for 0.5/0.5/0.5 seconds. As it churns, it deals 40/60/80 (+) magic damage every second to nearby enemies for 7/7/7 seconds. The storm moves faster the closer it is to Viktor. Activating this ability again while the singularity is active will redirect it.</effect>
+      <description>Viktor conjures a singularity on the field which deals magic damage and briefly silences enemies. The singularity then does magic damage to all nearby enemies every second. Viktor can redirect the singularity.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3198</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3187</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3198</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

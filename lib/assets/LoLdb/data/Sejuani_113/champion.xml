@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>113</id>
+  <name>Sejuani</name>
+  <displayName>Sejuani</displayName>
+  <title>the Winter's Wrath</title>
+  <iconPath>Sejuani_Square_0.png</iconPath>
+  <portraitPath>Sejuani_0.jpg</portraitPath>
+  <tags>tank,jungler,melee</tags>
+  <description>Sejuani was weaned on hardship and reared on barbarity. Where others succumbed to the harshness of the Freljord, she was tempered by it until pain became power, hunger an encouragement, and frost an ally in culling the weak. Through her ordeals, she learned that to thrive in the endless winter, one must become just as cold and unforgiving. In Sejuani's eyes, her followers either have the mettle to endure or the right to die. Once she has conquered the Freljord, she knows that those who survive will form a nation to be feared. As a child, the leader of the Winter's Claw watched her tribe's numbers slowly dwindle. Cold and starvation took all but the most resilient. She was the only one of her siblings to survive to her tenth year, leaving Sejuani sure that she too would die in misery. In desperation, she sought spiritual counsel from her tribe's mystic. But the seer did not foretell Sejuani's death. Instead, she prophesized that Sejuani would one day conquer and unite the divided tribes of the Freljord. Armored with absolute faith in her destiny, Sejuani pushed herself to extremes that would have killed anyone without her will to endure. She walked into blizzards without food or furs and trained while frigid winds raked her flesh. She clashed with the strongest warriors of her tribe, one after another, until her legs gave out beneath her. When she assumed leadership of her tribe, Sejuani commanded her warriors to follow her example. Under her rule, the tribe grew stronger than they had ever been. In the end, it was an offer of peace - rather than an act of war - that began Sejuani's campaign of conquest. On the first day of winter, envoys from Ashe's tribe approached Sejuani's camp bearing a gift of Avarosan grain. Ashe's intent was clear: if Sejuani united with her tribe, the Winter's Claw would never go hungry again. To Sejuani, the gift was an insult. In Ashe's tribe, she saw men and women, slight and soft, who preferred to farm instead of fight. Her contempt for them was absolute. Sejuani gathered her people and set the grain alight. She proclaimed that Ashe's offer of charity would bring only weakness. Stripping the envoys of their supplies, Sejuani sent them back with a message: the Winter's Claw would prove to the Avarosan that only the strong deserve to survive in the Freljord. As the grain burned behind them, Sejuani rode out with her warband to inflict the first of many painful lessons to come.</description>
+  <quote>I was cut from the ice, shaped in the storms, hardened in the cold.</quote>
+  <quoteAuthor>Sejuani</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>20.5</armorBase>
+  <armorLevel>3</armorLevel>
+  <manaBase>220</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.29</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.45</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>440</healthBase>
+  <healthLevel>95</healthLevel>
+  <attackBase>52</attackBase>
+  <attackLevel>3.3</attackLevel>
+  <ratingDefense>7</ratingDefense>
+  <ratingMagic>6</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>5</ratingAttack>
+  <tips>*Arctic Assault provides a lot of utility to Sejuani beyond its damage output. Use it to escape bad situations, interupt channeled spells or chase runners.*Permafrost has a long range. Saving it until an enemy attempts to escape with a movement ability can allow you to catch back up to them while they're slowed.*Save Glacial Prison for encounters where you have teammates present to take advantage of it.</tips>
+  <opponentTips>*Dodging Arctic Assault and Glacial Prison can give you a huge advantage. Master using movement abilities or Summoner spells like Flash when Sejuani tries to engage.*Stun, slow, or knockback Sejuani when she activates Northern Winds to reduce her ability to deal damage with it.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Frost</name>
+      <iconPath>Sejuani_Passive.png</iconPath>
+      <range>0</range>
+      <description>Damaging an enemy with an ability or basic attack grants Sejuani bonus Armor and reduces movement-slowing effects on her.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Arctic Assault</name>
+      <cost>80/85/90/95/100 Mana</cost>
+      <cooldown>15/14/13/12/11</cooldown>
+      <iconPath>Sejuani_Q.png</iconPath>
+      <range>650</range>
+      <effect>Charges forward, knocking enemies into the air and dealing magic damage equal to 40/70/100/130/160 (+0.4) plus 4/6/8/10/12% of the target's maximum Health (max 300/300/300/300/300 damage to monsters). The charge stops after knocking an enemy champion into the air.</effect>
+      <description>Charges forward, dealing magic damage and knocking enemies into the air. The charge stops after knocking an enemy champion into the air.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Flail of the Northern Winds</name>
+      <cost>40/40/40/40/40 Mana</cost>
+      <cooldown>11/10/9/8/7</cooldown>
+      <iconPath>Sejuani_W.png</iconPath>
+      <range>350</range>
+      <effect>Sejuani's next basic attack deals 40/60/80/100/120 (+) bonus magic damage to the target and enemies near it. She then swings her flail, dealing 80/120/160/200/240 (+ [16% bonus HP]) (+0.6) magic damage to nearby enemies over 4 seconds. If this ability is reactivated, Sejuani immediately starts swinging her flail.</effect>
+      <description>Sejuani's next basic attack deals bonus magic damage to the target and enemies near it. She then spins her flail, dealing magic damage to nearby enemies.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Permafrost</name>
+      <cost>55/55/55/55/55 Mana</cost>
+      <cooldown>11/11/11/11/11</cooldown>
+      <iconPath>Sejuani_E_dark.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Abilities and basic attacks apply Frost to enemies for 4 seconds. Active: All nearby enemies with Frost take 60/110/160/210/260 (+0.5) magic damage and are slowed by 50/55/60/65/70% for 2/2.25/2.5/2.75/3 seconds. </effect>
+      <description>Abilities and basic attacks apply Frost to enemies. Activating Permafrost damages and slows all nearby enemies with Frost.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Glacial Prison</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>130/115/100</cooldown>
+      <iconPath>Sejuani_R.png</iconPath>
+      <range>1175</range>
+      <effect>Throws a frost-forged bola in a line. If the bola hits an enemy champion, it shatters, stunning the target and nearby enemies for 1.5/1.75/2 seconds. If the bola reaches its maximum range it shatters and slows enemies by 90/90/90% for 1.5/1.75/2 seconds instead. All enemies in the shatter area take 150/250/350 (+0.8) magic damage.</effect>
+      <description>Throws a frost-forged bola in a line. If the bola hits an enemy champion, it shatters, stunning the target and nearby enemies. If the bola reaches its maximum range it shatters and slows nearby enemies. </description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3067</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3057</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3069</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3083</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

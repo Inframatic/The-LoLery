@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>13</id>
+  <name>Ryze</name>
+  <displayName>Ryze</displayName>
+  <title>the Rogue Mage</title>
+  <iconPath>Ryze_Square_0.png</iconPath>
+  <portraitPath>Ryze_0.jpg</portraitPath>
+  <tags>mage,ranged,recommended</tags>
+  <description>There are many on Runeterra who are attracted to the study of magic or, in recent times, the emerging field of techmaturgy. For most, pursuit of such knowledge is formalized in a college or university. The halls of traditional study were never for Ryze, however, who felt a more raw and primal connection to the magic of Runeterra than those who tried to teach him. He struck out on his own as a young man to discover what already called to him. Ryze traveled the world, seeking the wisdom of powerful hermits, witches, and shamans - anyone who had something to share beyond what was taught in the city-states of Valoran. When he had learned all he could from these fonts of wisdom, Ryze turned to seek the lost, forgotten, and forbidden knowledge in the world, delving into mystical worlds where others feared to tread. Ryze's tireless searching for magical knowledge led him to an ancient form of spellcraft known as thorn magic. This art required Ryze to tattoo spells on his body, permanently infusing his being with vast arcane power and finally fulfilling his need to bond with the mystical energies of Runeterra. His travels also led him to uncover the giant indestructible scroll he now carries on his back - the purpose of the inscribed spell remains a secret only Ryze knows. He claims it is an abomination - something that he must safeguard from the world. This has piqued the curiosity of many, though no one is sure how to separate the scroll from Ryze, or if it is possible to overcome the rogue mage to do so. Since then, Ryze has joined the League of Legends to study the magical creatures and powerful will-workers that fight there, in order to complete his exploration of mystical Runeterra.</description>
+  <quote>Ryze is no longer just a mage - he has become a creature of magic itself.</quote>
+  <quoteAuthor>High Councilor Heywan Relivash</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>11</armorBase>
+  <armorLevel>3.9</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>55</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.87</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>360</healthBase>
+  <healthLevel>86</healthLevel>
+  <attackBase>52</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>2</ratingDefense>
+  <ratingMagic>10</ratingMagic>
+  <ratingDifficulty>3</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Ryze can use himself as a conduit for his Spell Flux ability if there are no additional enemies to bounce the spell off of.*Using Ryze's ultimate to farm creeps can lead to a large gold advantage.</tips>
+  <opponentTips>*Be cautious about engaging Ryze alone with less than full health.*Cleanse and Banshee's Veil are especially effective defenses against Ryze.*Ryze can only lock down one player with Rune Prison. Attacking with friends is the most effective approach, but remember to avoid Spell Flux bouncing between you and your allies.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Arcane Mastery</name>
+      <iconPath>Ryze_SpellStrike.png</iconPath>
+      <range>0</range>
+      <description>When Ryze casts a spell, all other spells have their cooldown reduced by 1 second.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Overload</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>3.5/3.5/3.5/3.5/3.5</cooldown>
+      <iconPath>Ryze_Overload.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Gains 2/4/6/8/10% cooldown reduction. Active: Deals 60/85/110/135/160 (+0.4) plus 6.5/6.5/6.5/6.5/6.5% of Ryze's maximum Mana (+) in magic damage. </effect>
+      <description>Ryze throws a charge of pure energy at an enemy for heavy damage and additional damage based upon Ryze's maximum mana. Ryze also gains passive cooldown reduction.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Rune Prison</name>
+      <cost>80/90/100/110/120 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>Ryze_PowerOverwhelming.png</iconPath>
+      <range>625</range>
+      <effect>Roots an enemy for 0.75/1/1.25/1.5/1.75 second(s), dealing 60/95/130/165/200 (+0.6) plus 4.5/4.5/4.5/4.5/4.5% of Ryze's maximum Mana (+) in magic damage. </effect>
+      <description>Ryze traps target enemy unit in a cage of runes, damaging them and preventing them from moving. Also gains bonus damage based on Ryze's maximum mana.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Spell Flux</name>
+      <cost>60/70/80/90/100 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>Ryze_LightningFlux.png</iconPath>
+      <range>0</range>
+      <effect>Unleashes an orb that bounces to enemies or Ryze up to 5 times. Each bounce deals 50/70/90/110/130 (+0.35) plus 1/1/1/1/1% of Ryze's maximum Mana (+) magic damage and reduces Magic Resist by 12/15/18/21/24 for 5 seconds.</effect>
+      <description>Ryze releases an orb of pure magical power that deals damage and bounces from the initial target up to 6 times. Also gains bonus damage based on Ryze's maximum mana. Targets hit have their magic resistance reduced.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Desperate Power</name>
+      <cooldown>70/60/50</cooldown>
+      <iconPath>Ryze_DesperatePower.png</iconPath>
+      <range>0</range>
+      <effect>Channels immense arcane power gaining 15/20/25% Spell Vamp, and 35/45/55 Movement Speed. Spells deal 50% area of effect damage for 5/6/ seconds.</effect>
+      <description>Ryze channels immense arcane power, he gains spell vamp and all of his spells deal area of effect damage.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3003</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3003</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3070</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3152</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

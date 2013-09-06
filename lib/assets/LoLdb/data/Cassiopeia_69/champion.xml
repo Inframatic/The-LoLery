@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>69</id>
+  <name>Cassiopeia</name>
+  <displayName>Cassiopeia</displayName>
+  <title>the Serpent's Embrace</title>
+  <iconPath>Cassiopeia_Square_0.png</iconPath>
+  <portraitPath>Cassiopeia_0.jpg</portraitPath>
+  <tags>mage,ranged</tags>
+  <description>While her sister Katarina has always been the most celebrated member of the household, the Du Couteau family has a long history of service to Noxus. It has often been said that no soldier has ever been as fortunate as General Du Couteau to have been graced with daughters. His youngest, Cassiopeia - despite lacking her sister's killer instincts - was equally renowned in court for her stately character and elegance. Cunning as she was beautiful, the temptress could never be found far from the arm of any foreign dignitary, her wiles prying secrets from the lips of even the most wary attache. With the Noxian barbarian pacification campaign having ground to a standstill, Cassiopeia had set her sights on a diplomat from a tribe of the Freljord region. Thinking him an easy mark, the scheming seductress set about beguiling him. He refused to confide in her, however, until she swore an oath of secrecy upon his sword - a strange weapon with a serpentine curve to the blade. Once her tryst was over, Cassiopeia provisioned her father with information regarding the barbarian resistance. As she divulged this intelligence, a wave of revulsion washed over her. She screamed in agony as her silky skin hardened to scales, her lustrous hair thickened to leather, and her manicured fingernails sharpened to claws. Dazed, she fell upon a group of horrified servants, rending them limb from limb in a heartbeat. When it was over the blood-soaked figure was no longer the ravishing jewel of the Noxian court, but a horror trapped somewhere between woman and serpent. Unable to serve in her traditional capacity, Cassiopeia departed for the League, continuing her service to Noxus on the Fields of Justice.</description>
+  <quote>Though she may have appeared the innocent flower, she was the serpent under it.</quote>
+  <quoteAuthor>Katarina, the Sinister Blade</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>11.5</armorBase>
+  <armorLevel>4</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>50</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.42</manaRegenBase>
+  <manaRegenLevel>0.15</manaRegenLevel>
+  <healthRegenBase>0.97</healthRegenBase>
+  <healthRegenLevel>0.1</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>380</healthBase>
+  <healthLevel>75</healthLevel>
+  <attackBase>47</attackBase>
+  <attackLevel>3.2</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>9</ratingMagic>
+  <ratingDifficulty>10</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Use Twin Fang on poisoned stationary targets like monsters and units stunned by her Petrifying Gaze for maximum damage.*Lead your enemy when targeting with Noxious Blast to ensure the hit.*Don't hesitate to rapidly cast your spells since Deadly Cadence makes each additional cast cheaper.</tips>
+  <opponentTips>*Be wary of Cassiopeia's damage potential with Twin Fang when she has you poisoned.*Turn away from Cassiopeia when she is casting Petrifying Gaze to get slowed instead of stunned.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Deadly Cadence</name>
+      <iconPath>Cassiopeia_DeadlyCadence.png</iconPath>
+      <range>0</range>
+      <description>After casting a spell, any subsequent spellcasts will cost 10% less Mana for 5 seconds (effect stacks up to 5 times).</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Noxious Blast</name>
+      <cost>35/45/55/65/75 Mana</cost>
+      <cooldown>3/3/3/3/3</cooldown>
+      <iconPath>Cassiopeia_NoxiousBlast.png</iconPath>
+      <range>0</range>
+      <effect>Cassiopeia blasts an area with a delayed high damaging poison, dealing 75/115/155/195/235 (+0.8) magic damage over 3/3/3/3/3 seconds and granting her 15/17.5/20/22.5/25% Movement Speed for 3/3/3/3/3 seconds if she hits a champion.</effect>
+      <description>Cassiopeia blasts an area with a delayed high damage poison, granting her increased Movement Speed if she hits a champion.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Miasma</name>
+      <cost>70/80/90/100/110 Mana</cost>
+      <cooldown>9/9/9/9/9</cooldown>
+      <iconPath>Cassiopeia_Miasma.png</iconPath>
+      <range>0</range>
+      <effect>Cassiopeia releases a growing cloud of poison that lasts for 7/7/7/7/7 seconds. Any enemy that passes through it is poisoned for 2/2/2/2/2 seconds, dealing 25/35/45/55/65 (+0.15) magic damage each second and slowing them by 15/20/25/30/35%. Continual exposure renews this poison.</effect>
+      <description>Cassiopeia releases a cloud of poison, lightly damaging and slowing any enemy that happens to pass through it.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Twin Fang</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>5/5/5/5/5</cooldown>
+      <iconPath>Cassiopeia_TwinFang.png</iconPath>
+      <range>700</range>
+      <effect>Cassiopeia deals 50/85/120/155/190 (+0.55) magic damage to her target. If the target is poisoned then Twin Fang's cooldown is reduced to 0.5/0.5/0.5/0.5/0.5 seconds.</effect>
+      <description>Cassiopeia lets loose a damaging attack at her target. If the target is poisoned the cooldown of this spell is refreshed. </description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Petrifying Gaze</name>
+      <cost>120/160/200 Mana</cost>
+      <cooldown>130/120/110</cooldown>
+      <iconPath>Cassiopeia_PetrifyingGaze.png</iconPath>
+      <range>0</range>
+      <effect>Cassiopeia deals 200/325/450 (+0.6) magic damage to all enemies in front of her. Enemies facing her are stunned for 2/2/2 seconds while enemies facing away are slowed by 60/60/60%.</effect>
+      <description>Cassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3136</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3136</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3145</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3152</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>25</id>
+  <name>Morgana</name>
+  <displayName>Morgana</displayName>
+  <title>Fallen Angel</title>
+  <iconPath>Morgana_Square_0.png</iconPath>
+  <portraitPath>Morgana_0.jpg</portraitPath>
+  <tags>mage,support,ranged</tags>
+  <description>There is a world far away populated by graceful and beautiful winged beings gifted with immortality, where an ancient conflict still rages. Like so many conflicts, this war split families. One side proclaimed themselves as beings of perfect order and justice, fighting to unite the world under their law and strong central governance. Those that fought against them saw their kin as tyrants, creatures incapable of seeing the larger view, who would sacrifice individuality and freedom for the illusion of efficiency and safety. Morgana was one who fought against what she perceived as the tyranny of her kind, and for that she was branded ''fallen.'' Morgana was not innocent, having plumbed forgotten ways to gather forbidden might to become a powerful mistress of the black arts. This goal was driven by her obsession to defeat the general of the opposition's army - her sister, Kayle. While the two were in fact birth-sisters, Kayle struck the first blow by disowning any filial connection when Morgana refused to join her cause. Eventually, Morgana grew in power enough to not only reach, but challenge Kayle. As the time approached when the two would meet in what could be their final conflict, Morgana was suddenly summoned to Valoran. At first, Morgana made a deal with the League's summoners to fight in exchange for greater power. With the advent of Kayle into the League, Morgana now willingly fights in the League of Legends for the privilege of being able to destroy her sister again, and again, and again. She lies in wait for the day the bonds of the Institute of War no longer hold her, and on that day she plans to destroy Kayle once and for all and return home a hero.</description>
+  <quote>There is no rest while Kayle's brand of tyranny still exists.</quote>
+  <quoteAuthor>Morgana</quoteAuthor>
+  <range>425</range>
+  <moveSpeed>335</moveSpeed>
+  <armorBase>15</armorBase>
+  <armorLevel>3.8</armorLevel>
+  <manaBase>240</manaBase>
+  <manaLevel>60</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.36</manaRegenBase>
+  <manaRegenLevel>0.13</manaRegenLevel>
+  <healthRegenBase>0.94</healthRegenBase>
+  <healthRegenLevel>0.12</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>403</healthBase>
+  <healthLevel>86</healthLevel>
+  <attackBase>51.58</attackBase>
+  <attackLevel>3.5</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>8</ratingMagic>
+  <ratingDifficulty>7</ratingDifficulty>
+  <ratingAttack>1</ratingAttack>
+  <tips>*Shrewd use of Black Shield can determine the outcome of team fights.*Items that provide survivability allow Morgana to become extremely difficult to kill in conjunction with Black Shield and Soul Shackle.*Tormented Soil is an excellent farming tool if you're by yourself in a lane.</tips>
+  <opponentTips>*Tormented Soil applies a powerful Magic Resist debuff. Try to avoid having multiple people on your team get hit by it.*Morgana often needs to land Dark Binding to setup her other attacks. Use your minions as shields against Dark Binding.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Soul Siphon</name>
+      <iconPath>FallenAngel_Empathize.png</iconPath>
+      <range>0</range>
+      <description>Morgana has Spell Vamp, healing herself whenever she deals damage with her spells.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Dark Binding</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>11/11/11/11/11</cooldown>
+      <iconPath>FallenAngel_DarkBinding.png</iconPath>
+      <range>1175</range>
+      <effect>Fires a bolt of dark energy, rooting the first enemy hit for 2/2.25/2.5/2.75/3 seconds and dealing 80/135/190/245/300 (+0.9) magic damage.</effect>
+      <description>Morgana releases a sphere of dark magic. Upon contact with an enemy unit, the sphere will deal magic damage and force the unit to the ground for a period of time.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Tormented Soil</name>
+      <cost>70/85/100/115/130 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>FallenAngel_TormentedSoil.png</iconPath>
+      <range>0</range>
+      <effect>Curses an area for 5 seconds. Enemies on the cursed ground take 25/40/55/70/85 (+0.2) magic damage and have their Magic Resist reduced by 4/5/6/7/8 every second.</effect>
+      <description>Infects an area with desecrated soil, causing enemy units who stand on the location to take continual damage.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Black Shield</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>23/21/19/17/15</cooldown>
+      <iconPath>FallenAngel_BlackShield.png</iconPath>
+      <range>750</range>
+      <effect>Shields an allied Champion for 5/5/5/5/5 seconds. The shield absorbs 95/160/225/290/355 (+0.7) magic damage and prevents disables until it breaks.</effect>
+      <description>Places a protective barrier around an allied champion, absorbing magical damage and disables until penetrated or the shield dissipates.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Soul Shackles</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>120/110/100</cooldown>
+      <iconPath>FallenAngel_Purgatory.png</iconPath>
+      <range>0</range>
+      <effect>Dark chains latch onto nearby enemy Champions dealing 175/250/325 (+0.7) magic damage and slowing them by 20% for 3 seconds. After 3 seconds, they are dealt an additional 175/250/325 (+0.7) magic damage and are stunned for 1.5/1.5/1.5 seconds. Enemy Champions can break the chains by moving away from Morgana.</effect>
+      <description>Latches chains of energy onto nearby enemy champions, dealing initial damage to them and slowing their Movement Speed, and then echoing the pain a few seconds later and stunning them if they remain close to Morgana.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3001</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3145</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3157</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

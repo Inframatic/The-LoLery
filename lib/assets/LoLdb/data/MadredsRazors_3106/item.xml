@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>3106</id>
+  <name>Madred's Razors</name>
+  <description> +25 Armor UNIQUE Passive - Maim: Basic attacks against minions and monsters have a 25% chance to deal 300 bonus magic damage on hit. UNIQUE Passive - Rend: Basic attacks deal 10 bonus true damage to monsters on hit. (Unique Passives with the same name don't stack.) </description>
+  <iconPath>139_Strygwyrs_Reaver.png</iconPath>
+  <price>100</price>
+  <flatHPPoolMod>0</flatHPPoolMod>
+  <flatMPPoolMod>0</flatMPPoolMod>
+  <percentHPPoolMod>0</percentHPPoolMod>
+  <percentMPPoolMod>0</percentMPPoolMod>
+  <flatHPRegenMod>0</flatHPRegenMod>
+  <percentHPRegenMod>0</percentHPRegenMod>
+  <flatMPRegenMod>0</flatMPRegenMod>
+  <percentMPRegenMod>0</percentMPRegenMod>
+  <flatArmorMod>25</flatArmorMod>
+  <percentArmorMod>0</percentArmorMod>
+  <flatAttackDamageMod>0</flatAttackDamageMod>
+  <percentAttackDamageMod>0</percentAttackDamageMod>
+  <flatAbilityPowerMod>0</flatAbilityPowerMod>
+  <percentAbilityPowerMod>0</percentAbilityPowerMod>
+  <flatMovementSpeedMod>0</flatMovementSpeedMod>
+  <percentMovementSpeedMod>0</percentMovementSpeedMod>
+  <flatAttackSpeedMod>0</flatAttackSpeedMod>
+  <percentAttackSpeedMod>0</percentAttackSpeedMod>
+  <flatDodgeMod>0</flatDodgeMod>
+  <percentDodgeMod>0</percentDodgeMod>
+  <flatCritChanceMod>0</flatCritChanceMod>
+  <percentCritChanceMod>0</percentCritChanceMod>
+  <flatCritDamageMod>0</flatCritDamageMod>
+  <percentCritDamageMod>0</percentCritDamageMod>
+  <flatMagicResistMod>0</flatMagicResistMod>
+  <percentMagicResistMod>0</percentMagicResistMod>
+  <flatEXPBonus>0</flatEXPBonus>
+  <percentEXPBonus>0</percentEXPBonus>
+  <epicness>1</epicness>
+  <date>20130329110558</date>
+  <recipesInto>
+    <Recipe>
+      <recipeItemId>3106</recipeItemId>
+      <buildsToItemId>3154</buildsToItemId>
+    </Recipe>
+  </recipesInto>
+  <recipesFrom>
+    <Recipe>
+      <recipeItemId>1029</recipeItemId>
+      <buildsToItemId>3106</buildsToItemId>
+    </Recipe>
+    <Recipe>
+      <recipeItemId>1039</recipeItemId>
+      <buildsToItemId>3106</buildsToItemId>
+    </Recipe>
+  </recipesFrom>
+  <categories>
+    <Category>
+      <name>armor</name>
+    </Category>
+    <Category>
+      <name>damage</name>
+    </Category>
+    <Category>
+      <name>on_hit</name>
+    </Category>
+  </categories>
+</Item>

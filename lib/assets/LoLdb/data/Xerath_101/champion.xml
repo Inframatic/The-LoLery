@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>101</id>
+  <name>Xerath</name>
+  <displayName>Xerath</displayName>
+  <title>the Magus Ascendant</title>
+  <iconPath>Xerath_Square_0.png</iconPath>
+  <portraitPath>Xerath_0.jpg</portraitPath>
+  <tags>mage,ranged</tags>
+  <description>In the ancient civilization of Shurima, the mage called Xerath practiced magic with undying passion. He believed that with enough magical power, he could gaze into the heart of Runeterra to know the secrets of history and the universe beyond. Such magic was beyond the limitations of a mortal body, but Xerath obsessively pursued a path to infinite power nonetheless. With every breakthrough he grew more and more powerful, yet not without consequence. Xerath's increasing arcane abilities wrought havoc on his physical form. Desperate, he undertook a dangerous ritual to transcend his dying body. The outcome would be immortality or self-destruction. Violent magic unleashed during the ritual caused devastation throughout Shurima, but when the dust settled, Xerath emerged as an ascended being of pure arcane energy. Free of flesh and bone, Xerath held nearly infinite power at his command. However, in the wake of his chaotic ritual, the mages of Shurima feared his careless disregard for life would bring ruin to the kingdom. After a terrible struggle they subdued Xerath, but they could not destroy his ascended form. Instead they trapped him within an enchanted sarcophagus and sealed him in an underground tomb. Eons passed, civilizations rose and fell, and Xerath's imprisonment was lost to memory. For centuries, Xerath's vast power tore away at the sarcophagus and weakened its spell. Finally, he willed forth a burst of magic that shattered his prison, but its core remained, containing Xerath and his power within its broken pieces. Seeking to rid himself of this burden, he was drawn to the magic of Valoran's nexuses and found he could absorb their power. Yet the nexuses had gatekeepers: petty mages known as summoners. Xerath knew his key to true freedom from his prison lay in gaining their trust, and he offered his power to the League of Legends.</description>
+  <quote>I have no need for vengeance. Time has brought ruin to the mages of Shurima and I alone remain.</quote>
+  <quoteAuthor>Xerath, the Magus Ascendant</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>12</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>45</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>380</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>51.66</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>3</ratingDefense>
+  <ratingMagic>10</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>1</ratingAttack>
+  <tips>*It's easier to land Arcanopulse on an enemy when they're moving toward or away from you, rather than side to side.*While casting Locus of Power you can begin lining up your next spell.*Rylai's Crystal Scepter will make landing Arcanopulse after Mage Chains easier as the target will be slowed.</tips>
+  <opponentTips>*Xerath's range can be intimidating, but most champions who close distance with him can trade favorably.*Xerath takes a long time to engage Locus of Power. Watch for his spellcast animation and start dodging.*Banshee's Veil will make it much harder for Xerath to combo Mage Chains on you.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Ascended Form</name>
+      <iconPath>Xerath_AscendedForm.png</iconPath>
+      <range>0</range>
+      <description>Xerath feeds on arcane power, making him increasingly resilient to physical harm. He converts 15% of his Ability Power into Armor.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Arcanopulse</name>
+      <cost>65/70/75/80/85 Mana</cost>
+      <cooldown>7/6.5/6/5.5/5</cooldown>
+      <iconPath>Xerath_Arcanopulse.png</iconPath>
+      <range>1025</range>
+      <effect>Fires a long-range beam of energy, dealing 75/115/155/195/235 (+0.6) magic damage to all targets hit.</effect>
+      <description>Fires a long-range beam of energy, dealing magic damage to all targets hit.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Locus of Power</name>
+      <cooldown>20/16/12/8/4</cooldown>
+      <iconPath>Xerath_LocusOfPower.png</iconPath>
+      <range>0</range>
+      <effect>Xerath immobilizes himself near a source of magical power, increasing the range of all his spells and causing his magic damage to ignore 16/22/28/34/40% of his target's Magic Resist. Lasts 8/8/8/8/8 seconds or until toggled off. When the effect ends, Xerath's Movement Speed is increased by 35/35/35/35/35% for 2/2/2/2/2 seconds.</effect>
+      <description>Xerath immobilizes himself near a source of magical power, increasing the range of all spells and causing his magic damage to ignore a percentage of his target's Magic Resist. When the effect ends, Xerath's Movement Speed is increased for 2 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Mage Chains</name>
+      <cost>70/75/80/85/90 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Xerath_MageChains.png</iconPath>
+      <range>0</range>
+      <effect>Deals 70/120/170/220/270 (+0.8) magic damage to an enemy and marks them with Unstable Magic. Unstable Magic: The next spell Xerath strikes this enemy with stuns them for 1.5/1.5/1.5/1.5/1.5 seconds.</effect>
+      <description>Deals magic damage to an enemy and marks them with Unstable Magic. The next spell Xerath strikes this enemy with stuns them.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Arcane Barrage</name>
+      <cost>150/180/210 Mana</cost>
+      <cooldown>80/70/60</cooldown>
+      <iconPath>Xerath_ArcaneBarrage.png</iconPath>
+      <range>0</range>
+      <effect>Calls down a blast of arcane energy, dealing 125/200/275 (+0.6) magic damage to all enemies in an area. May be cast up to three times within 12/12/12 seconds before going on cooldown.</effect>
+      <description>Calls down a blast of arcane energy, dealing magic damage to all enemies in an area. May be cast up to three times before going on cooldown.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3165</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3158</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

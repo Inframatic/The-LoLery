@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>90</id>
+  <name>Malzahar</name>
+  <displayName>Malzahar</displayName>
+  <title>the Prophet of the Void</title>
+  <iconPath>Malzahar_Square_0.png</iconPath>
+  <portraitPath>Malzahar_0.jpg</portraitPath>
+  <tags>mage,ranged</tags>
+  <description>Many men have gone mad beneath the glare of the Shurima sun, but it was during the night's chilling embrace that Malzahar relinquished his sanity. Malzahar was born a seer, blessed with the gift of prophecy. His talent, though unrefined, promised to be one of Runeterra's greatest boons, but destiny plotted him another course; his sensitivity to the roiling tides of fate allowed other, unwelcome things to tug at his subconscious mind. In his dreams, where the veil of separation is thinnest, a sinister thing beckoned. For some time, Malzahar was able to resist its prodding solicitation, but with each passing night the voice grew louder, or perhaps deeper, until he could withstand the call no more. He ventured into the desert without supplies, drawn by the lure of a specious charm. His destination: a lost civilization to the east, known to ancient texts as Icathia. Few believed such a place ever existed, and those who did were certain that the sands had long since devoured whatever remained. When Malzahar's cracked feet finally failed him, he found himself kneeling at the base of a bizarre crumbling obelisk. Beyond it lay the alien geometry of a ruined city and the giant decaying idols of dark and horrific gods. His eyes, seeing what others cannot, and what none should, were filled with the essence of the Void. His once shifting visions of the future were replaced with the immutable promise of Valoran beset by creatures of the Void. Standing alone, but not alone, amidst the echoing dunes, he noticed the familiar voice escape his own lips in a parched rasp, bearing three words whose weight trembled his knees. League of Legends. Now infused with the power of the void itself, Malzahar set off to the north to seek his fate.</description>
+  <quote>The land may melt, the sea may swell, the sky may fall... but They will come.</quote>
+  <quoteAuthor>Malzahar</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>340</moveSpeed>
+  <armorBase>12</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>250</manaBase>
+  <manaLevel>45</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.4</manaRegenBase>
+  <manaRegenLevel>0.12</manaRegenLevel>
+  <healthRegenBase>0.9</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>380</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>51.66</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>2</ratingDefense>
+  <ratingMagic>9</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>2</ratingAttack>
+  <tips>*Don't be afraid of spamming skills to get your Voidlings into action.*Lay down a Null Zone before using Nether Grasp to maximize damage.*Null Zone is extremely potent against high HP neutral monsters. Try using this to get the blue buff from the Ancient Golem.</tips>
+  <opponentTips>*Voidlings have a limited lifespan of 21 seconds.*Avoid minion waves that have been affected by Malefic Visions. You never know when they may die and pass the Visions onto you.*Malzahar can be difficult to 1v1 if he has his ultimate up. Make sure you have enough health to survive a round of his spells.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Summon Voidling</name>
+      <iconPath>AlZahar_SummonVoidling.png</iconPath>
+      <range>0</range>
+      <description>After casting 4 spells, Malzahar summons an uncontrollable Voidling to engage enemy units for 21 seconds. Voidlings have 200 + 50 x lvl Health and 20 + 5 x lvl Damage. Voidlings Grow after 7 seconds (+50% Damage/Armor), and Frenzy after 14 seconds (+100% Attack Speed).</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Call of the Void</name>
+      <cost>80/85/90/95/100 Mana</cost>
+      <cooldown>9/9/9/9/9</cooldown>
+      <iconPath>AlZahar_CalloftheVoid.png</iconPath>
+      <range>0</range>
+      <effect>Malzahar opens two portals to the void. After a short delay, they fire projectiles that deal 80/135/190/245/300 (+0.8) magic damage and silence champions for 1.4/1.8/2.2/2.6/3 seconds.</effect>
+      <description>Malzahar opens up two portals to the void. After a short delay, they fire projectiles that deal magic damage and silence enemy champions.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Null Zone</name>
+      <cost>90/95/100/105/110 Mana</cost>
+      <cooldown>14/14/14/14/14</cooldown>
+      <iconPath>AlZahar_NullZone.png</iconPath>
+      <range>0</range>
+      <effect>Malzahar creates a zone of negative energy for 5/5/5/5/5 seconds. The zone damages nearby enemies for 4/5/6/7/8% (+0.01%) of their max health each second (damage to Monsters is capped at 120/120/120/120/120 damage per second).</effect>
+      <description>Malzahar creates a zone of negative energy which damages enemies that stand in it.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Malefic Visions</name>
+      <cost>60/75/90/105/120 Mana</cost>
+      <cooldown>15/13/11/9/7</cooldown>
+      <iconPath>AlZahar_MaleficVisions.png</iconPath>
+      <range>0</range>
+      <effect>Malzahar infects his target's mind, dealing 80/140/200/260/320 (+0.8) magic damage over 4 seconds. If the target dies during this time, the visions pass to a nearby enemy and Malzahar gains 10/14/18/22/26 mana. Malzahar's Voidlings are attracted to affected units.</effect>
+      <description>Malzahar infects his target's mind with cruel visions of their demise, dealing damage each second. If the target dies while afflicted by the visions, they pass on to a nearby enemy unit and Malzahar gains mana. Malzahar's Voidlings are attracted to affected units.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Nether Grasp</name>
+      <cost>150/150/150 Mana</cost>
+      <cooldown>120/100/80</cooldown>
+      <iconPath>AlZahar_NetherGrasp.png</iconPath>
+      <range>0</range>
+      <effect>Malzahar channels the essence of the Void to suppress target champion, dealing 250/400/550 (+1.3) magic damage over 2.5 seconds.</effect>
+      <description>Malzahar channels the essence of the Void to suppress an enemy champion and deal damage each second.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1056</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1063</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3090</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3010</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3020</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3027</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3116</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3089</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3135</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>29</id>
+  <name>Twitch</name>
+  <displayName>Twitch</displayName>
+  <title>the Plague Rat</title>
+  <iconPath>Twitch_Square_0.png</iconPath>
+  <portraitPath>Twitch_0.jpg</portraitPath>
+  <tags>carry,stealth,ranged</tags>
+  <description>The city-state of Zaun is a twisted realm of science, mercantilism, and magic run amok. While the young science of techmaturgy does much to advance civilization, its research and use in Zaun pushes the boundaries of morality on a daily basis. Zaun, choked with pollution from the countless factories and laboratories that spew waste into the environment, suffers greatly. As polluted as Zaun is above-ground, its subterranean levels are far worse. All of Zaun's runoff waste pooled together in its sewers, mixing into a toxic and mysterious concoction. A single plague rat rose from this alchemical nightmare - Twitch. Unlike his lesser evolved cousins, Twitch became as sentient as anyone else... provided they were as insane as he. A seeming byproduct of the evolutionary brew that spawned him was maniacal insanity, albeit in a functional form. Twitch came to the League of Legends to represent himself ''as the only one of his kind'' on the Fields of Justice. Since then, he has found a generous benefactor in the city that gave him his evolutionary sentience - Zaun. Twitch is one of Zaun's premier champions in the League, and as such he fights for Zaun when political disputes between Valoran's city-states arise. Twitch has publically stated that his goal is to gain enough influence and materiel from his work in the League to try to recreate the process by which he gained his sentience. While many challenges lie ahead in his quest - one of the largest being his own insanity - were he to succeed, it would mean a bold and brazen step forward in the evolution of all of Runeterra. Zaun has pledged its support for Twitch in his quest, though it remains to be seen what Zaun's ulterior motives are in the matter.</description>
+  <quote>The existence of Twitch proves that anything is possible on Runeterra.</quote>
+  <quoteAuthor>Heimerdinger</quoteAuthor>
+  <range>550</range>
+  <moveSpeed>330</moveSpeed>
+  <armorBase>14</armorBase>
+  <armorLevel>3</armorLevel>
+  <manaBase>220</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.3</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1</healthRegenBase>
+  <healthRegenLevel>0.12</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>389</healthBase>
+  <healthLevel>81</healthLevel>
+  <attackBase>49</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>2</ratingDefense>
+  <ratingMagic>3</ratingMagic>
+  <ratingDifficulty>8</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Twitch's attack speed is among the highest in the game; try purchasing items with on-hit effects such as Black Cleaver or Wit's End.*Expunge has a large range; apply as many stacks of Deadly Venom as possible before using it.*You can catch up to an enemy out of attack range with Venom Cask.</tips>
+  <opponentTips>*Twitch is fragile. Work with teammates to focus on him when you're able to catch him out of invisibility.*Spell Shields won't block the damage from Deadly Venom, but they will block the effects Twitch can trigger with it.*If you suspect Twitch has left the lane, let your teammates know that Twitch is ''MIA.''</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Deadly Venom</name>
+      <iconPath>Twitch_DeadlyVenom.png</iconPath>
+      <range>0</range>
+      <description>Twitch's basic attacks infect the target, dealing true damage each second.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Ambush</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>16/16/16/16/16</cooldown>
+      <iconPath>Twitch_Ambush.png</iconPath>
+      <range>0</range>
+      <effect>After 1.25/1.25/1.25/1.25/1.25 seconds of not taking damage or after 3/3/3/3/3 seconds, Twitch turns invisible for 4/5/6/7/8 seconds. Twitch gains 20/20/20/20/20% Movement Speed while invisible and gains 30/40/50/60/70% Attack Speed for 5 seconds after coming out of invisibility.</effect>
+      <description>Twitch becomes invisible for a short duration, while invisible Twitch gains movement speed. When leaving invisibility twitch gains Attack Speed for a short duration.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Venom Cask</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>13/12/11/10/9</cooldown>
+      <iconPath>Twitch_VenomCask.png</iconPath>
+      <range>0</range>
+      <effect>Twitch hurls a cask of venom that explodes in an area adding 2/2/2/2/2 stacks of Deadly Venom and slowing targets by 25/30/35/40/45% for 3/3/3/3/3 seconds.</effect>
+      <description>Twitch hurls a cask of venom that explodes in an area, slowing targets and applying deadly venom to the target.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Expunge</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>12/11/10/9/8</cooldown>
+      <iconPath>Twitch_Expunge.png</iconPath>
+      <range>0</range>
+      <effect>Deals 40/50/60/70/80 physical damage plus 15/20/25/30/35 (+0.2) (+) per stack of Deadly Venom to all nearby enemies affected by Deadly Venom.</effect>
+      <description>All nearby enemies secrete Twitch's toxic venoms from their bodies, dealing damage for each stack.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Spray and Pray</name>
+      <cost>100/125/150 Mana</cost>
+      <cooldown>120/110/100</cooldown>
+      <iconPath>Twitch_SprayAndPray.png</iconPath>
+      <range>1200</range>
+      <effect>For 7/7/7 seconds Twitch gains 300/300/300 Attack Range, 20/28/36 Attack Damage and his basic attacks become piercing bolts that deal 20/20/20% less damage to subsequent targets down to a minimum of 40/40/40% damage.</effect>
+      <description>Twitch closes his eyes and fires his crossbow, rapidly spraying powerful piercing bolts ahead of him.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3117</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3185</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

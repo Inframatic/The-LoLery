@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>24</id>
+  <name>Jax</name>
+  <displayName>Jax</displayName>
+  <title>Grandmaster at Arms</title>
+  <iconPath>Jax_Square_0.png</iconPath>
+  <portraitPath>Jax_0.jpg</portraitPath>
+  <tags>fighter,melee</tags>
+  <description>It is seldom the case where a champion is defined by his actions after joining the League of Legends rather than before. Such is the case with Jax, for whom the argument could be made that he is the most prolific tournament fighter currently at the Institute of War. Before joining the League, Jax was an unremarkable soldier-for-hire. For reasons known only to the former leader of the League, High Councilor Reginald Ashram, Jax was put on the top of the list of candidates to receive a League Judgment - the interview process that either accepts or rejects a prospective champion. His Judgment was the quickest in League history, where the Doors of Acceptance glowed and slowly swung open as soon as it began. Jax faced no recorded Observation or Reflection during his Judgment. Jax proved himself to be an immediate terror in the Fields of Justice. The self-proclaimed ''Armsmaster of the League'' rattled off a streak of consecutive wins that to this day has not been matched. A number of summoners in the League grew concerned that the perceived objectivity of the League of Legends would be questioned by the presence of an unknown fighter who was unbeatable. For this reason, the new leader of the League (following Reginald Ashram's disappearance), High Councilor Heyward Relivash, created special restrictions for Jax to fight under. This was something the League had never done before, and something that has never been done since. The burly fighter responded by imposing his own special conditions; as a means of protest, he permitted himself to fight using only a brass lamppost. Neither the League's sanctions nor his own has affected his winning ways. The League has since rescinded its sanctions, but Jax has not; he fights and fights well with his trusty brass lamppost.</description>
+  <quote>Be advised - there has been an outbreak of lamppost-shaped bruises in the League of Legends.</quote>
+  <quoteAuthor>Gragas</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>350</moveSpeed>
+  <armorBase>18</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>230</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.28</manaRegenBase>
+  <manaRegenLevel>0.14</manaRegenLevel>
+  <healthRegenBase>1.49</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>463</healthBase>
+  <healthLevel>98</healthLevel>
+  <attackBase>56.3</attackBase>
+  <attackLevel>3.375</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>7</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>7</ratingAttack>
+  <tips>*Jax can Leap Strike to friendly units, including wards. You can use them to plan your escape.*Jax benefits greatly from items that have both Ability Power and Attack Damage such as Guinsoo's Rageblade and Hextech Gunblade.</tips>
+  <opponentTips>*Try to engage him in short bursts instead of going toe-to-toe with him. Preventing him from attacking consecutively drastically lowers his damage output.*Jax can dodge all incoming attacks for a very short amount of time and stuns enemies in melee range when it ends. Wait to strike him until after his dodge is finished.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Relentless Assault</name>
+      <iconPath>Armsmaster_MasterOfArms.png</iconPath>
+      <range>0</range>
+      <description>Jax's consecutive basic attacks continuously increase his Attack Speed.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Leap Strike</name>
+      <cost>65/65/65/65/65 Mana</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>Armsmaster_RelentlessAssault.png</iconPath>
+      <range>0</range>
+      <effect>Jax leaps to a target unit, dealing 70/110/150/190/230 (+) (+0.6) physical damage if it is an enemy.</effect>
+      <description>Jax leaps toward a unit. If they are an enemy, he strikes them with his weapon.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Empower</name>
+      <cost>30/30/30/30/30 Mana</cost>
+      <cooldown>7/6/5/4/3</cooldown>
+      <iconPath>Armsmaster_Empower.png</iconPath>
+      <range>300</range>
+      <effect>Jax charges his weapon with energy, causing his next basic attack or Leap Strike to deal an additional 40/75/110/145/180 (+0.6) magic damage.</effect>
+      <description>Jax's charges his weapon with energy, causing his next attack to deal additional damage.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Counter Strike</name>
+      <cost>70/75/80/85/90 Mana</cost>
+      <cooldown>18/16/14/12/10</cooldown>
+      <iconPath>Armsmaster_Disarm.png</iconPath>
+      <range>300</range>
+      <effect>Jax enters a defensive stance for up to 2 seconds, dodging all incoming basic attacks and taking 25/25/25/25/25% less damage from area effect abilities. After 2 seconds or if activated again, Jax stuns surrounding enemies for 1/1/1/1/1 second and deals 50/75/100/125/150 (+) physical damage to them. Counter Strike deals 20/20/20/20/20% more damage for each attack Jax dodged (max: 100/100/100/100/100% increased damage).</effect>
+      <description>Jax's combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack stunning all surrounding enemies.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Grandmaster's Might</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>80/80/80</cooldown>
+      <iconPath>Armsmaster_CoupDeGrace.png</iconPath>
+      <range>100</range>
+      <effect>Passive: Every third consecutive strike Jax deals 100/160/220 (+0.7) additional magic damage. Active: Jax strengthens his resolve, granting him Armor and Magic Resist for 8/8/8 seconds. Armor bonus is equal to 25/35/45 + 30% bonus Attack Damage. Magic Resist bonus is equal to 25/35/45 + 20% Ability Power.</effect>
+      <description>Every third consecutive attack deals additional magic damage. Additionally, Jax can activate this ability to strengthen his resolve, increasing his Armor and Magic Resist for a short duration.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3124</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1062</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3124</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3180</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3124</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

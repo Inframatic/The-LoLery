@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>56</id>
+  <name>Nocturne</name>
+  <displayName>Nocturne</displayName>
+  <title>the Eternal Nightmare</title>
+  <iconPath>Nocturne_Square_0.png</iconPath>
+  <portraitPath>Nocturne_0.jpg</portraitPath>
+  <tags>assassin,melee</tags>
+  <description>Before Nocturne, people believed that dreams were figments of their imagination, meaningless images that flashed through the mind when one slept. This belief was put to the test when a rash of sleep-related incidents started afflicting summoners of the League. Some would wake up screaming, terrified and beyond consolation. Some could not fall asleep, slowly going mad as the nights ticked by. Some simply never woke up. Physicians were baffled until a Field Architect happened to pass out next to a nexus on Twisted Treeline. Witnesses said he cried out once and then stopped breathing. Immediately after, magical energy arced out from the nexus, and Nocturne appeared. Nocturne did not take his introduction to this world kindly. He slaughtered everything he could find before summoners were able to magically confine him. After a period of intense study, League experts divined that Nocturne hunted summoners in their sleep, attacking them in a place where their magic was useless. This seemed to be his only purpose. The families of the victims demanded justice, but League officials were concerned that death might only return Nocturne to the place from which he came. They bound him to a nexus fragment, trapping him in the physical world. As punishment for his crimes, they allowed summoners to call upon Nocturne in the League matches, bending his will to the summoners he hates and creating his own personal nightmare. League scholars don't know whether he truly came from the plane of dreams, or whether there are any more like him. Some theorize that the summoning act affected summoners' subconscious minds, luring Nocturne to them in their sleep. Perhaps the most disturbing theory is that Nocturne is a person's nightmare come to life. If this is true, they wonder, who is the dreamer?</description>
+  <quote>The darkness is closing in...it's pitch black now...but I can still see him...</quote>
+  <quoteAuthor>Kelvin Ma, patient #4236</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>17</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>215</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.2</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.4</healthRegenBase>
+  <healthRegenLevel>0.15</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>440</healthBase>
+  <healthLevel>85</healthLevel>
+  <attackBase>54</attackBase>
+  <attackLevel>3.1</attackLevel>
+  <ratingDefense>5</ratingDefense>
+  <ratingMagic>2</ratingMagic>
+  <ratingDifficulty>6</ratingDifficulty>
+  <ratingAttack>9</ratingAttack>
+  <tips>*Using Paranoia at a critical moment is well worth it even if you cannot use the dash.*Duskbringer isn't only an offensive ability. It can be used to close distance out of combat or escape from certain death.*Use Shroud of Darkness in tandem with Paranoia's dash. Your opponents may panic and waste a critical disable on your spell shield.</tips>
+  <opponentTips>*Stay close to your allies when Paranoia is cast - there is strength in numbers!*Nocturne's Unspeakable Horror is broken with range, so try to save your movement abilities for when he casts it.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Umbra Blades</name>
+      <iconPath>Nocturne_UmbraBlades.png</iconPath>
+      <range>0</range>
+      <description>Every 10 seconds, Nocturne's next attack strikes surrounding enemies for 120% physical damage and heals himself. Nocturne's basic attacks reduce this cooldown by 1 second.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Duskbringer</name>
+      <cost>60/65/70/75/80 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>Nocturne_Duskbringer.png</iconPath>
+      <range>1125</range>
+      <effect>Nocturne throws a shadow blade that deals 60/105/150/195/240 (+) physical damage and leaves a Dusk Trail for 5/5/5/5/5 seconds. Enemy champions hit also leave a Dusk Trail. While on the trail, Nocturne can move through units and gains 15/20/25/30/35% Movement Speed and 15/25/35/45/55 Attack Damage.</effect>
+      <description>Nocturne throws a shadow blade that deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne can move through units and has increased Movement Speed and Attack Damage.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Shroud of Darkness</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>20/18/16/14/12</cooldown>
+      <iconPath>Nocturne_ShroudofDarkness.png</iconPath>
+      <range>0</range>
+      <effect>Passive: Nocturne has 20/25/30/35/40% bonus Attack Speed. Active: Nocturne creates a magical barrier for 1.5 seconds, which blocks the next enemy ability. If an ability is blocked by the shield, Nocturne's passive Attack Speed bonus doubles for 5 seconds.</effect>
+      <description>Nocturne empowers his blades, passively gaining attack speed. Activating Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical barrier which blocks a single enemy ability and doubles his passive attack speed if successful.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Unspeakable Horror</name>
+      <cost>60/65/70/75/80 Mana</cost>
+      <cooldown>15/14/13/12/11</cooldown>
+      <iconPath>Nocturne_UnspeakableHorror.png</iconPath>
+      <range>0</range>
+      <effect>Nocturne plants a nightmare into his target's mind, dealing 50/100/150/200/250 (+1) magic damage over 2/2/2/2/2 seconds. If Nocturne stays within range of the target for the full duration, the target becomes feared for 1/1.25/1.5/1.75/2 second(s).</effect>
+      <description>Nocturne plants a nightmare into his target's mind, dealing damage each second and fearing the target if they do not get out of range by the end of the duration.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Paranoia</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>180/140/100</cooldown>
+      <iconPath>Nocturne_Paranoia.png</iconPath>
+      <range>0</range>
+      <effect>Nocturne reduces the sight radius of all enemy champions and removes their ally vision for 4 seconds. While Paranoia is active, Nocturne can launch himself at an enemy champion, dealing 150/250/350 (+) physical damage.</effect>
+      <description>Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1054</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3134</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3072</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1028</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3044</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3142</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3071</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3132</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3134</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

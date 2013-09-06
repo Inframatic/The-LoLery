@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>51</id>
+  <name>Caitlyn</name>
+  <displayName>Caitlyn</displayName>
+  <title>the Sheriff of Piltover</title>
+  <iconPath>Caitlyn_Square_0.png</iconPath>
+  <portraitPath>Caitlyn_0.jpg</portraitPath>
+  <tags>carry,ranged</tags>
+  <description>One of the reasons Piltover is known as the City of Progress is because it has an extraordinarily low crime rate. This hasn't always been the case; brigands and thieves of all sorts used to find the city-state an ideal mark for plunder, primarily due to the valuable resources it imports to fuel its techmaturgical research. Some even theorize that it would have fallen long ago to the chaos of organized crime if not for Caitlyn, the Sheriff of Piltover. Born the daughter of a wealthy statesman and a pioneering hextech researcher, Caitlyn discovered her natural gift for investigation when, at age 14, her father was assaulted and robbed on his way home. She snuck out of her house that night with her father's rifle and tracked down the muggers from the crime scene. At first, her parents did their best to discourage her from such risky hobbies, but she was incorrigible. Wishing to protect her daughter in the only way she knew how, Caitlyn's mother began outfitting her with techmaturgical devices tailored to her sleuthing needs. Caitlyn quickly gained notoriety, both because she was single handedly defeating crime in Piltover and also because she soon developed into a ravishing beauty. She never backed down from a case or a challenge, and she was one of the sharpest shots in the city-state. Her services were soon requested by Demacia to help track down a mysterious outlaw who had begun committing high-profile heists. The bandit, who always left a card with an ornate 'C' at the scene of the crime, became Caitlyn's arch-nemesis. To this day, Caitlyn still searches for this cat burglar, and the chase has led her all across Valoran. She has joined the League to hone her skills and gain the influence necessary to track down the only quarry that has managed to evade her.</description>
+  <quote>Go ahead, run. I'll give you a five minute head start.</quote>
+  <quoteAuthor>Caitlyn, from her book 'Willing Apprehension'.</quoteAuthor>
+  <range>650</range>
+  <moveSpeed>325</moveSpeed>
+  <armorBase>13</armorBase>
+  <armorLevel>3.5</armorLevel>
+  <manaBase>255</manaBase>
+  <manaLevel>35</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.3</manaRegenBase>
+  <manaRegenLevel>0.11</manaRegenLevel>
+  <healthRegenBase>0.95</healthRegenBase>
+  <healthRegenLevel>0.11</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>0</magicResistLevel>
+  <healthBase>390</healthBase>
+  <healthLevel>80</healthLevel>
+  <attackBase>47</attackBase>
+  <attackLevel>3</attackLevel>
+  <ratingDefense>4</ratingDefense>
+  <ratingMagic>4</ratingMagic>
+  <ratingDifficulty>4</ratingDifficulty>
+  <ratingAttack>8</ratingAttack>
+  <tips>*Make use of her Yordle Snap Traps by placing them pre-emptively to ensure that you'll have one off of cooldown during combat.*Avoid using Ace in the Hole in large team melees as it might be blocked by the wrong target.*Fire 90 Caliber Net away from the opponent to close the gap or hop over walls.</tips>
+  <opponentTips>*Keep behind allied minions if Caitlyn is harassing you with Piltover Peacemaker (it deals less damage with each subsequent target).*You can intercept Ace in the Hole's missile from hitting an ally if you stand in its path.</opponentTips>
+  <date>20130216172601</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Headshot</name>
+      <iconPath>Caitlyn_Headshot.png</iconPath>
+      <range>0</range>
+      <description>Every few basic attacks, Caitlyn will fire a headshot dealing 150% damage to a champion or 250% damage to a minion.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Piltover Peacemaker</name>
+      <cost>50/60/70/80/90 Mana</cost>
+      <cooldown>10/9/8/7/6</cooldown>
+      <iconPath>Caitlyn_PiltoverPeacemaker.png</iconPath>
+      <range>1250</range>
+      <effect>Revs the rifle for 1/1/1/1/1 second to fire a piercing shot dealing 20/60/100/140/180 (+) physical damage. Deals 10/10/10/10/10% less damage to each subsequent target down to a minimum of 50/50/50/50/50%.</effect>
+      <description>Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Yordle Snap Trap</name>
+      <cost>50/50/50/50/50 Mana</cost>
+      <cooldown>20/17/14/11/8</cooldown>
+      <iconPath>Caitlyn_YordleSnapTrap.png</iconPath>
+      <range>0</range>
+      <effect>Sets a trap that an enemy Champion can spring immobilizing and revealing them for a short duration. The trap deals 80/130/180/230/280 (+0.6) magic damage over 1.5/1.5/1.5/1.5/1.5 seconds, and lasts for 4/4/4/4/4 minutes. Only 3 traps may be active at once.</effect>
+      <description>Caitlyn sets a trap to find sneaky yordles. When sprung, the trap immobilizes the champion, reveals them for a short duration, and deals magic damage over 1.5 seconds.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>90 Caliber Net</name>
+      <cost>75/75/75/75/75 Mana</cost>
+      <cooldown>18/16/14/12/10</cooldown>
+      <iconPath>Caitlyn_90CaliberNet.png</iconPath>
+      <range>950</range>
+      <effect>Fires a net dealing 80/130/180/230/280 (+0.8) magic damage and slowing an enemy by 50/50/50/50/50% for 1/1.25/1.5/1.75/2 second(s). Knocks Caitlyn back.</effect>
+      <description>Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Ace in the Hole</name>
+      <cost>100/100/100 Mana</cost>
+      <cooldown>90/75/60</cooldown>
+      <iconPath>Caitlyn_AceintheHole.png</iconPath>
+      <range>0</range>
+      <effect>Takes a second to line up the perfect shot, firing a bullet at an enemy Champion dealing 250/475/700 (+) physical damage at 2000/2500/3000 range. Other enemy Champions can intercept the bullet.</effect>
+      <description>Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3072</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1053</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3009</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3178</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>1055</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3006</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3031</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3046</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3181</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3035</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>

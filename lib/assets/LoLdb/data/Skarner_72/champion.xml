@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Champion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <id>72</id>
+  <name>Skarner</name>
+  <displayName>Skarner</displayName>
+  <title>the Crystal Vanguard</title>
+  <iconPath>Skarner_Square_0.png</iconPath>
+  <portraitPath>Skarner_0.jpg</portraitPath>
+  <tags>fighter,jungler,melee</tags>
+  <description>Centuries ago, there lived a race of creatures as ferocious as they were wise. The Brackern were unusual beings blessed with the earth's primal magic, embodied in the form of crystals. Their kind knew of an arcane ritual to bind their life's essence to a crystal, communing with the magic embedded in it. With this power, the Brackern thrived in the Odyn Valley, protecting both creatures and crystals alike. Despite attacks from those looking to claim the primal magic, it seemed that nothing could get past the Brackern's defenses. Nothing, that is, until the devastation of a Rune War. A vicious battle was fought near the Odyn Valley and the unleashed chaotic magic poisoned the crystals. The Brackern began to grow sick and die, and no amount of defensive magic could reverse the effects. To avoid extinction, their only course was to hibernate underground until the wars stopped. The strongest, most intelligent Brackern hibernated closer to the surface to awaken first and assess the world's condition for the return of their race. The recent mining operations and violent escalation in Kalamanda were enough to awaken the first of these vanguards. When Skarner burst to the surface, he lashed out in anger and confusion. Reason eventually won out over his anger when he realized that the agents of the League who found him were simply functionaries. Skarner was invited to the Institute of War to share the Brackern's story. In return, the summoners told him about the history that his kind had slept through. Much had been done to curb the unchecked use of magic since the Rune Wars, but it was obvious that the world was not yet safe for his kind to reawaken. For now, however, there is a place where Skarner can use his power to change the world into one to which his kind could eventually return: the League of Legends.</description>
+  <quote>The humans have not yet learned to control their magic - what once was Kalamanda is now a crystal scar on the history of this world.</quote>
+  <quoteAuthor>Skarner</quoteAuthor>
+  <range>125</range>
+  <moveSpeed>345</moveSpeed>
+  <armorBase>19</armorBase>
+  <armorLevel>3.8</armorLevel>
+  <manaBase>205</manaBase>
+  <manaLevel>40</manaLevel>
+  <criticalChanceBase>0</criticalChanceBase>
+  <criticalChanceLevel>0</criticalChanceLevel>
+  <manaRegenBase>1.29</manaRegenBase>
+  <manaRegenLevel>0.09</manaRegenLevel>
+  <healthRegenBase>1.5</healthRegenBase>
+  <healthRegenLevel>0.17</healthRegenLevel>
+  <magicResistBase>30</magicResistBase>
+  <magicResistLevel>1.25</magicResistLevel>
+  <healthBase>440</healthBase>
+  <healthLevel>96</healthLevel>
+  <attackBase>54.1</attackBase>
+  <attackLevel>4.2</attackLevel>
+  <ratingDefense>6</ratingDefense>
+  <ratingMagic>5</ratingMagic>
+  <ratingDifficulty>5</ratingDifficulty>
+  <ratingAttack>7</ratingAttack>
+  <tips>*Your basic attacks will reduce the cooldown of your abilities--use basic attacks between Crystal Slashes for maximum damage.*Hit a number of enemies with Fracture, and then follow up with a Crystal Slash to quickly gain a lot of health.*Impale is extremely powerful when you use it to position an enemy so your allies can attack them.</tips>
+  <opponentTips>*Skarner can't harm you very much outside of short range, so stay away from him!*Skarner's movement speed and attack speed are increased as long as his shield, Crystalline Exoskeleton, persists. Attack him to lower his speed.*Some Skarners will have lots of defensive items, while others may build offensively. Check the items your enemy has to determine how to beat them.</opponentTips>
+  <date>20130430192454</date>
+  <abilities>
+    <Ability>
+      <rank>1</rank>
+      <name>Energize</name>
+      <iconPath>SkarnerEnergize.png</iconPath>
+      <range>0</range>
+      <description>Basic attacks lower all ability cooldowns by 0.5 seconds. Double effect when attacking champions.</description>
+    </Ability>
+    <Ability>
+      <rank>2</rank>
+      <name>Crystal Slash</name>
+      <cost>20/22/24/26/28 Mana</cost>
+      <cooldown>3.5/3.5/3.5/3.5/3.5</cooldown>
+      <iconPath>SkarnerVirulentSlash.png</iconPath>
+      <range>350</range>
+      <effect>Skarner deals 25/40/55/70/85 (+) physical damage to all nearby enemies and charges himself with Crystal Energy for 5/5/5/5/5 seconds if a unit is struck. While Skarner is charged, Crystal Slash deals 24/36/48/60/72 (+0.4) bonus magic damage and slows by 20/25/30/35/40% for 2 seconds.</effect>
+      <description>Skarner lashes out with his claws, dealing physical damage to all nearby enemies and charging himself with Crystal Energy for several seconds if a unit is struck. If he casts Crystal Slash again while powered by Crystal Energy, he deals bonus magic damage and slows all targets hit.</description>
+    </Ability>
+    <Ability>
+      <rank>3</rank>
+      <name>Crystalline Exoskeleton</name>
+      <cost>60/60/60/60/60 Mana</cost>
+      <cooldown>18/18/18/18/18</cooldown>
+      <iconPath>SkarnerExoskeleton.png</iconPath>
+      <range>0</range>
+      <effect>Skarner is shielded for 70/115/160/205/250 (+0.6) damage for 6/6/6/6/6 seconds. While the shield persists, Skarner gains 30/35/40/45/50% Attack Speed and 15/17/19/21/23% increased Movement Speed.</effect>
+      <description>Skarner gains a shield, and while the shield persists his movement speed and attack speed are both increased.</description>
+    </Ability>
+    <Ability>
+      <rank>4</rank>
+      <name>Fracture</name>
+      <cost>50/55/60/65/70 Mana</cost>
+      <cooldown>10/10/10/10/10</cooldown>
+      <iconPath>SkarnerFracture.png</iconPath>
+      <range>760</range>
+      <effect>Skarner deals 80/120/160/200/240 (+0.7) magic damage to enemies in a line and marks them for 6/6/6/6/6 seconds. Striking enemies will consume the mark to heal Skarner for 30/45/60/75/90 (+). Killing targets outright will also activate the heal. (Each activation heals for 50/50/50/50/50% less.)</effect>
+      <description>Skarner summons a blast of crystalline energy which deals damage to enemies struck and marks them. Striking enemies will consume the mark to heal Skarner. Killing targets outright will also activate the heal.</description>
+    </Ability>
+    <Ability>
+      <rank>5</rank>
+      <name>Impale</name>
+      <cost>100/125/150 Mana</cost>
+      <cooldown>130/120/110</cooldown>
+      <iconPath>SkarnerImpale.png</iconPath>
+      <range>0</range>
+      <effect>Skarner suppresses an enemy champion for 1.75/1.75/1.75 seconds and deals 100/150/200 (+0.5) magic damage. Skarner can move freely during this time, and will drag his helpless victim around with him. When the effect ends, Skarner's target will be dealt an additional 100/150/200 (+0.5) magic damage.</effect>
+      <description>Skarner suppresses an enemy champion and deals magic damage to it. During this time, Skarner can move freely and will drag his helpless victim around with him. When the effect ends, Skarner's target will be dealt additional damage.</description>
+    </Ability>
+  </abilities>
+  <setitems>
+    <SetItem>
+      <itemId>1007</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3057</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>CLASSIC</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3057</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3110</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3109</itemId>
+      <gameMode>DOMINION</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3096</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3111</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3078</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3146</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3068</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+    <SetItem>
+      <itemId>3102</itemId>
+      <gameMode>ARAM</gameMode>
+    </SetItem>
+  </setitems>
+</Champion>
