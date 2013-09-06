@@ -1,10 +1,12 @@
 class ChampionsController < ApplicationController
-	  def index
-      require 'nokogiri'
-      doc = Nokogiri::XML(open("http://sports.yahoo.com/top/rss.xml"))
+  def index
+    @champions = Champion.find_all()
+  end
 
-      @links = doc.xpath('//item').map do |i|
-      {'title' => i.xpath('title'), 'link' => i.xpath('link'), 'description' => i.xpath('description')}
-      end
+  def create
+    @champion = Champion.find_all()
+    for champion in @champions
+      champion.save
+    end
   end
 end
