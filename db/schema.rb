@@ -11,7 +11,81 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130904141755) do
+ActiveRecord::Schema.define(version: 20130907212352) do
+
+  create_table "abilities", force: true do |t|
+    t.integer  "rank"
+    t.string   "name"
+    t.string   "cost"
+    t.string   "cooldown"
+    t.integer  "range"
+    t.text     "effect"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "champion_id"
+  end
+
+  add_index "abilities", ["champion_id"], name: "index_abilities_on_champion_id"
+
+  create_table "champion_tags", force: true do |t|
+    t.integer  "champion_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "champion_tags", ["champion_id"], name: "index_champion_tags_on_champion_id"
+  add_index "champion_tags", ["tag_id"], name: "index_champion_tags_on_tag_id"
+
+  create_table "champions", force: true do |t|
+    t.integer  "lol_id"
+    t.string   "name"
+    t.string   "display_name"
+    t.string   "title"
+    t.text     "description"
+    t.text     "quote"
+    t.string   "quote_author"
+    t.float    "range"
+    t.float    "move_speed"
+    t.float    "armor_base"
+    t.float    "armor_level"
+    t.float    "mana_base"
+    t.float    "mana_level"
+    t.float    "critical_chance_base"
+    t.float    "critical_chance_level"
+    t.float    "mana_regen_base"
+    t.float    "mana_regen_level"
+    t.float    "health_regen_base"
+    t.float    "health_regen_level"
+    t.float    "magic_resist_base"
+    t.float    "magic_resist_level"
+    t.float    "health_base"
+    t.float    "health_level"
+    t.float    "attack_base"
+    t.float    "attack_level"
+    t.float    "rating_defense"
+    t.float    "rating_magic"
+    t.float    "rating_difficulty"
+    t.float    "rating_attack"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tags", force: true do |t|
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tips", force: true do |t|
+    t.text     "content"
+    t.integer  "champion_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "tips", ["champion_id"], name: "index_tips_on_champion_id"
 
   create_table "users", force: true do |t|
     t.string   "name"
