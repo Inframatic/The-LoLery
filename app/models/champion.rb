@@ -11,47 +11,44 @@ class Champion < ActiveRecord::Base
     		lol_id: champion['id'],
     		name: champion['name'],
     		display_name: champion['displayName'],
-
+    		title: champion['title'],
+    		icon_path: champion['iconPath'],
+    		portrait_path: champion['portraitPath'],
+    		description: champion['description'],
+    		quote: champion['quote'],
+    		quote_author: champion['quoteAuthor'],
+    		range: champion['range'],
+    		move_speed: champion['moveSpeed'],
+    		armor_base: champion['armorBase'],
+    		armor_level: champion['armorLevel'],
+    		mana_base: champion['manaBase'],
+    		mana_level: champion['manaLevel'],
+    		critical_chance_base: champion['criticalChanceBase'],
+    		critical_chance_level: champion['criticalChanceLevel'],
+    		mana_regen_base: champion['manaRegenBase'],
+    		mana_regen_level: champion['manaRegenLevel'],
+    		health_regen_base: champion['healthRegenBase'],
+    		health_regen_level: champion['healthRegenLevel'],
+    		magic_resist_base: champion['magicResistBase'],
+    		magic_resist_level: champion['magicResistLevel'],
+    		health_base: champion['healthBase'],
+    		health_level: champion['healthLevel'],
+    		attack_base: champion['attackBase'],
+    		attack_level: champion['attackLevel'],
+    		rating_defense: champion['ratingDefense'],
+    		rating_magic: champion['ratingMagic'],
+    		rating_difficulty: champion['ratingDifficulty'],
+    		rating_attack: champion['ratingAttack']
     	)
 
     	champion['abilities'].each do |ability|
     		@champion.abilities.create(
-    			name: ability['name']
+    			rank: ability['rank'],
+    			name: ability['name'],
+    			range: ability['range'],
+    			description: ability['description'],
     		)
     	end
     end
   end
 end
-
-#
-    t.integer  "lol_id"
-    t.string   "name"
-    t.string   "display_name"
-    t.string   "title"
-    t.text     "description"
-    t.text     "quote"
-    t.string   "quote_author"
-    t.float    "range"
-    t.float    "move_speed"
-    t.float    "armor_base"
-    t.float    "armor_level"
-    t.float    "mana_base"
-    t.float    "mana_level"
-    t.float    "critical_chance_base"
-    t.float    "critical_chance_level"
-    t.float    "mana_regen_base"
-    t.float    "mana_regen_level"
-    t.float    "health_regen_base"
-    t.float    "health_regen_level"
-    t.float    "magic_resist_base"
-    t.float    "magic_resist_level"
-    t.float    "health_base"
-    t.float    "health_level"
-    t.float    "attack_base"
-    t.float    "attack_level"
-    t.float    "rating_defense"
-    t.float    "rating_magic"
-    t.float    "rating_difficulty"
-    t.float    "rating_attack"
-    t.datetime "created_at"
-    t.datetime "updated_at"
