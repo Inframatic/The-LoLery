@@ -1,11 +1,6 @@
 @import "bootstrap";
 
 .hero-unit {
-	margin-top: 0;
-	float:top;
-	height:400px;
-	padding-top: 60px;
-	background-image: url(lucian.jpg);
 }
 
 
@@ -47,7 +42,7 @@ $grayMediumLight: #eaeaea;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
 }
 
 html {
@@ -56,6 +51,7 @@ html {
 
 body {
   padding-top:60px;
+  background-color: #eeeeee;
 }
 
 section {
