@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130907212352) do
+ActiveRecord::Schema.define(version: 20130910150540) do
 
   create_table "abilities", force: true do |t|
     t.integer  "rank"
@@ -70,6 +70,8 @@ ActiveRecord::Schema.define(version: 20130907212352) do
     t.float    "rating_attack"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "icon_path"
+    t.string   "portrait_path"
   end
 
   create_table "tags", force: true do |t|

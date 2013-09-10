@@ -12,6 +12,8 @@ class Champion < ActiveRecord::Base
         		name: champion.children[3].children.text,
         		display_name: champion.children[5].children.text,
         		title: champion.children[7].children.text,
+                icon_path: champion.children[9].children.text,
+                portrait_path: champion.children[11].children.text,
         		description: champion.children[15].children.text,
         		quote: champion.children[17].children.text,
         		quote_author: champion.children[19].children.text,

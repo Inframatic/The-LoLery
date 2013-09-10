@@ -1,7 +1,7 @@
-<h1>lololol</h1>
-<ul><% @champions.each do |champion| %>
-	<li><%= champion.name %></li>
-	<li><%= champion.title %></li>
-	<li><%= champion.description %></li>
-	<% end %>
-</ul>
+<h1>Champion Index</h1>
+	<div class="row">
+		<% @champions.each do |champion| %>
+				<%= champion.name %>
+				<%= link_to image_tag("#{champion.icon_path}") %>
+		<% end %>
+	</div>
