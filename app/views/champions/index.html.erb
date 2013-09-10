@@ -1,7 +1,10 @@
-<h1>Champion Index</h1>
 	<div class="row">
+		<h1>Champion Index</h1>
 		<% @champions.each do |champion| %>
-				<%= champion.name %>
-				<%= link_to image_tag("#{champion.icon_path}") %>
+			<div class="span2 table-bordered">
+				<%= link_to image_tag("#{champion.icon_path}"), "champions/#{champion.id}" %>
+				<h3><%= link_to champion.name, "champions/#{champion.id}" %></h3>
+			</div>
 		<% end %>
+
 	</div>

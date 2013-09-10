@@ -8,6 +8,7 @@
 	background-image: url(lucian.jpg);
 }
 
+
 /* mixins, variables, etc. */
 
 .btn-large {
@@ -36,6 +37,15 @@ $grayMediumLight: #eaeaea;
 
 /* universal */
 
+.span2 {
+  padding:10px;
+  margin-bottom:5px;
+}
+
+.table-bordered {
+  border-left: 1;
+}
+
 .container {
   width: 80%;
 }
@@ -45,7 +55,7 @@ html {
 }
 
 body {
-  
+  padding-top:60px;
 }
 
 section {

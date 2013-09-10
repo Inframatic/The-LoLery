@@ -1,0 +1,36 @@
+<h1><%= @champion.name %><%= image_tag("#{@champion.icon_path}") %></h1>
+<%= @champion.title %>
+<%= image_tag("#{@champion.portrait_path}") %>
+<%= @champion.description %>
+<%= @champion.quote %>
+<%= @champion.range %>
+<%= @champion.move_speed %>
+<%= @champion.armor_base %>
+<%= @champion.armor_level %>
+<%= @champion.mana_base %>
+<%= @champion.mana_level %>
+<%= @champion.health_base %>
+<%= @champion.health_level %>
+<%= @champion.attack_base %>
+<%= @champion.attack_level %>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="#{<% @champion.rating_defense %>}" aria-valuemin="0" aria-valuemax="10.0" style="width: #{<% @champion.rating_defense %>}">
+    <span class="sr-only"><%= @champion.rating_defense %></span>
+  </div>
+</div>
+
+
+<div class="progress">
+  <div class="bar" style="width: <%= @champion.rating_attack*10 %>%;">Attack</div>
+</div>
+<div class="progress">
+  <div class="bar" style="width: <%= @champion.rating_magic*10 %>%;">Ability</div>
+</div>
+<div class="progress">
+  <div class="bar" style="width: <%= @champion.rating_defense*10 %>%;">Defense</div>
+</div>
+<div class="progress">
+  <div class="bar" style="width: <%= @champion.rating_difficulty*10 %>%;">Learning Curve</div>
+</div>
+
