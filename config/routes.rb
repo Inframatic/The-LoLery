@@ -13,6 +13,7 @@ TheLolery::Application.routes.draw do
   resources :champions
   match '/champions', to: 'champions#index', via: 'get'
 
+  resources :videos
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

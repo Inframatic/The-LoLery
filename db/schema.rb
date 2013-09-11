@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130910150540) do
+ActiveRecord::Schema.define(version: 20130911135435) do
 
   create_table "abilities", force: true do |t|
     t.integer  "rank"
@@ -100,5 +100,12 @@ ActiveRecord::Schema.define(version: 20130910150540) do
   end
 
   add_index "users", ["remember_token"], name: "index_users_on_remember_token"
+
+  create_table "videos", force: true do |t|
+    t.string   "video"
+    t.text     "video_description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

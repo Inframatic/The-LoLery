@@ -1,5 +1,7 @@
 @import "bootstrap";
 
+
+
 .hero-unit {
 }
 
@@ -38,7 +40,10 @@ $grayMediumLight: #eaeaea;
 }
 
 .table-bordered {
-  border-left: 1;
+  border: outset #FFD700 1.5px;
+  &:hover{
+    background-color:#dddddd;
+  }
 }
 
 .container {
