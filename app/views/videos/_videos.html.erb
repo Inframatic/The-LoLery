@@ -1,7 +1,0 @@
-<%= form_for(@video) do |f| %>
-  <%= render 'shared/error_messages', object: f.object %>
-  <div class="field">
-    <%= f.text_area :content, placeholder: "Compose new video..." %>
-  </div>
-  <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
-<% end %>
