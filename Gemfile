@@ -10,6 +10,7 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'nokogiri', '1.6.0'
 gem "libxml-ruby", "~> 2.7.0"
+gem "paperclip", "~> 3.0"
 gem 'pry'
 
 group :development, :test do

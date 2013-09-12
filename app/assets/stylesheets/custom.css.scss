@@ -101,12 +101,17 @@ p {
   line-height: 1.7em;
 }
 
+.border-right {
+  margin-right:10px;
+  margin-bottom:10px;
+}
 
 /* header */
 
 header {
   opacity:.9;
   background-color:#000013;
+  border-bottom: outset #FFD700 1.5px;
 }
 
 .navbar-static-top {

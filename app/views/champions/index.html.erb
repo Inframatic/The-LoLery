@@ -3,7 +3,7 @@
 		<% @champions.each do |champion| %>
 			<div class="span2 table-bordered">
 				<%= link_to image_tag("#{champion.icon_path}"), "champions/#{champion.id}" %>
-				<h3><%= link_to champion.name, "champions/#{champion.id}" %></h3>
+				<h3><%= champion.name%></h3>
 			</div>
 		<% end %>
 
