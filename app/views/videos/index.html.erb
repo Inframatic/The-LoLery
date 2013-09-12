@@ -1,0 +1,11 @@
+<div class="row">
+	<div class="span8">
+		<% if @user.videos.any? %>
+			<h3>Videos (<%= @user.videos.count %>)</h3>
+			<ol class="videos">
+				<%= render @videos %>
+			</ol>
+			<%= will_paginate @videos %>
+		<% end %>
+	</div>
+</div>
