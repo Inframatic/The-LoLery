@@ -209,7 +209,7 @@ DEPENDENCIES
   jquery-rails (= 2.2.1)
   libxml-ruby (~> 2.7.0)
   nokogiri (= 1.6.0)
-  paperclip (~> 3.5.1)
+  paperclip (~> 3.0)
   pg (= 0.15.1)
   pry
   rails (= 4.0.0)
