@@ -1,7 +1,7 @@
+<div class="hero-unit">
 <h1><%= @champion.name %></h1>
 <h2><%= @champion.title %></h2>
 <div class="span3 border-right"><%= image_tag("#{@champion.portrait_path}") %></div>
-<p> "<%= @champion.quote %>"</p>
 <p>Attack Range: <%= @champion.range %></p>
 <p>Movespeed: <%= @champion.move_speed %></p>
 <p>Armor Base: <%= @champion.armor_base %></p>
@@ -12,20 +12,20 @@
 <p>Health Level: <%= @champion.health_level %></p>
 <p>Attack Base: <%= @champion.attack_base %></p>
 <p>Attack Level: <%= @champion.attack_level %></p>
-
-
-<div class="progress">
+</div>
+<div class="row">
+<div class="progress span8">
   <div class="bar bar-danger" style="width: <%= @champion.rating_attack*10 %>%;">Attack</div>
 </div>
-<div class="progress">
+<div class="progress span8">
   <div class="bar" style="width: <%= @champion.rating_magic*10 %>%;">Ability</div>
 </div>
-<div class="progress progress-success">
+<div class="progress progress-success span8">
   <div class="bar" style="width: <%= @champion.rating_defense*10 %>%;">Defense</div>
 </div>
-<div class="progress progress-warning">
+<div class="progress progress-warning span8">
   <div class="bar" style="width: <%= @champion.rating_difficulty*10 %>%;">Learning Curve</div>
 </div>
-
+</div>
 
 <!-- <p class="span5">Description: <%= @champion.description %></p> -->

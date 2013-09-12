@@ -11,6 +11,13 @@ class VideosController < ApplicationController
 
 	def create
 		@video = current_user.videos.new(video_params)
+		respond_to do |format|
+			if @video.save
+				format.html {redirect_to @video, notice: "Your video has been successfully posted"}
+			else
+				format.html {redirect_to @video, alert: @video.errors.full_messages}
+			end
+		end
 	end
 
 	def show
