@@ -6,5 +6,6 @@ class CreateVideos < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :videos, [:user_id, :created_at]
   end
 end

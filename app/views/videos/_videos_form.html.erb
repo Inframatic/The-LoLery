@@ -1,5 +1,7 @@
-<li>
-	<span class="content"><%= @video %></span>
-	<span class="timestamp">
-	</span>
-</li>
+<%= form_for(@video) do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <div class="field">
+    <%= f.text_field :video, placeholder: "Enter the URL if your video..." %>
+  </div>
+  <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
+<% end %>

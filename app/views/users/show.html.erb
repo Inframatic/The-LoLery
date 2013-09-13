@@ -1,5 +1,4 @@
 <% provide(:title, @user.name) %>
-<div class="header_above">
 	<div class="row">
 	  <aside class="span4">
 	    <section>
@@ -9,5 +8,11 @@
 	      </h1>
 	    </section>
 	  </aside>
+	  <div class="span8">
+		  	<h3>Videos (<%= @user.videos.count %>)</h3>
+		  	<ol class="videos">
+		  		<%= render @videos %>
+		  	</ol>
+		  	<%= will_paginate @videos %>
+	  </div>
 	</div>
-</div>
