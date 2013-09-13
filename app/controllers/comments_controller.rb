@@ -27,7 +27,7 @@ before_action :signed_in_user, only: [:create, :destroy]
 	    end
 
 	    def correct_user
-      		@micropost = current_user.microposts.find_by(id: params[:id])
-      		redirect_to root_url if @micropost.nil?
+      		@comment = current_user.comments.find_by(id: params[:id])
+      		redirect_to root_url if @comment.nil?
     	end
 end
