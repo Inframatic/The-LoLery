@@ -15,10 +15,13 @@
 		  	</ol>
 		  	<%= will_paginate @videos %>
 	  </div>
-	    <div class="span8">
-			      <h3>comments (<%= @user.comments.count %>)</h3>
-			      <ol class="comments">
-			        <%= render 'comment/comment' %>
-			      </ol>
+	  <div class="span8">
+	  	<% if @user.comments %>
+	    <h3>Comments (<%= @user.comments.count %>)</h3>
+	    <ol class="comments">
+	      <%= render @comments %>
+	    </ol>
+	    	<%= will_paginate @comments %>
+	    	<% end %>
 		</div>
 	</div>
