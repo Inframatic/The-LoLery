@@ -1,15 +1,31 @@
 @import "bootstrap";
 
+
+/*Containers, banners, and other large things*/
+
 .super-container {
-  background:rgb(7, 9, 22) url(Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
+  background:rgb(91, 87, 117) url(Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
+  position:relative;
+
+    .container-fluid {
+      background:#000013;
+      border:outset #FFD700 1.5px;
+      position:relative;
+      z-index:1;
+      padding:20px;
+      color:#FFD700;
+    }
 }
 
-html body .container {
-  
+.super-container:after{
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:.7;
 }
-
 
 /* mixins, variables, etc. */
+
 
 .btn-large {
   margin-top: 20px;
@@ -58,8 +74,8 @@ html {
 }
 
 body {
-  padding-top:60px;
-  background-color: #eeeeee;
+  padding-top:33px;
+  background-color: rgb(7, 9, 22);
 }
 
 section {
@@ -112,7 +128,6 @@ p {
 /* header */
 
 header {
-  opacity:.9;
   background-color:#000013;
   border-bottom: outset #FFD700 1.5px;
 }
@@ -126,7 +141,6 @@ header {
 }
 
 #first_header {
-	opacity:.85;
 }
 
 #logo {
