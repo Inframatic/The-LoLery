@@ -6,19 +6,19 @@
 .super-container {
   background:rgb(91, 87, 117) url(Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
   position:relative;
-
+  margin:0 auto;
     .container-fluid {
       background:#000013;
       border:outset #FFD700 1.5px;
       position:relative;
       z-index:1;
       padding:20px;
-      color:#FFD700;
+      opacity:.8;
     }
 }
 
 .super-container:after{
-  position:absolute;
+  position:center;
   top:0;
   left:0;
   opacity:.7;
@@ -71,9 +71,11 @@ $grayMediumLight: #eaeaea;
 
 html {
   overflow-y: scroll;
+  color:#F0CA00;
 }
 
 body {
+  color:#F0CA00;
   padding-top:33px;
   background-color: rgb(7, 9, 22);
 }
@@ -112,7 +114,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: #F0CA00;;
 }
 
 p {
