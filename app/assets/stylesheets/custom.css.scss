@@ -1,8 +1,11 @@
 @import "bootstrap";
 
+.super-container {
+  background:rgb(7, 9, 22) url(Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
+}
 
-
-.hero-unit {
+html body .container {
+  
 }
 
 
@@ -47,7 +50,7 @@ $grayMediumLight: #eaeaea;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
 }
 
 html {

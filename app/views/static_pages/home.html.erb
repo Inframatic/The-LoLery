@@ -6,7 +6,7 @@
         <%= render 'shared/user_info' %>
       </section>
       <section>
-        <%= render 'videos/videos_form' %>
+        <%= render 'shared/videos_form' %>
       </section>
       <section>
         <%= render 'shared/comment_form' %>
@@ -19,11 +19,12 @@
   </div>
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/XV23YoD7J1c" frameborder="0" allowfullscreen></iframe>
-  
+
 <% else %>
-
-
+<div class="super-container">
+  <div class="hero-unit">
 	  <h1>You don't need to go pro to make money off of playing League of Legends.</h1>
+  </div>
 	  <ul>
 	   <li>Record a short video of you doing something awesome in League of Legends on youtube</li>
 	   <li>Upload your video on our site and prove that you are in it.</li>
@@ -38,9 +39,9 @@
 	  <a href="leagueoflegends.com">League of Legends</a>
 	  <p></p>
 	<%= link_to "Sign up now!", signup_path, class: "btn btn-large" %>
-<p></p>
-<h2>All posters and voters will need to prove that they havea valid League of Legends account with level 15 or higher. Don't worry. We'll never ask you for your League of Legends account password, but you will need to verify your LoL email.</h2>
+  <p></p>
+  <h2>All posters and voters will need to prove that they havea valid League of Legends account with level 15 or higher. Don't worry. We'll never ask you for your League of Legends account password, but you will need to verify your LoL email.</h2>
 
-
+</div>
 <% end %>
 
