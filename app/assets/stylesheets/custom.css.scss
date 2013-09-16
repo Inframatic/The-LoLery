@@ -3,6 +3,11 @@
 
 /*Containers, banners, and other large things*/
 
+.span12 {
+  width:100%;
+  margin: 0 auto;
+}
+
 .float-up {
   border:outset #FFD700 1.5px;
   padding:20px;
@@ -15,6 +20,18 @@
   h2{
     color:white;
   }
+}
+
+.talking-about-us {
+  background: #6e6e6e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+  background: -moz-linear-gradient(top,  #888,  #575757);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+  height:200px;
+  width:100%;
+  opacity:.9;
+  border-top:outset #FFD700 1.5px;
+  border-bottom:outset #FFD700 1.5px;
 }
 
 .super-container {
@@ -38,14 +55,30 @@
   left:0;
   opacity:.7;
 }
+  
 
 .box {
-  min-height:200px;
-  .first{}
+  min-height:300px;
+}
+.first{
+   background-image: url(Teemo_Splash_4_Fotor.jpg);
+     &:hover {
+    opacity:.99;
+  } 
+  }
+.second{
+  background-image: url(annie_goth4.jpg);
+  &:hover {
+    opacity:.99;
+  }
+}
 
-  .second{}
-
-  .third{}
+.third{
+  background-image: url(lucian_box1.jpg);
+  opacity:.9;
+    &:hover {
+    opacity:.99;
+  }
 }
 /* mixins, variables, etc. */
 
@@ -84,7 +117,7 @@ $grayMediumLight: #eaeaea;
 .table-bordered {
   border: outset #FFD700 1.5px;
   &:hover{
-    background-color:#dddddd;
+    background-color:$grayDarker;;
   }
 }
 
@@ -95,6 +128,7 @@ $grayMediumLight: #eaeaea;
 html {
   overflow-y: scroll;
   color:#F0CA00;
+  font-family: "Adobe Garamond Pro",  Garamond,  Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 body {
