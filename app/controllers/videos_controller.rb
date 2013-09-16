@@ -1,8 +1,7 @@
 class VideosController < ApplicationController
-	include ActionController::Live
-	before_filter :user_signed_in?
 
 	def index
+		
 	end
 
 	def new
@@ -26,5 +25,16 @@ class VideosController < ApplicationController
 
 	def destroy
 	end
+
+  	private
+
+	    def video_params
+	      params.require(:video).permit(:video)
+	    end
+
+	    def correct_user
+      		@video = current_user.videos.find_by(id: params[:id])
+      		redirect_to root_url if @video.nil?
+    	end
 
 end

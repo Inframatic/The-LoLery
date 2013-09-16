@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130913141932) do
+ActiveRecord::Schema.define(version: 20130916162646) do
 
   create_table "abilities", force: true do |t|
     t.integer  "rank"
