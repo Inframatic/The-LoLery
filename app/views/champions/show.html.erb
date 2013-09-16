@@ -1,4 +1,4 @@
-<div class="hero-unit">
+
 <h1><%= @champion.name %></h1>
 <h2><%= @champion.title %></h2>
 <div class="span3 border-right"><%= image_tag("#{@champion.portrait_path}") %></div>
@@ -12,7 +12,7 @@
 <p>Health Level: <%= @champion.health_level %></p>
 <p>Attack Base: <%= @champion.attack_base %></p>
 <p>Attack Level: <%= @champion.attack_level %></p>
-</div>
+
 <div class="row">
 <div class="progress span8">
   <div class="bar bar-danger" style="width: <%= @champion.rating_attack*10 %>%;">Attack</div>

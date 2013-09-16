@@ -3,17 +3,32 @@
 
 /*Containers, banners, and other large things*/
 
+.float-up {
+  border:outset #FFD700 1.5px;
+  padding:20px;
+  background:#000013;
+  opacity:.75;
+  margin:30px;
+}
+
+.float-up {
+  h2{
+    color:white;
+  }
+}
+
 .super-container {
   background:rgb(91, 87, 117) url(Aatrox-Classic.jpg) 50% 30px no-repeat fixed;
   position:relative;
   margin:0 auto;
+  min-height:960px;
     .container-fluid {
       background:#000013;
       border:outset #FFD700 1.5px;
       position:relative;
       z-index:1;
       padding:20px;
-      opacity:.8;
+      opacity:.75;
     }
 }
 
@@ -24,6 +39,14 @@
   opacity:.7;
 }
 
+.box {
+  min-height:200px;
+  .first{}
+
+  .second{}
+
+  .third{}
+}
 /* mixins, variables, etc. */
 
 
