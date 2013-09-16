@@ -25,7 +25,8 @@
 <div class="super-container">
   <p></p>
 	  <h3>You don't need to go pro to make money off of playing League of Legends</h3>
- <div class="row-center ">
+ <div class="row centerme">
+  <h2>
   <div class="span3 plan float-up first box">
     <h2>Record yourself playing League of Legends</h2>
   </div>
@@ -36,20 +37,23 @@
    <h2>Take the Pot</h2>
    Winner takes all
    </div>
+ </h2>
   </div>
   <div class="row span12">
     <h2>See who's talking about us</h2>
-    <div class="talking-about-us">   
+    <div class="talking-about-us">
+      <div class="container">
       <span class="span3-center lolnexus"><%= image_tag "lolnexus-main.png", :align=> "middle" %></span>
       <span class="span3-center"><%= image_tag "mobafire_logo.png", :align=> "middle" %></span>
       <span class="span3-center elophant"><%= image_tag "elophant_logo.png", :align=> "middle" %></span>
+    </div>
       </div>
     </div>
+     <%= link_to "Sign up now!", signup_path, class: "btn btn-large" %>
   </div>
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large" %>
+ 
   <div class="span4 text-center">
-    <span class="icon-stack icon-large">
-      <i class="icon-circle icon-stack-base"></i>
+    <span class="icon-stack icon-4x">
       <i class="icon-lock icon-light"></i>
     </span>
   </div>

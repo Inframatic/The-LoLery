@@ -13,6 +13,8 @@ gem "libxml-ruby", "~> 2.7.0"
 gem "paperclip", "~> 3.0"
 gem 'pry'
 gem 'youtube_addy'
+gem 'font-awesome-sass-rails'
+gem "retina_rails", "~> 1.0.1"
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
