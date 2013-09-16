@@ -22,14 +22,21 @@
   }
 }
 
+.row-center {
+    h2{
+    color:white;
+  }
+}
+
 .talking-about-us {
   background: #6e6e6e;
   background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
   background: -moz-linear-gradient(top,  #888,  #575757);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
-  height:200px;
+  height:75px;
   width:100%;
-  opacity:.9;
+  opacity:.95;
+  padding:20px;
   border-top:outset #FFD700 1.5px;
   border-bottom:outset #FFD700 1.5px;
 }

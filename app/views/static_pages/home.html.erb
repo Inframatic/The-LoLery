@@ -42,9 +42,14 @@
   </div>
   <div class="row span12">
     <div class="talking-about-us">
-
+      <div class="row-center">
+        <h2>See who's talking about us</h2>
+      </div>
+      <%= image_tag "lolnexus-main.png" %>
+      <%= image_tag "elophant_logo.png" %>
     </div>
   </div>
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large" %>
   <div class="row span8">
 		<h3>We've got you covered</h3>
 		<p>Let our qualified team review videos and users to make sure they're not stealing or faking accounts to buff votes</p>
@@ -53,7 +58,7 @@
   <div class="row span8">
 	  <a href="leagueoflegends.com">League of Legends</a>
 	  <p></p>
-	<%= link_to "Sign up now!", signup_path, class: "btn btn-large" %>
+	
   <p></p>
   <h2>All posters and voters will need to prove that they have a valid League of Legends account with level 15 or higher. Don't worry. We'll never ask you for your League of Legends account password, but you will need to verify your LoL email.</h2>
   </div>
