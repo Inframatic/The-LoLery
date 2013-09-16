@@ -2,7 +2,9 @@
 
 
 /*Containers, banners, and other large things*/
-
+body .container .row{
+  padding-top:30px;
+}
 .span12 {
   width:100%;
   margin: 0 auto;
@@ -39,6 +41,7 @@
   padding:20px;
   border-top:outset #FFD700 1.5px;
   border-bottom:outset #FFD700 1.5px;
+  text-align: center;
 }
 
 .super-container {
@@ -74,14 +77,14 @@
   } 
   }
 .second{
-  background-image: url(annie_goth4.jpg);
+  background-image: url(lucian_box1.jpg);
   &:hover {
     opacity:.99;
   }
 }
 
 .third{
-  background-image: url(lucian_box1.jpg);
+  background-image: url(annie_goth4.jpg);
   opacity:.9;
     &:hover {
     opacity:.99;
