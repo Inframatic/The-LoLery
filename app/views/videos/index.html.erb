@@ -2,8 +2,8 @@
 	<div class="span8">
 		<% if @videos.any? %>
 			<h3>Videos (<%= @user.videos.count %>)</h3>
-			<ol class="videos">
-				<%= render @videos %>
+			<ol class="video">
+				<iframe width="560" height="349" src="<%= "http://www.youtube.com/embed/"+@videos.code %>"></iframe>
 			</ol>
 			<%= will_paginate @videos %>
 		<% end %>

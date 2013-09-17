@@ -26,6 +26,7 @@ class VideosController < ApplicationController
 	def destroy
 	end
 
+
   	private
 
 	    def video_params

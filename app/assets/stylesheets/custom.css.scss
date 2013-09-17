@@ -9,10 +9,16 @@
 }
 .elophant {
   margin-top: 55px;
+  float:center;
 }
 
 .lolnexus {
   margin-top: 47px;
+  float:center;
+}
+
+.mobafire {
+  float:center;
 }
 
 /*Containers, banners, and other large things*/
@@ -57,6 +63,7 @@ body .container .row{
   border-bottom:outset #FFD700 1.5px;
   text-align: center;
   margin:0 auto;
+  float:center;
 }
 
 .super-container {
@@ -118,6 +125,7 @@ body .container .row{
 .btn-large {
   margin-top: 20px;
   opacity: .95;
+  float:center;
 }
 
 

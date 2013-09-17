@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130916162646) do
+ActiveRecord::Schema.define(version: 20130917150445) do
 
   create_table "abilities", force: true do |t|
     t.integer  "rank"
@@ -120,6 +120,7 @@ ActiveRecord::Schema.define(version: 20130916162646) do
     t.text     "video_description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "code"
   end
 
 end
