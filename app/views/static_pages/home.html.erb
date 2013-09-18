@@ -14,11 +14,12 @@
           <div class="span8">
       		<h3>The Feed</h3>
       		<%= render 'shared/feed' %>
+          <h3>Video Feed</h3>
+          <%= render 'shared/video_feed' %>
     	  </div>
     </aside>
   </div>
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/XV23YoD7J1c" frameborder="0" allowfullscreen></iframe>
 
 <% else %>
 
@@ -57,7 +58,7 @@
       <i class="icon-lock icon-light"></i>
     </span>
   </div>
-  <div class="row span8">
+  <div class="row span8 no-margin">
 		<h3>We've got you covered</h3>
 		<p>Let our qualified team review videos and users to make sure they're not stealing or faking accounts to buff votes</p>
   </div>
@@ -67,7 +68,7 @@
 	  <p></p>
 	
   <p></p>
-  <h2>All posters and voters will need to prove that they have a valid League of Legends account with level 15 or higher. Don't worry. We'll never ask you for your League of Legends account password, but you will need to verify your LoL email.</h2>
+  <h2 class="centered">All posters and voters will need to prove that they have a valid League of Legends account with level 15 or higher. Don't worry. We'll never ask you for your League of Legends account password, but you will need to verify your LoL email.</h2>
   </div>
 </div>
 <% end %>

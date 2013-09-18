@@ -1,7 +1,11 @@
 class VideosController < ApplicationController
 
 	def index
-		
+		@videos = Video.paginate(page: params[:page])
+	end
+
+	def show
+		@video = Video.find(params[:id])
 	end
 
 	def new
@@ -19,9 +23,7 @@ class VideosController < ApplicationController
 		end
 	end
 
-	def show
-		@video = Video.find(params[:id])
-	end
+
 
 	def destroy
 	end

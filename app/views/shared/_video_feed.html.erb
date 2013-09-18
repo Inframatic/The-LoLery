@@ -1,0 +1,5 @@
+
+  <ol class="comments">
+    <%= render partial: 'shared/video_item', collection: @video_items %>
+  </ol>
+  <%= will_paginate @video_items %>

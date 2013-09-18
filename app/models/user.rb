@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  has_many :videos
   has_many :comments
 	before_save { email.downcase! }
 	before_create :create_remember_token
@@ -8,12 +9,15 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
   has_secure_password
   validates :password, length: { minimum: 6 }
-  has_many :user_videos
-  has_many :videos, through: :user_videos
+  
 
   def feed
     # This is preliminary. See "Following users" for the full implementation.
     Comment.where("user_id = ?", id)
+  end
+
+  def video_feed
+    Video.where("user_id = ?", id)
   end
 
   def User.new_remember_token

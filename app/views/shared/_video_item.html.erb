@@ -1,0 +1,10 @@
+<li id="<%= video_item.id %>">
+  <%= link_to gravatar_for(feed_item.user), video_item.user %>
+  <span class="user">
+    <%= link_to video_item.user.name, video_item.user %>
+  </span>
+  <span class="content"><%= video_item.video %></span>
+  <span class="timestamp">
+    Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
+  </span>
+</li>

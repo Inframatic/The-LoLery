@@ -1,4 +1,4 @@
-<%= form_for(@video) do |f| %>
+<%= form_for @video do |f| %>
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <%= f.text_field :video, placeholder: "Video link (ex. http://youtu.be/mk82Vbt7-s0" %>
