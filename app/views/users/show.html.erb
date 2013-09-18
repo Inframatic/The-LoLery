@@ -9,13 +9,6 @@
 	    </section>
 	  </aside>
 	  <div class="span8">
-		  	<h3>Videos (<%= @user.videos.count %>)</h3>
-		  	<ol class="videos">
-		  		<%= render @videos %>
-		  	</ol>
-		  	<%= will_paginate @videos %>
-	  </div>
-	  <div class="span8">
 	  	<% if @user.comments %>
 	    <h3>Comments (<%= @user.comments.count %>)</h3>
 	    <ol class="comments">
