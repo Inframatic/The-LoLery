@@ -13,6 +13,7 @@ TheLolery::Application.routes.draw do
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/champions', to: 'champions#index', via: 'get'
+  match '/videos', to: 'videos#index', via: 'get'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
