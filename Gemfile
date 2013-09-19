@@ -15,7 +15,7 @@ gem 'pry'
 gem 'youtube_addy'
 gem 'font-awesome-sass-rails'
 gem "retina_rails", "~> 1.0.1"
-
+gem 'acts_as_votable', '~> 0.7.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'

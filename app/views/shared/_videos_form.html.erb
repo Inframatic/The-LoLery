@@ -2,6 +2,7 @@
   <%= render 'shared/error_messages', object: f.object %>
   <div class="field">
     <%= f.text_field :video, placeholder: "Video link (ex. http://youtu.be/mk82Vbt7-s0)" %>
+  	<%= f.text_area :video_description, placeholder: "Video Description" %>
   </div>
   <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
 <% end %>

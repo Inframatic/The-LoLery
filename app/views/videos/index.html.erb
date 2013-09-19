@@ -3,6 +3,7 @@
 		<% @videos.each do |video| %>
 			<div class="table-bordered">
 			<iframe width="560" height="349" src="<%= "http://www.youtube.com/embed/"+video.code %>"></iframe>
+			<%= video.video_description %>
 			</div>
 		<% end %>
 
